@@ -2,13 +2,13 @@
 
 **Hic Rhodos, Hic Saltus.**
 
-![An abstract geometric structure unfolds and reorganizes, with a recurring red path suggesting what is retained through the change.](assets/hegelese-upheaval.png)
-
 Hegelese is an experimental functional language for **changing a program's representation while making the consequences explicit and checkable**. Inspired by Hegel and critically informed by Antonio Wolf's writings, it asks: what changes, what survives, what is relinquished, and what evidence supports the claim?
 
 An AI can propose a convincing rewrite. A programmer needs to know whether it still does what matters. A Hegel-inspired reader can ask a deeper question: can a form be transformed while its achievements acquire a place within the new organization? Hegelese brings these questions together in an executable experiment.
 
 **Current status:** an executable Hegelese bootstrap interpreter, a finite-process articulated-change checker, and specification proposal v0.3. Real `.hgl` programs now run through a Python parser and bounded functional evaluator. The bootstrap is dynamically checked; static typing, a compiler, general proof checking, and self-hosting remain future work. The [bootstrap language guide](BOOTSTRAP.md) defines the implemented syntax; the broader v0.3 examples remain proposals.
+
+![An abstract geometric structure unfolds and reorganizes, with a recurring red path suggesting what is retained through the change.](assets/hegelese-upheaval.png)
 
 ## Upheaval
 
@@ -100,8 +100,23 @@ Hegelese returns `Refuted`, with the failing transition as a counterexample. No 
 
 The ambition is to make a change answerable: **show what it preserves, acknowledge what it loses, and let the evidence challenge its explanation.** The present achievement is deliberately narrow and runnable. The larger hypothesis—that this helps people and AI agents make better changes—still needs comparative evidence.
 
+## When the proposer misses a loss
+
+The checker now computes which source states a proposed map merges, **even when no observations were declared**. It can discover that phases 0 and 2 have become indistinguishable without being told to look for `exactPhase`. This establishes structural loss under the map; the application still determines whether that loss matters.
+
+The opt-in **lineage protocol** makes those discoveries constrain later proposals. Each successor must repair inherited losses, carry them as unresolved, or cite the caller's explicit authorization to accept them. Repairs are checked over entire groups of merged states. Earlier retained observations remain obligations, and unfinished checks are run again. The caller retains the history independently of the proposing agent.
+
+```sh
+python3 examples/lineage_demo.py
+```
+
+This runnable demonstration first detects an undeclared loss, then refuses to accept a successor that forgets the finding, and finally accepts a checked repair. The repair keeps the distinctions; it does not pretend the original compression succeeded. For AI agents this provides feedback they did not nominate themselves; for programmers it makes earlier findings enforceable; for Hegel-inspired readers it makes criticism consequential to the next proposal. These are bounded engineering steps, not a claim to have mechanized Hegel's dialectic.
+
+See [derived loss and accountable revision](LINEAGE.md) for the protocol, evidence, trust boundary, and limitations. The existing workflow gate still uses ordinary preservation checking; lineage enforcement requires the caller to use the new protocol.
+
 ## Start here
 
+- [Run the derived-loss and lineage milestones](LINEAGE.md) — structural findings and accountable revisions
 - [Deploy the finite-workflow CI gate](DEPLOYMENT.md) — the first narrow production use case
 - [Executable bootstrap language guide](BOOTSTRAP.md)
 - [Complete four-phase development](examples/four-phase.hgl) and [refuted three-phase development](examples/three-phase.hgl)

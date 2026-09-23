@@ -7,8 +7,8 @@ from pathlib import Path
 import sys
 
 ALIASES = {"Aufheben", "Sublation", "Upheaval", "aufheben", "sublation", "upheaval", "upheave"}
-CHECKER = "hegelese-finite-checker/0.1"
-VERSION = "0.2.0"
+CHECKER = "hegelese-finite-checker/0.2"
+VERSION = "0.3.0"
 
 
 class Invalid(ValueError):
@@ -144,6 +144,37 @@ def obligations(request, proposal):
                        "left": table[state], "right": target["observations"][name][mapping[state]]}
 
 
+def structural_losses(source, mapping):
+    """Exact map fibers, independent of the author's observation vocabulary.
+
+    Groups compactly describe all erased pairs without quadratic output.
+    Recoverability is relative to this map and target state, not arbitrary
+    encodings or access to execution history.
+    """
+    fibers = {}
+    for state in sorted(source["states"]):
+        fibers.setdefault(mapping[state], []).append(state)
+    findings = []
+    for target, states in sorted(fibers.items()):
+        if len(states) < 2:
+            continue
+        identity = {"kind": "MergedStates", "source_sha256": digest(source), "states": states}
+        observations = {}
+        for name, table in source["observations"].items():
+            first = states[0]
+            other = next((s for s in states[1:] if canonical(table[s]) != canonical(table[first])), None)
+            if other is not None:
+                observations[name] = {"states": [first, other], "values": [table[first], table[other]]}
+        findings.append(dict(identity, id=digest(identity), target_state=target,
+                             erased_pairs=len(states) * (len(states) - 1) // 2,
+                             witness=states[:2], nonrecoverable_observations=observations))
+    return {"status": "ExhaustivelyDerived", "groups": findings,
+            "erased_pairs": sum(f["erased_pairs"] for f in findings),
+            "scope": "All declared source states; distinctions of state identity under this map, not necessarily application behavior.",
+            "recoverability": "A source-state observation factors through this map iff it is constant on each fiber.",
+            "budget": "Separate bounded structural pass; equation budget does not limit fiber analysis."}
+
+
 def check(request, proposal, budget=100000):
     """Always recompute. Candidate prose and candidate-provided evidence confer no status."""
     try:
@@ -183,6 +214,7 @@ def check(request, proposal, budget=100000):
                      "observations": retained, "checks_total": total, "checks_completed": checked,
                      "budget_exhausted": exhausted, "failures": failed,
                      "counterexamples": counterexamples, "counterexamples_omitted": max(0, failed - 10)},
+        "structural_loss": structural_losses(source, proposal["mapping"]),
         "unresolved_assumptions": proposal["assumptions"],
         "limits": ["Finite deterministic tables with total state maps and unchanged input alphabets only.",
                    "Reasons and occasion are supplied explanations, not checked philosophical derivations.",
@@ -222,6 +254,11 @@ def main(argv=None):
     candidate.add_argument("request")
     candidate.add_argument("proposal")
     candidate.add_argument("--budget", type=int, default=100000)
+    lineage = sub.add_parser("lineage", help="Check a successor against caller-retained history.")
+    lineage.add_argument("request")
+    lineage.add_argument("candidate")
+    lineage.add_argument("history")
+    lineage.add_argument("--budget", type=int, default=100000)
     execute = sub.add_parser("run", help="Execute a Hegelese bootstrap source file.")
     execute.add_argument("source")
     execute.add_argument("--fuel", type=int, default=100000)
@@ -240,7 +277,11 @@ def main(argv=None):
         if args.command == "fingerprint":
             print(digest(request))
             return 0
-        report = check(request, read_json(args.proposal), args.budget)
+        if args.command == "lineage":
+            from hgl_lineage import check_lineage
+            report = check_lineage(request, read_json(args.candidate), read_json(args.history), args.budget)
+        else:
+            report = check(request, read_json(args.proposal), args.budget)
     except (OSError, ValueError, TypeError, RecursionError) as error:
         report = {"checker": CHECKER, "status": "Invalid", "accepted": False,
                   "diagnostics": [{"path": getattr(error, "path", "/input"), "message": str(error)}]}

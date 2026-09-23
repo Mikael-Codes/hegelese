@@ -2,7 +2,7 @@
 
 **Hic Rhodos, Hic Saltus.**
 
-Status: research direction plus an executable finite-process checker, version 0.1. The JSON proposal format is a bootstrap interchange format. It is not the Hegelese surface grammar or a complete interpreter.
+Status: research direction plus an executable finite-process checker, checker version 0.2 (package 0.3.0). The JSON proposal format is a bootstrap interchange format. It is not the Hegelese surface grammar or a complete interpreter.
 
 Implementation update: the [bootstrap interpreter](BOOTSTRAP.md) now connects source-level process, request, and Upheaval declarations to this checker. The JSON interface remains available for externally retained requests. Static typing, general proof transport, and measured AI advantages remain future work.
 
@@ -77,6 +77,10 @@ Every source exports `initial`, `step`, and `observation:NAME` for each observat
 The occasion is an articulation, not an independently checked derivation. This prototype does not prove that an unmet demand arose internally or that a rearticulation was necessary. Nonempty assumptions remain unresolved and prevent an accepted overall result, even when the finite equations pass. They cannot be used to override a counterexample.
 
 Unknown fields, including an agent-supplied evidence status, are rejected. Duplicate JSON keys are rejected rather than silently taking the last meaning. Input and output schemas are deliberately different.
+
+### Derived losses and revision history
+
+Every check now includes a computed `structural_loss` account, independent of the nominated observations. The opt-in [lineage protocol](LINEAGE.md) binds a successor to caller-retained history, rederives earlier losses, enforces their accounting, and rechecks inherited observation commitments. It is a separate JSON/Python interface; the ordinary proposal schema and `.hgl` grammar remain unchanged.
 
 ### Evidence
 

@@ -4,7 +4,7 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "hegelese"
-version = "0.2.0"
+version = "0.3.0"
 description = "A functional language for articulated, checked finite-process developments"
 authors = [{ name = "Petri Mikael Autio" }]
 readme = "README.md"
@@ -19,4 +19,4 @@ hegelese-gate = "hgl_gate:main"
 Repository = "https://github.com/Mikael-Codes/hegelese"
 
 [tool.setuptools]
-py-modules = ["hegelese", "hgl", "hgl_gate"]
+py-modules = ["hegelese", "hgl", "hgl_gate", "hgl_lineage"]

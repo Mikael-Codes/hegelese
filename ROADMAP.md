@@ -16,6 +16,10 @@ The [articulation research agenda](ARTICULATION.md) defines the AI-facing protoc
 
 The three runnable examples cover ordinary computation, accepted lossy abstraction, and a refuted transition map. Tests additionally cover changed observations, withdrawn requirements, exact alias behavior, unknown checking outcomes, and bounded evaluation. This is dynamically checked: static typing and mandatory handling of unresolved evidence remain open. Changes are rechecked on execution; persistent dependency tracking is not implemented.
 
+## Completed milestone: derived loss and accountable revision
+
+Version 0.3.0 computes map-induced state mergers and adds a caller-retained revision protocol. Findings become successor obligations; whole-group repairs are checked, accepted losses need caller authorization, and earlier observation commitments are rechecked. [The runnable demonstration and protocol](LINEAGE.md) establish the two milestones within a fixed finite source/request. Behavioral invariant discovery, cross-source lineage transport, and a `.hgl` successor declaration remain open.
+
 ## 1. Freeze a bootstrap subset
 
 The 0.2.0 deployment milestone adds an installable, fail-closed CI gate, a documentation-publishing workflow pilot, worker limits, and evidence artifacts. See [deployment](DEPLOYMENT.md). This is a narrow operational use before the general language is mature.

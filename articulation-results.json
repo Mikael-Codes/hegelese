@@ -1,0 +1,207 @@
+{
+  "four-budget-100000": {
+    "checker": "hegelese-finite-checker/0.1",
+    "status": "ExhaustivelyChecked",
+    "accepted": true,
+    "request_sha256": "330453dd72a47df10ebbff2e1cb049b35baf68d9cb13542e5fce666cc6e17b0f",
+    "proposal_sha256": "f71bc6d013907462ff1dabb757582dd03fa58647bf726e859a43dae2bd62f8de",
+    "source_sha256": "9af858772379b4479aa3addd6545acd28b7f905ca2ca48337a54610c6de70b06",
+    "target_sha256": "2efd2e105656da575c2a23a1227a81304534f4181bce1f8070c7babbbce58698",
+    "source_spelling": "upheave",
+    "articulation": {
+      "status": "Complete",
+      "meaning": "Required fields supplied; prose is not verified.",
+      "occasion": {
+        "kind": "Rearticulation",
+        "explanation": "Describe the repeating process through parity, while explicitly giving up exact phase."
+      },
+      "dispositions": {
+        "initial": {
+          "action": "retain",
+          "reason": "The mapped initial state is the target initial state."
+        },
+        "step": {
+          "action": "retain",
+          "reason": "Propose that each tick commutes with the parity map; the checker must test this."
+        },
+        "observation:parity": {
+          "action": "retain",
+          "reason": "Parity is the required observation."
+        },
+        "observation:exactPhase": {
+          "action": "withdraw",
+          "reason": "The map identifies distinct source phases. Exact phase is not recoverable from parity alone."
+        }
+      }
+    },
+    "evidence": {
+      "status": "ExhaustivelyChecked",
+      "domain": "All declared source states and inputs",
+      "source_states": [
+        "0",
+        "1",
+        "2",
+        "3"
+      ],
+      "inputs": [
+        "tick"
+      ],
+      "observations": [
+        "parity"
+      ],
+      "checks_total": 9,
+      "checks_completed": 9,
+      "budget_exhausted": false,
+      "failures": 0,
+      "counterexamples": [],
+      "counterexamples_omitted": 0
+    },
+    "unresolved_assumptions": [],
+    "limits": [
+      "Finite deterministic tables with total state maps and unchanged input alphabets only.",
+      "Reasons and occasion are supplied explanations, not checked philosophical derivations.",
+      "Target-only observations and claims about minimality, timing, resources, or external reality are not checked.",
+      "Hashes bind content but do not authenticate the request or certify the checker.",
+      "This checker accepts a scoped abstraction; it does not apply changes to a program."
+    ]
+  },
+  "three-budget-100000": {
+    "checker": "hegelese-finite-checker/0.1",
+    "status": "Refuted",
+    "accepted": false,
+    "request_sha256": "bc96c95b3037d971b46de465908bc2f616c7b2b3fac88824e07456f8c8dfa2d0",
+    "proposal_sha256": "1cd8f9e0a54aa73a2092138519fb16f673e96db32e5fc781ea75733fd49ab662",
+    "source_sha256": "0e0332a26c7116ac55cf73d54bb8229581ba1229a35fb17f0174f4a53a1d2204",
+    "target_sha256": "2efd2e105656da575c2a23a1227a81304534f4181bce1f8070c7babbbce58698",
+    "source_spelling": "upheave",
+    "articulation": {
+      "status": "Complete",
+      "meaning": "Required fields supplied; prose is not verified.",
+      "occasion": {
+        "kind": "Rearticulation",
+        "explanation": "Describe the repeating process through parity, while explicitly giving up exact phase."
+      },
+      "dispositions": {
+        "initial": {
+          "action": "retain",
+          "reason": "The mapped initial state is the target initial state."
+        },
+        "step": {
+          "action": "retain",
+          "reason": "Propose that each tick commutes with the parity map; the checker must test this."
+        },
+        "observation:parity": {
+          "action": "retain",
+          "reason": "Parity is the required observation."
+        },
+        "observation:exactPhase": {
+          "action": "withdraw",
+          "reason": "The map identifies distinct source phases. Exact phase is not recoverable from parity alone."
+        }
+      }
+    },
+    "evidence": {
+      "status": "Refuted",
+      "domain": "All declared source states and inputs",
+      "source_states": [
+        "0",
+        "1",
+        "2"
+      ],
+      "inputs": [
+        "tick"
+      ],
+      "observations": [
+        "parity"
+      ],
+      "checks_total": 7,
+      "checks_completed": 7,
+      "budget_exhausted": false,
+      "failures": 1,
+      "counterexamples": [
+        {
+          "law": "step",
+          "state": "2",
+          "input": "tick",
+          "left": "0",
+          "right": "1"
+        }
+      ],
+      "counterexamples_omitted": 0
+    },
+    "unresolved_assumptions": [],
+    "limits": [
+      "Finite deterministic tables with total state maps and unchanged input alphabets only.",
+      "Reasons and occasion are supplied explanations, not checked philosophical derivations.",
+      "Target-only observations and claims about minimality, timing, resources, or external reality are not checked.",
+      "Hashes bind content but do not authenticate the request or certify the checker.",
+      "This checker accepts a scoped abstraction; it does not apply changes to a program."
+    ]
+  },
+  "four-budget-2": {
+    "checker": "hegelese-finite-checker/0.1",
+    "status": "Unknown",
+    "accepted": false,
+    "request_sha256": "330453dd72a47df10ebbff2e1cb049b35baf68d9cb13542e5fce666cc6e17b0f",
+    "proposal_sha256": "f71bc6d013907462ff1dabb757582dd03fa58647bf726e859a43dae2bd62f8de",
+    "source_sha256": "9af858772379b4479aa3addd6545acd28b7f905ca2ca48337a54610c6de70b06",
+    "target_sha256": "2efd2e105656da575c2a23a1227a81304534f4181bce1f8070c7babbbce58698",
+    "source_spelling": "upheave",
+    "articulation": {
+      "status": "Complete",
+      "meaning": "Required fields supplied; prose is not verified.",
+      "occasion": {
+        "kind": "Rearticulation",
+        "explanation": "Describe the repeating process through parity, while explicitly giving up exact phase."
+      },
+      "dispositions": {
+        "initial": {
+          "action": "retain",
+          "reason": "The mapped initial state is the target initial state."
+        },
+        "step": {
+          "action": "retain",
+          "reason": "Propose that each tick commutes with the parity map; the checker must test this."
+        },
+        "observation:parity": {
+          "action": "retain",
+          "reason": "Parity is the required observation."
+        },
+        "observation:exactPhase": {
+          "action": "withdraw",
+          "reason": "The map identifies distinct source phases. Exact phase is not recoverable from parity alone."
+        }
+      }
+    },
+    "evidence": {
+      "status": "Unknown",
+      "domain": "All declared source states and inputs",
+      "source_states": [
+        "0",
+        "1",
+        "2",
+        "3"
+      ],
+      "inputs": [
+        "tick"
+      ],
+      "observations": [
+        "parity"
+      ],
+      "checks_total": 9,
+      "checks_completed": 2,
+      "budget_exhausted": true,
+      "failures": 0,
+      "counterexamples": [],
+      "counterexamples_omitted": 0
+    },
+    "unresolved_assumptions": [],
+    "limits": [
+      "Finite deterministic tables with total state maps and unchanged input alphabets only.",
+      "Reasons and occasion are supplied explanations, not checked philosophical derivations.",
+      "Target-only observations and claims about minimality, timing, resources, or external reality are not checked.",
+      "Hashes bind content but do not authenticate the request or certify the checker.",
+      "This checker accepts a scoped abstraction; it does not apply changes to a program."
+    ]
+  }
+}

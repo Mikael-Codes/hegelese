@@ -2,7 +2,13 @@
 
 **Hic Rhodos, Hic Saltus.**
 
-This roadmap records intended work, not implemented features.
+This roadmap records intended work except where completion is explicitly noted.
+
+## Completed foundation: articulated finite changes
+
+The Python checker in `hegelese.py` now accepts JSON proposals against independently supplied requests, requires commitment dispositions, checks finite preservation equations, and returns scoped evidence or counterexamples. It handles the seven Upheaval aliases at the interchange boundary. It is not a parser or interpreter for the proposed Hegelese grammar.
+
+The [articulation research agenda](ARTICULATION.md) defines the AI-facing protocol and a future comparative evaluation. The next milestone connects this executable evidence boundary to the functional language core. Machine-readable diagnostics, version-bound obligations, and candidate checking are requirements for that core.
 
 ## 1. Freeze a bootstrap subset
 

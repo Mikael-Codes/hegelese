@@ -1,0 +1,60 @@
+{
+  "schema": "hegelese-proposal/0.1",
+  "operation": "upheave",
+  "request_sha256": "330453dd72a47df10ebbff2e1cb049b35baf68d9cb13542e5fce666cc6e17b0f",
+  "occasion": {
+    "kind": "Rearticulation",
+    "explanation": "Describe the repeating process through parity, while explicitly giving up exact phase."
+  },
+  "target": {
+    "name": "ParityToggle",
+    "version": "1",
+    "states": [
+      "0",
+      "1"
+    ],
+    "inputs": [
+      "tick"
+    ],
+    "initial": "0",
+    "transitions": {
+      "0": {
+        "tick": "1"
+      },
+      "1": {
+        "tick": "0"
+      }
+    },
+    "observations": {
+      "parity": {
+        "0": "even",
+        "1": "odd"
+      }
+    }
+  },
+  "mapping": {
+    "0": "0",
+    "1": "1",
+    "2": "0",
+    "3": "1"
+  },
+  "dispositions": {
+    "initial": {
+      "action": "retain",
+      "reason": "The mapped initial state is the target initial state."
+    },
+    "step": {
+      "action": "retain",
+      "reason": "Propose that each tick commutes with the parity map; the checker must test this."
+    },
+    "observation:parity": {
+      "action": "retain",
+      "reason": "Parity is the required observation."
+    },
+    "observation:exactPhase": {
+      "action": "withdraw",
+      "reason": "The map identifies distinct source phases. Exact phase is not recoverable from parity alone."
+    }
+  },
+  "assumptions": []
+}

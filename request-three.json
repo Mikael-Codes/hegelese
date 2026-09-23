@@ -1,0 +1,42 @@
+{
+  "schema": "hegelese-request/0.1",
+  "source": {
+    "name": "3Phase",
+    "version": "1",
+    "states": [
+      "0",
+      "1",
+      "2"
+    ],
+    "inputs": [
+      "tick"
+    ],
+    "initial": "0",
+    "transitions": {
+      "0": {
+        "tick": "1"
+      },
+      "1": {
+        "tick": "2"
+      },
+      "2": {
+        "tick": "0"
+      }
+    },
+    "observations": {
+      "parity": {
+        "0": "even",
+        "1": "odd",
+        "2": "even"
+      },
+      "exactPhase": {
+        "0": 0,
+        "1": 1,
+        "2": 2
+      }
+    }
+  },
+  "required_observations": [
+    "parity"
+  ]
+}

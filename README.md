@@ -4,7 +4,7 @@
 
 Hegelese is an experimental functional language design inspired by Hegel and critically informed by Antonio Wolf's writings. It explores how programs can describe the development of their computational concepts: what changes, what is preserved, and what evidence supports those claims.
 
-**Current status:** specification v0.3 and an executable Python semantic experiment. There is no Hegelese parser, interpreter, compiler, or general proof checker yet. Hegelese syntax in the specification is proposed syntax.
+**Current status:** specification v0.3, an executable Python semantic experiment, and a finite-process articulated-change checker. There is no Hegelese parser, interpreter, compiler, or general proof checker yet. Hegelese syntax in the specification is proposed syntax; the new checker accepts a JSON interchange format.
 
 ## Upheaval
 
@@ -18,6 +18,7 @@ An Upheaval specifies a development between representations, the occasion for it
 - [Critical reflection from the second corpus reading](docs/critical-reflection-v0.3.md)
 - [Reading inventory and coverage](docs/reading-coverage.md), also available as [JSON](docs/reading-coverage.json)
 - [Implementation and self-hosting roadmap](ROADMAP.md)
+- [Articulated development for AI-assisted programming](ARTICULATION.md)
 - [Reference experiment validation](docs/validation-v0.3.md)
 
 The earlier [v0.2 specification](docs/hegelese-spec-v0.2.md) and [first critical reflection](docs/critical-reflection.md) preserve the design's history.
@@ -36,6 +37,15 @@ The experiment checks whether a finite cyclic counter can be represented by a pa
 This is a semantic design experiment, not execution of a Hegelese program. The output distinguishes exhaustive finite checks from refutations. A short trace does not establish all future behavior, and an abstraction supplied by a programmer is not automatically a philosophically necessary development.
 
 ## Toward an implementation in Hegelese
+
+The first agent-facing checking interface is executable now:
+
+```sh
+python3 hegelese.py check request-four.json proposal-four.json
+python3 hegelese.py check request-three.json proposal-three.json
+```
+
+The first candidate passes its finite obligations; the second exits with a refutation and a concrete transition counterexample. The checker binds proposals to an independently supplied request, requires an account of every source commitment, and separates explanation from evidence. Budget exhaustion and unresolved assumptions cannot become accepted results. See [the protocol and evaluation agenda](ARTICULATION.md) for its scope and limitations. No AI productivity gain has yet been measured.
 
 Python is the proposed bootstrap implementation language. An interpreter written in Hegelese is an explicit subsequent milestone. We intend to define language behavior independently of Python and keep host services behind a small boundary, so that both implementations can share conformance tests.
 

@@ -151,7 +151,11 @@ Self-interpretation and a self-hosting compiler are separate milestones. Neither
 
 ## Research provenance
 
-The inventory records 51 fully read WordPress articles and two fully read Epoché essays as of 23 September 2026. Further entries are explicitly marked partially read, context-reviewed, or retrieved but unread. Full online corpus reading remains incomplete. Author interpretations, engineering proposals, and executed checks are distinguished in the documents.
+The [Antonio Wolf inventory](docs/reading-coverage.md) records 51 fully read WordPress articles and two fully read Epoché essays as of 23 September 2026. Further entries are explicitly marked partially read, context-reviewed, or retrieved but unread. Full online corpus reading remains incomplete.
+
+Primary-text research also includes Hegel's *Science of Logic*, using the Marxists Internet Archive English transcription: a substantial passage-based reading of [Being (Book One)](docs/science-of-logic-book-one.md), selective readings across [Essence and the Concept](docs/science-of-logic-essence-concept.md), and a complete first reading of the final section, **The Idea (§§1631–1817)**. The [whole-work coverage ledger](docs/science-of-logic-whole-work-coverage.json) records 19 fully read HTML pages in the continuation, alongside the earlier passage coverage, out of 57 retrieved pages. **The whole work has not yet been read**, and German editions and alternative English translations have not been collated.
+
+Primary-text claims, author interpretations, engineering proposals, and executed checks are distinguished in the documents.
 
 The repository contains our specifications, research notes, source links, and inventory metadata. Downloaded copies of third-party articles and personal backup metadata are not included. Source authors are not represented as endorsing this project.
 

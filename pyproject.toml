@@ -6,6 +6,7 @@ build-backend = "setuptools.build_meta"
 name = "hegelese"
 version = "0.2.0"
 description = "A functional language for articulated, checked finite-process developments"
+authors = [{ name = "Petri Mikael Autio" }]
 readme = "README.md"
 requires-python = ">=3.10"
 dependencies = []

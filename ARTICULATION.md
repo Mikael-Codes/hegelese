@@ -4,6 +4,8 @@
 
 Status: research direction plus an executable finite-process checker, version 0.1. The JSON proposal format is a bootstrap interchange format. It is not the Hegelese surface grammar or a complete interpreter.
 
+Implementation update: the [bootstrap interpreter](BOOTSTRAP.md) now connects source-level process, request, and Upheaval declarations to this checker. The JSON interface remains available for externally retained requests. Static typing, general proof transport, and measured AI advantages remain future work.
+
 ## Thesis
 
 AI can help produce candidate representations, explanations, distinctions, and obligations. Our hypothesis is that this makes a richer articulation of program changes practical. Hegelese should make those articulations computationally consequential: inspectable, challengeable, and bound to the definitions they concern.

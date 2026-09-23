@@ -1,4 +1,4 @@
-"""Articulated-change checker 0.1: finite processes, not an HGL interpreter."""
+"""Hegelese bootstrap interpreter and articulated finite-change checker."""
 
 import argparse
 import hashlib
@@ -216,8 +216,20 @@ def main(argv=None):
     candidate.add_argument("request")
     candidate.add_argument("proposal")
     candidate.add_argument("--budget", type=int, default=100000)
+    execute = sub.add_parser("run", help="Execute a Hegelese bootstrap source file.")
+    execute.add_argument("source")
+    execute.add_argument("--fuel", type=int, default=100000)
+    execute.add_argument("--budget", type=int, default=100000)
     args = parser.parse_args(argv)
     try:
+        if args.command == "run":
+            from hgl import run
+            with Path(args.source).open("rb") as stream:
+                data = stream.read(2_000_001)
+            require(len(data) <= 2_000_000, args.source, "Source exceeds 2 MB.")
+            report = run(data.decode("utf-8"), args.source, args.fuel, args.budget)
+            print(json.dumps(report, indent=2, ensure_ascii=False))
+            return {"Evaluated": 0, "ExhaustivelyChecked": 0, "Refuted": 1, "Invalid": 2, "Unknown": 3}[report["status"]]
         request = read_json(args.request)
         if args.command == "fingerprint":
             print(digest(request))

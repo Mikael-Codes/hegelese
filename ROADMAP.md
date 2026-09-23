@@ -8,17 +8,23 @@ This roadmap records intended work except where completion is explicitly noted.
 
 The Python checker in `hegelese.py` now accepts JSON proposals against independently supplied requests, requires commitment dispositions, checks finite preservation equations, and returns scoped evidence or counterexamples. It handles the seven Upheaval aliases at the interchange boundary. It is not a parser or interpreter for the proposed Hegelese grammar.
 
-The [articulation research agenda](ARTICULATION.md) defines the AI-facing protocol and a future comparative evaluation. The next milestone connects this executable evidence boundary to the functional language core. Machine-readable diagnostics, version-bound obligations, and candidate checking are requirements for that core.
+The [articulation research agenda](ARTICULATION.md) defines the AI-facing protocol and a future comparative evaluation.
+
+## Completed vertical slice: bootstrap interpreter 0.1
+
+`hgl.py` now parses and evaluates `.hgl` source. It supports strict functions and lexical closures, single-function recursion, immutable bindings, records, lists, tagged values, pattern matching, finite process declarations, request declarations, and all seven Upheaval aliases. `check` connects source-level candidates to the finite checker and returns evidence with original source locations. The [bootstrap guide](BOOTSTRAP.md) specifies this implemented subset.
+
+The three runnable examples cover ordinary computation, accepted lossy abstraction, and a refuted transition map. Tests additionally cover changed observations, withdrawn requirements, exact alias behavior, unknown checking outcomes, and bounded evaluation. This is dynamically checked: static typing and mandatory handling of unresolved evidence remain open. Changes are rechecked on execution; persistent dependency tracking is not implemented.
 
 ## 1. Freeze a bootstrap subset
 
-Write a precise grammar and evaluation rules for immutable bindings, lexical scope, strict evaluation, integers, booleans, strings, functions, conditionals, lists, tagged alternatives, and pattern matching. Define equality and arithmetic explicitly. Preserve source spans and original keyword spellings.
+The first grammar and evaluation rules are implemented and documented. Stabilize this subset with usage feedback before extending it. Preserve the distinction between this executable grammar and the broader schematic proposal.
 
-Build a tree-walking Python interpreter with structured diagnostics and a deliberately small type checker. Keep parsing, evaluation, type checking, and evidence checking separate. File access and output belong at explicit host-service boundaries. Pure evaluation still needs a policy for resource exhaustion.
+The tree-walking Python interpreter and structured diagnostics are complete for the subset. Next add a deliberately small static type checker and specify typed error handling. Keep parsing, evaluation, type checking, and evidence checking separate. File access and output belong at explicit host-service boundaries. Evaluation fuel and a separate finite-check budget currently expose exhaustion as `Unknown`; these are not a general security sandbox.
 
 ## 2. Execute one complete Upheaval
 
-Implement finite process declarations, bounded runs, registered transformations, and scoped obligations. All seven Upheaval spellings must produce equivalent semantics.
+Finite process declarations, named candidate transformations, and scoped obligations now execute. Bounded run traces and registered application syntax from the broader proposal remain future work. All seven declaration spellings produce equivalent checked semantics.
 
 Acceptance cases:
 
@@ -30,7 +36,7 @@ Acceptance cases:
 6. An altered observation or withdrawn law invalidates dependent evidence.
 7. Diagnostics identify the actual source location under every alias spelling.
 
-The reference experiment supplies independent expected results. It must not be presented as the interpreter itself.
+The reference experiment supplies independent expected results. It is separate from the interpreter. Items 1–5 and alias source locations execute now; changed observations are rechecked, but general dependent-code invalidation in item 6 requires a persistent dependency model.
 
 ## 3. Make reflective accounts useful
 

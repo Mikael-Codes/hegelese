@@ -4,16 +4,18 @@
 
 Hegelese is an experimental functional language design inspired by Hegel and critically informed by Antonio Wolf's writings. It explores how programs can describe the development of their computational concepts: what changes, what is preserved, and what evidence supports those claims.
 
-**Current status:** specification v0.3, an executable Python semantic experiment, and a finite-process articulated-change checker. There is no Hegelese parser, interpreter, compiler, or general proof checker yet. Hegelese syntax in the specification is proposed syntax; the new checker accepts a JSON interchange format.
+**Current status:** an executable Hegelese bootstrap interpreter, a finite-process articulated-change checker, and specification proposal v0.3. Real `.hgl` programs now run through a Python parser and bounded functional evaluator. The bootstrap is dynamically checked; static typing, a compiler, general proof checking, and self-hosting remain future work. The [bootstrap language guide](BOOTSTRAP.md) defines the implemented syntax; the broader v0.3 examples remain proposals.
 
 ## Upheaval
 
-`Aufheben`, `Sublation`, and `Upheaval` are exact aliases for one proposed language construct. The accepted lowercase spellings are `aufheben`, `sublation`, `upheaval`, and `upheave`. Documentation uses **Upheaval**; `upheave` is the preferred verb.
+`Aufheben`, `Sublation`, and `Upheaval` are exact aliases for the same Upheaval declaration. The accepted lowercase spellings are `aufheben`, `sublation`, `upheaval`, and `upheave`. Documentation uses **Upheaval**; `upheave` is the preferred verb. All seven spellings execute identically while diagnostics preserve the original spelling.
 
 An Upheaval specifies a development between representations, the occasion for it, and the disposition of earlier commitments. It may address a limitation or rearticulate a successful process. Preservation must name a relation; retaining an old value in a log does not establish semantic preservation.
 
 ## Start here
 
+- [Executable bootstrap language guide](BOOTSTRAP.md)
+- [Complete four-phase development](examples/four-phase.hgl) and [refuted three-phase development](examples/three-phase.hgl)
 - [Language specification v0.3](docs/hegelese-spec-v0.3.md)
 - [Critical reflection from the second corpus reading](docs/critical-reflection-v0.3.md)
 - [Reading inventory and coverage](docs/reading-coverage.md), also available as [JSON](docs/reading-coverage.json)
@@ -23,18 +25,21 @@ An Upheaval specifies a development between representations, the occasion for it
 
 The earlier [v0.2 specification](docs/hegelese-spec-v0.2.md) and [first critical reflection](docs/critical-reflection.md) preserve the design's history.
 
-## Run the experiment
+## Run Hegelese
 
 Requires Python 3.10 or later; no third-party packages.
 
 ```sh
-python3 docs/process-reflection-reference.py
+python3 hegelese.py run examples/functional.hgl
+python3 hegelese.py run examples/four-phase.hgl
+python3 hegelese.py run examples/three-phase.hgl
+python3 hegelese.py run examples/four-phase.hgl --budget 2
 python3 -m unittest discover -s tests -v
 ```
 
-The experiment checks whether a finite cyclic counter can be represented by a parity toggle. The four-phase counter admits this abstraction; the three-phase counter fails at its wraparound transition. A wrong initial state is rejected separately. Passing checks cover the specified finite domain and observations.
+The ordinary functional example returns 30, 720, and 42. The four-phase counter admits a parity abstraction while declaring the loss of exact phase. The three-phase counter fails at its wraparound transition. Insufficient checking budget returns `Unknown`. Output includes actual evidence, content fingerprints, and source locations. Exit codes are 0 for evaluation or exhaustive checking, 1 for refutation, 2 for invalid input, and 3 for an unknown result.
 
-This is a semantic design experiment, not execution of a Hegelese program. The output distinguishes exhaustive finite checks from refutations. A short trace does not establish all future behavior, and an abstraction supplied by a programmer is not automatically a philosophically necessary development.
+The earlier independent Python experiment remains available as `python3 docs/process-reflection-reference.py`. Passing finite checks establish only their stated preservation obligations. They do not certify philosophical necessity, empirical adequacy, or general program correctness.
 
 ## Toward an implementation in Hegelese
 
@@ -47,7 +52,7 @@ python3 hegelese.py check request-three.json proposal-three.json
 
 The first candidate passes its finite obligations; the second exits with a refutation and a concrete transition counterexample. The checker binds proposals to an independently supplied request, requires an account of every source commitment, and separates explanation from evidence. Budget exhaustion and unresolved assumptions cannot become accepted results. See [the protocol and evaluation agenda](ARTICULATION.md) for its scope and limitations. No AI productivity gain has yet been measured.
 
-Python is the proposed bootstrap implementation language. An interpreter written in Hegelese is an explicit subsequent milestone. We intend to define language behavior independently of Python and keep host services behind a small boundary, so that both implementations can share conformance tests.
+Python implements the current bootstrap. An interpreter written in Hegelese is an explicit subsequent milestone. The bootstrap guide records evaluation rules and limits, and the conformance suite now exercises actual source programs. The core exposes no file, network, or evaluator-replacement operations.
 
 Self-interpretation and a self-hosting compiler are separate milestones. Neither is a claim of philosophical self-grounding.
 

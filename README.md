@@ -4,8 +4,6 @@
 
 ![An abstract geometric structure unfolds and reorganizes, with a recurring red path suggesting what is retained through the change.](assets/hegelese-upheaval.png)
 
-*Change the structure. Account for what survives.*
-
 Hegelese is an experimental functional language design inspired by Hegel and critically informed by Antonio Wolf's writings. It explores how programs can describe the development of their computational concepts: what changes, what is preserved, and what evidence supports those claims.
 
 **Current status:** an executable Hegelese bootstrap interpreter, a finite-process articulated-change checker, and specification proposal v0.3. Real `.hgl` programs now run through a Python parser and bounded functional evaluator. The bootstrap is dynamically checked; static typing, a compiler, general proof checking, and self-hosting remain future work. The [bootstrap language guide](BOOTSTRAP.md) defines the implemented syntax; the broader v0.3 examples remain proposals.

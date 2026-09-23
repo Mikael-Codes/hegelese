@@ -1,0 +1,329 @@
+{
+  "kind": "Python reference experiment, not Hegelese execution",
+  "accepted": {
+    "source": "FourPhase@1",
+    "target": "ParityToggle@1",
+    "mapping": [
+      0,
+      1,
+      0,
+      1
+    ],
+    "domain": {
+      "states": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "inputs": [
+        "tick"
+      ],
+      "observation": "parity",
+      "initial_state_included": true
+    },
+    "status": "ExhaustivelyChecked",
+    "checks": [
+      {
+        "law": "initial",
+        "holds": true
+      },
+      {
+        "law": "step",
+        "state": 0,
+        "left": 1,
+        "right": 1,
+        "holds": true
+      },
+      {
+        "law": "observation",
+        "state": 0,
+        "left": 0,
+        "right": 0,
+        "holds": true
+      },
+      {
+        "law": "step",
+        "state": 1,
+        "left": 0,
+        "right": 0,
+        "holds": true
+      },
+      {
+        "law": "observation",
+        "state": 1,
+        "left": 1,
+        "right": 1,
+        "holds": true
+      },
+      {
+        "law": "step",
+        "state": 2,
+        "left": 1,
+        "right": 1,
+        "holds": true
+      },
+      {
+        "law": "observation",
+        "state": 2,
+        "left": 0,
+        "right": 0,
+        "holds": true
+      },
+      {
+        "law": "step",
+        "state": 3,
+        "left": 0,
+        "right": 0,
+        "holds": true
+      },
+      {
+        "law": "observation",
+        "state": 3,
+        "left": 1,
+        "right": 1,
+        "holds": true
+      }
+    ],
+    "counterexamples": []
+  },
+  "rejected": {
+    "source": "ThreePhase@1",
+    "target": "ParityToggle@1",
+    "mapping": [
+      0,
+      1,
+      0
+    ],
+    "domain": {
+      "states": [
+        0,
+        1,
+        2
+      ],
+      "inputs": [
+        "tick"
+      ],
+      "observation": "parity",
+      "initial_state_included": true
+    },
+    "status": "Refuted",
+    "checks": [
+      {
+        "law": "initial",
+        "holds": true
+      },
+      {
+        "law": "step",
+        "state": 0,
+        "left": 1,
+        "right": 1,
+        "holds": true
+      },
+      {
+        "law": "observation",
+        "state": 0,
+        "left": 0,
+        "right": 0,
+        "holds": true
+      },
+      {
+        "law": "step",
+        "state": 1,
+        "left": 0,
+        "right": 0,
+        "holds": true
+      },
+      {
+        "law": "observation",
+        "state": 1,
+        "left": 1,
+        "right": 1,
+        "holds": true
+      },
+      {
+        "law": "step",
+        "state": 2,
+        "left": 0,
+        "right": 1,
+        "holds": false
+      },
+      {
+        "law": "observation",
+        "state": 2,
+        "left": 0,
+        "right": 0,
+        "holds": true
+      }
+    ],
+    "counterexamples": [
+      {
+        "law": "step",
+        "state": 2,
+        "left": 0,
+        "right": 1,
+        "holds": false
+      }
+    ]
+  },
+  "wrong_initial_state": {
+    "source": "FourPhase@1",
+    "target": "WrongInitial@1",
+    "mapping": [
+      0,
+      1,
+      0,
+      1
+    ],
+    "domain": {
+      "states": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "inputs": [
+        "tick"
+      ],
+      "observation": "parity",
+      "initial_state_included": true
+    },
+    "status": "Refuted",
+    "checks": [
+      {
+        "law": "initial",
+        "holds": false
+      },
+      {
+        "law": "step",
+        "state": 0,
+        "left": 1,
+        "right": 1,
+        "holds": true
+      },
+      {
+        "law": "observation",
+        "state": 0,
+        "left": 0,
+        "right": 0,
+        "holds": true
+      },
+      {
+        "law": "step",
+        "state": 1,
+        "left": 0,
+        "right": 0,
+        "holds": true
+      },
+      {
+        "law": "observation",
+        "state": 1,
+        "left": 1,
+        "right": 1,
+        "holds": true
+      },
+      {
+        "law": "step",
+        "state": 2,
+        "left": 1,
+        "right": 1,
+        "holds": true
+      },
+      {
+        "law": "observation",
+        "state": 2,
+        "left": 0,
+        "right": 0,
+        "holds": true
+      },
+      {
+        "law": "step",
+        "state": 3,
+        "left": 0,
+        "right": 0,
+        "holds": true
+      },
+      {
+        "law": "observation",
+        "state": 3,
+        "left": 1,
+        "right": 1,
+        "holds": true
+      }
+    ],
+    "counterexamples": [
+      {
+        "law": "initial",
+        "holds": false
+      }
+    ]
+  },
+  "sample_run": {
+    "initial_observation": 0,
+    "final_state": 0,
+    "events": [
+      {
+        "step": 0,
+        "before": 0,
+        "input": "tick",
+        "after": 1,
+        "observation": 1
+      },
+      {
+        "step": 1,
+        "before": 1,
+        "input": "tick",
+        "after": 2,
+        "observation": 0
+      },
+      {
+        "step": 2,
+        "before": 2,
+        "input": "tick",
+        "after": 3,
+        "observation": 1
+      },
+      {
+        "step": 3,
+        "before": 3,
+        "input": "tick",
+        "after": 0,
+        "observation": 0
+      },
+      {
+        "step": 4,
+        "before": 0,
+        "input": "tick",
+        "after": 1,
+        "observation": 1
+      },
+      {
+        "step": 5,
+        "before": 1,
+        "input": "tick",
+        "after": 2,
+        "observation": 0
+      },
+      {
+        "step": 6,
+        "before": 2,
+        "input": "tick",
+        "after": 3,
+        "observation": 1
+      },
+      {
+        "step": 7,
+        "before": 3,
+        "input": "tick",
+        "after": 0,
+        "observation": 0
+      }
+    ]
+  },
+  "limits": [
+    "Only the declared finite tables and parity observation were checked.",
+    "A trace is not a proof of all future behavior.",
+    "A semantic cycle is allowed; bounded execution returns a finite prefix.",
+    "The abstraction is supplied by the programmer, not discovered by dialectics."
+  ]
+}

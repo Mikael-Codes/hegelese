@@ -1,0 +1,32 @@
+# Hic Rhodos, Hic Saltus.
+# This proposal fails: wraparound from phase 2 does not alternate parity.
+let parity = fn(s) => if int(s) % 2 == 0 then "even" else "odd";
+process ThreePhase = {
+  version: "1",
+  states: ["0", "1", "2"],
+  inputs: ["tick"],
+  initial: "0",
+  step: fn(s, input) => str((int(s) + 1) % 3),
+  observe: {parity: parity, exactPhase: fn(s) => int(s)}
+};
+process ParityToggle = {
+  version: "1",
+  states: ["0", "1"],
+  inputs: ["tick"],
+  initial: "0",
+  step: fn(s, input) => str(1 - int(s)),
+  observe: {parity: parity}
+};
+request KeepParity from ThreePhase require ["parity"];
+upheave Alternation {
+  from KeepParity;
+  into ParityToggle;
+  using fn(s) => str(int(s) % 2);
+  occasion {kind: "Rearticulation", explanation: "Understand a successful cycle through alternation, retaining parity."};
+  retain initial because "The mapped source start is the target start.";
+  retain step because "Every tick should commute with the parity projection; check every state.";
+  retain "observation:parity" because "Parity is required by the application.";
+  withdraw "observation:exactPhase" because "The map merges distinct phases. Exact phase cannot be reconstructed.";
+  assumptions [];
+};
+check(Alternation);

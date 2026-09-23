@@ -4,7 +4,11 @@
 
 ![An abstract geometric structure unfolds and reorganizes, with a recurring red path suggesting what is retained through the change.](assets/hegelese-upheaval.png)
 
-Hegelese is an experimental functional language design inspired by Hegel and critically informed by Antonio Wolf's writings. It explores how programs can describe the development of their computational concepts: what changes, what is preserved, and what evidence supports those claims.
+*Change the structure. Account for what survives.*
+
+Hegelese is an experimental functional language for **changing a program's representation while making the consequences explicit and checkable**. Inspired by Hegel and critically informed by Antonio Wolf's writings, it asks: what changes, what survives, what is relinquished, and what evidence supports the claim?
+
+An AI can propose a convincing rewrite. A programmer needs to know whether it still does what matters. A Hegel-inspired reader can ask a deeper question: can a form be transformed while its achievements acquire a place within the new organization? Hegelese brings these questions together in an executable experiment.
 
 **Current status:** an executable Hegelese bootstrap interpreter, a finite-process articulated-change checker, and specification proposal v0.3. Real `.hgl` programs now run through a Python parser and bounded functional evaluator. The bootstrap is dynamically checked; static typing, a compiler, general proof checking, and self-hosting remain future work. The [bootstrap language guide](BOOTSTRAP.md) defines the implemented syntax; the broader v0.3 examples remain proposals.
 
@@ -13,6 +17,92 @@ Hegelese is an experimental functional language design inspired by Hegel and cri
 `Aufheben`, `Sublation`, and `Upheaval` are exact aliases for the same Upheaval declaration. The accepted lowercase spellings are `aufheben`, `sublation`, `upheaval`, and `upheave`. Documentation uses **Upheaval**; `upheave` is the preferred verb. All seven spellings execute identically while diagnostics preserve the original spelling.
 
 An Upheaval specifies a development between representations, the occasion for it, and the disposition of earlier commitments. It may address a limitation or rearticulate a successful process. Preservation must name a relation; retaining an old value in a log does not establish semantic preservation.
+
+## An example: four moments, one rhythm
+
+Imagine a four-step dance that repeats. Someone keeping the rhythm needs only to know whether the next beat falls on the left or the right; a choreographer may need to know the exact step. Both descriptions concern the same activity, but they retain different distinctions.
+
+Here is the computational version. A process cycles through four phases. We propose replacing it with two alternating states:
+
+```text
+Original phases:    0 → 1 → 2 → 3 → 0 → …
+What we retain:     E → O → E → O → E → …
+New representation: 0 → 1 → 0 → 1 → 0 → …
+```
+
+`E` and `O` mean even and odd. The map sends phases 0 and 2 to the same new state, and phases 1 and 3 to the other. **We preserve the rhythm and deliberately give up the exact phase.** That loss is acceptable only when the application does not require the distinction.
+
+This is a complete, executable Hegelese program:
+
+```hegelese
+let parity = fn(s) => if int(s) % 2 == 0 then "even" else "odd";
+process FourPhase = {
+  version: "1",
+  states: ["0", "1", "2", "3"],
+  inputs: ["tick"],
+  initial: "0",
+  step: fn(s, input) => str((int(s) + 1) % 4),
+  observe: {parity: parity, exactPhase: fn(s) => int(s)}
+};
+process ParityToggle = {
+  version: "1",
+  states: ["0", "1"],
+  inputs: ["tick"],
+  initial: "0",
+  step: fn(s, input) => str(1 - int(s)),
+  observe: {parity: parity}
+};
+request KeepParity from FourPhase require ["parity"];
+upheave Alternation {
+  from KeepParity;
+  into ParityToggle;
+  using fn(s) => str(int(s) % 2);
+  occasion {kind: "Rearticulation", explanation: "Understand a successful cycle through alternation, retaining parity."};
+  retain initial because "The mapped source start is the target start.";
+  retain step because "Every tick should commute with the parity projection; check every state.";
+  retain "observation:parity" because "Parity is required by the application.";
+  withdraw "observation:exactPhase" because "The map merges distinct phases. Exact phase cannot be reconstructed.";
+  assumptions [];
+};
+check(Alternation);
+```
+
+Read `request` as **what must remain true**. Read `using` as the relationship between the old and new descriptions. Each `retain` makes a preservation claim; `withdraw` names an achievement we are giving up. The `because` clauses explain the proposal to a reader. The checker establishes the supported equations separately: eloquent reasons do not make a false claim pass.
+
+Run the [included program](examples/four-phase.hgl) from the repository root:
+
+```sh
+python3 hegelese.py run examples/four-phase.hgl
+```
+
+The report contains `ExhaustivelyChecked`: the checker verifies the initial state, every declared state/input transition, and every retained observation. In this example that is **nine checks**: one initial-state check, four transition checks, and four parity checks. For each transition it asks whether taking a step and then translating gives the same result as translating first and stepping in the new process. These local checks support preservation along any finite sequence of ticks in these declared processes; they do not certify the surrounding application.
+
+### A persuasive proposal can still be wrong
+
+Now try the [three-phase version](examples/three-phase.hgl):
+
+```sh
+python3 hegelese.py run examples/three-phase.hgl
+```
+
+Its first few beats look equally promising. But at the return from phase 2 to phase 0, the old process goes from even to even, while the proposed toggle goes from even to odd:
+
+```text
+Old process:        2 → 0     even → even
+Proposed toggle:    0 → 1     even → odd
+```
+
+Hegelese returns `Refuted`, with the failing transition as a counterexample. No improvement to the explanation repairs that mismatch. Nor does an unfinished check count as success: running the four-phase example with `--budget 2` returns `Unknown`.
+
+### Why this matters to three different readers
+
+**For AI agents:** a proposed change comes with obligations and machine-readable feedback. The agent can inspect a counterexample, revise its proposal, and run the check again. In the [agent protocol](ARTICULATION.md), the caller supplies an independently retained request, so the candidate cannot quietly redefine what it was asked to preserve. That separation must also be enforced by the host's access controls; a fingerprint alone is not permission management.
+
+**For programmers:** this makes a particular kind of refactoring claim explicit: a simpler representation preserves specified behavior under a stated map. Tests, types, and model checkers remain useful. Hegelese's experiment is to put the old model, new model, mapping, declared losses, and checked evidence together in one language. The example uses exhaustive finite checking rather than selected test inputs. It does not establish superiority over existing verification tools.
+
+**For Hegel-inspired readers:** the interest lies in preservation through a changed organization. The old phases no longer stand as four independent distinctions in the new representation; their alternation survives, while exact position does not. This offers a small, inspectable analogy for Upheaval. It is a rearticulation of an already successful process, not a claim that the four-phase cycle contradicts itself or inevitably produces its successor. The application supplies the reason to prefer the simpler account. Whether this does justice to Hegel remains a philosophical question, informed by our [primary-text research](docs/science-of-logic-essence-concept.md).
+
+The ambition is to make a change answerable: **show what it preserves, acknowledge what it loses, and let the evidence challenge its explanation.** The present achievement is deliberately narrow and runnable. The larger hypothesis—that this helps people and AI agents make better changes—still needs comparative evidence.
 
 ## Start here
 

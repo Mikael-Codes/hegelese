@@ -5,3 +5,7 @@ __pycache__/
 work/
 *.zip
 *.sha256
+dist/
+build/
+*.egg-info/
+gate-report.json

@@ -14,6 +14,7 @@ An Upheaval specifies a development between representations, the occasion for it
 
 ## Start here
 
+- [Deploy the finite-workflow CI gate](DEPLOYMENT.md) — the first narrow production use case
 - [Executable bootstrap language guide](BOOTSTRAP.md)
 - [Complete four-phase development](examples/four-phase.hgl) and [refuted three-phase development](examples/three-phase.hgl)
 - [Language specification v0.3](docs/hegelese-spec-v0.3.md)
@@ -28,6 +29,8 @@ The earlier [v0.2 specification](docs/hegelese-spec-v0.2.md) and [first critical
 ## Run Hegelese
 
 Requires Python 3.10 or later; no third-party packages.
+
+Version 0.2.0 also builds as an installable wheel with `hegelese` and `hegelese-gate` commands. The gate runs a candidate in a worker with a deadline and accepts only checked preservation against the caller's retained request. See [deployment and operational limits](DEPLOYMENT.md) and [release changes](CHANGELOG.md).
 
 ```sh
 python3 hegelese.py run examples/functional.hgl

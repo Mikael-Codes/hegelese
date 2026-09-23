@@ -8,6 +8,7 @@ import sys
 
 ALIASES = {"Aufheben", "Sublation", "Upheaval", "aufheben", "sublation", "upheaval", "upheave"}
 CHECKER = "hegelese-finite-checker/0.1"
+VERSION = "0.2.0"
 
 
 class Invalid(ValueError):
@@ -191,7 +192,7 @@ def check(request, proposal, budget=100000):
     }
 
 
-def read_json(path):
+def loads_json(data, path="/input"):
     def pairs(items):
         result = {}
         for key, value in items:
@@ -199,16 +200,21 @@ def read_json(path):
                 raise Invalid(str(path), "Duplicate JSON key: " + key)
             result[key] = value
         return result
-    with Path(path).open("rb") as stream:
-        data = stream.read(2_000_001)
-    require(len(data) <= 2_000_000, str(path), "Input exceeds the 2 MB limit.")
     def constant(value):
         raise Invalid(str(path), "Nonstandard JSON constant: " + value)
     return json.loads(data, object_pairs_hook=pairs, parse_constant=constant)
 
 
+def read_json(path):
+    with Path(path).open("rb") as stream:
+        data = stream.read(2_000_001)
+    require(len(data) <= 2_000_000, str(path), "Input exceeds the 2 MB limit.")
+    return loads_json(data, path)
+
+
 def main(argv=None):
     parser = argparse.ArgumentParser(description=__doc__)
+    parser.add_argument("--version", action="version", version="Hegelese " + VERSION)
     sub = parser.add_subparsers(dest="command", required=True)
     fingerprint = sub.add_parser("fingerprint", help="Hash a request without changing it.")
     fingerprint.add_argument("request")

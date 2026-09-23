@@ -84,8 +84,10 @@ class Parser:
     @staticmethod
     def string(token):
         try:
-            return json.loads(token.text)
-        except ValueError:
+            value = json.loads(token.text)
+            value.encode("utf-8")
+            return value
+        except (ValueError, UnicodeError):
             raise Diagnostic(token, "Invalid string escape.") from None
 
     def program(self):
@@ -456,6 +458,7 @@ class Evaluator:
             name = args[0]
             self.need(name not in env, token, "Duplicate top-level name: " + name)
             if kind == "let":
+                self.need(not args[2] or args[1].kind == "fn", token, "let rec requires a function literal.")
                 result = self.evaluate(args[1], env)
                 if args[2]:
                     self.need(isinstance(result, Closure), token, "let rec requires a function.")

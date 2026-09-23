@@ -18,6 +18,8 @@ The three runnable examples cover ordinary computation, accepted lossy abstracti
 
 ## 1. Freeze a bootstrap subset
 
+The 0.2.0 deployment milestone adds an installable, fail-closed CI gate, a documentation-publishing workflow pilot, worker limits, and evidence artifacts. See [deployment](DEPLOYMENT.md). This is a narrow operational use before the general language is mature.
+
 The first grammar and evaluation rules are implemented and documented. Stabilize this subset with usage feedback before extending it. Preserve the distinction between this executable grammar and the broader schematic proposal.
 
 The tree-walking Python interpreter and structured diagnostics are complete for the subset. Next add a deliberately small static type checker and specify typed error handling. Keep parsing, evaluation, type checking, and evidence checking separate. File access and output belong at explicit host-service boundaries. Evaluation fuel and a separate finite-check budget currently expose exhaustion as `Unknown`; these are not a general security sandbox.

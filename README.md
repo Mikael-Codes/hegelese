@@ -4,8 +4,6 @@
 
 ![An abstract geometric structure unfolds and reorganizes, with a recurring red path suggesting what is retained through the change.](assets/hegelese-upheaval.png)
 
-*Change the structure. Account for what survives.*
-
 Hegelese is an experimental functional language for **changing a program's representation while making the consequences explicit and checkable**. Inspired by Hegel and critically informed by Antonio Wolf's writings, it asks: what changes, what survives, what is relinquished, and what evidence supports the claim?
 
 An AI can propose a convincing rewrite. A programmer needs to know whether it still does what matters. A Hegel-inspired reader can ask a deeper question: can a form be transformed while its achievements acquire a place within the new organization? Hegelese brings these questions together in an executable experiment.

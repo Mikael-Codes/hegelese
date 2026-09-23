@@ -1,0 +1,85 @@
+{
+  "work": "G. W. F. Hegel, Science of Logic, Book One: The Doctrine of Being",
+  "date": "2026-09-23",
+  "status": "partial-primary-text-research-pass",
+  "complete_book_read": false,
+  "edition_note": "MIA English transcription; no German/translation collation completed. Paragraph numbering belongs to this transcription.",
+  "method": "Only displayed and examined primary passages credited. Search snippets, chapter titles, fetched-but-truncated text, and linked pages do not establish full reading.",
+  "sources": [
+    {
+      "url": "https://www.marxists.org/reference/archive/hegel/works/hl/hl000.htm",
+      "title": "Analytical table of contents",
+      "coverage": "Structural survey; not a substitute for the body text"
+    },
+    {
+      "url": "https://www.marxists.org/reference/archive/hegel/works/hl/hlbegin.htm",
+      "title": "With What Must Science Begin?",
+      "coverage": "Passages reviewed, especially §§88–106; incomplete"
+    },
+    {
+      "url": "https://www.marxists.org/reference/archive/hegel/works/hl/hlbeing.htm",
+      "title": "Book One overview with embedded primary passages",
+      "coverage": "Passages across Quality, Quantity and Measure, including §§132–134, 184–187, 395–444, 699–710, 774–778 and 803–804; linked sections not automatically counted as read"
+    },
+    {
+      "url": "https://www.marxists.org/reference/archive/hegel/works/hl/hl083.htm",
+      "title": "Becoming",
+      "coverage": "Passages reviewed, especially §§135–156; remaining text incomplete"
+    },
+    {
+      "url": "https://www.marxists.org/reference/archive/hegel/works/hl/hl109.htm",
+      "title": "Determinate Being",
+      "coverage": "§§190–213 closely reviewed; later material incompletely visible in retrieved output"
+    },
+    {
+      "url": "https://www.marxists.org/reference/archive/hegel/works/hl/hl157.htm",
+      "title": "Being-for-self as such",
+      "coverage": "Primary text §§320–328 reviewed; continuation incomplete"
+    },
+    {
+      "url": "https://www.marxists.org/reference/archive/hegel/works/hl/hl217.htm",
+      "title": "Extensive and intensive quantum",
+      "coverage": "Displayed section §§472–496 reviewed"
+    },
+    {
+      "url": "https://www.marxists.org/reference/archive/hegel/works/hl/hl225.htm",
+      "title": "Quantitative infinity",
+      "coverage": "Displayed §§499–537 reviewed; opening and linked mathematical remarks incomplete"
+    },
+    {
+      "url": "https://www.marxists.org/reference/archive/hegel/works/hl/hl314.htm",
+      "title": "Quantitative ratio",
+      "coverage": "Displayed chapter §§669–694 reviewed"
+    },
+    {
+      "url": "https://www.marxists.org/reference/archive/hegel/works/hl/hl333.htm",
+      "title": "Specific quantity",
+      "coverage": "Displayed §§711–731 reviewed; remainder incomplete"
+    },
+    {
+      "url": "https://www.marxists.org/reference/archive/hegel/works/hl/hl348.htm",
+      "title": "Real measure",
+      "coverage": "Passages reviewed, especially §§759–770; full section incomplete"
+    },
+    {
+      "url": "https://www.marxists.org/reference/archive/hegel/works/hl/hl375.htm",
+      "title": "Becoming of essence",
+      "coverage": "Displayed §§788–802 reviewed; opening incomplete"
+    },
+    {
+      "url": "https://www.marxists.org/reference/archive/hegel/works/hl/hl136.htm",
+      "title": "Qualitative infinity",
+      "coverage": "Entire extracted primary page §§269–304 examined in the continuation pass; linked sections not automatically credited."
+    }
+  ],
+  "pending": [
+    "Intervening Quality arguments, One/Many and repulsion/attraction",
+    "Quantity and number in full",
+    "Extended mathematical infinite and calculus remarks",
+    "Real Measure opening sections and remaining passages",
+    "Beginning and ending passages not yet closely reviewed",
+    "German terminology and second English translation comparison"
+  ],
+  "research_note": "science-of-logic-book-one.md",
+  "continuation_coverage": "science-of-logic-whole-work-coverage.json"
+}

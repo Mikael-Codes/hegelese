@@ -1,0 +1,11 @@
+# Ordinary functional programming needs no Upheaval annotations.
+let square = fn(x) => x * x;
+let sumOfSquares = fold(fn(total, x) => total + x, 0, map(square, [1, 2, 3, 4]));
+let rec factorial = fn(n) => if n == 0 then 1 else n * factorial(n - 1);
+let makeAdder = fn(x) => fn(y) => x + y;
+let answer = variant("Some", makeAdder(40)(2));
+{
+  sumOfSquares: sumOfSquares,
+  factorial: factorial(6),
+  answer: match answer { Some(value) => value; None(value) => 0; }
+};

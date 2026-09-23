@@ -1,0 +1,86 @@
+{
+  "schema": "hegelese-request/0.1",
+  "source": {
+    "version": "1",
+    "states": [
+      "draft",
+      "editor_review",
+      "owner_review",
+      "approved",
+      "rejected"
+    ],
+    "inputs": [
+      "submit_editor",
+      "submit_owner",
+      "approve",
+      "reject",
+      "reset"
+    ],
+    "initial": "draft",
+    "name": "EditorialWorkflow",
+    "transitions": {
+      "draft": {
+        "submit_editor": "editor_review",
+        "submit_owner": "owner_review",
+        "approve": "draft",
+        "reject": "draft",
+        "reset": "draft"
+      },
+      "editor_review": {
+        "submit_editor": "editor_review",
+        "submit_owner": "editor_review",
+        "approve": "approved",
+        "reject": "rejected",
+        "reset": "draft"
+      },
+      "owner_review": {
+        "submit_editor": "owner_review",
+        "submit_owner": "owner_review",
+        "approve": "approved",
+        "reject": "rejected",
+        "reset": "draft"
+      },
+      "approved": {
+        "submit_editor": "approved",
+        "submit_owner": "approved",
+        "approve": "approved",
+        "reject": "approved",
+        "reset": "draft"
+      },
+      "rejected": {
+        "submit_editor": "rejected",
+        "submit_owner": "rejected",
+        "approve": "rejected",
+        "reject": "rejected",
+        "reset": "draft"
+      }
+    },
+    "observations": {
+      "publicStatus": {
+        "draft": "draft",
+        "editor_review": "review",
+        "owner_review": "review",
+        "approved": "approved",
+        "rejected": "rejected"
+      },
+      "canPublish": {
+        "draft": false,
+        "editor_review": false,
+        "owner_review": false,
+        "approved": true,
+        "rejected": false
+      },
+      "reviewRoute": {
+        "draft": "draft",
+        "editor_review": "editor_review",
+        "owner_review": "owner_review",
+        "approved": "approved",
+        "rejected": "rejected"
+      }
+    }
+  },
+  "required_observations": [
+    "publicStatus",
+    "canPublish"
+  ]
+}

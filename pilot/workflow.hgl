@@ -1,0 +1,102 @@
+# Documentation publishing workflow. This file is candidate input to the CI gate.
+# The separately retained request fixes public status and publication permission.
+let project = fn(s) => if s == "editor_review" || s == "owner_review" then "review" else s;
+let canPublish = fn(s) => s == "approved";
+let sourceSteps = {
+  "draft": {
+    "submit_editor": "editor_review",
+    "submit_owner": "owner_review",
+    "approve": "draft",
+    "reject": "draft",
+    "reset": "draft"
+  },
+  "editor_review": {
+    "submit_editor": "editor_review",
+    "submit_owner": "editor_review",
+    "approve": "approved",
+    "reject": "rejected",
+    "reset": "draft"
+  },
+  "owner_review": {
+    "submit_editor": "owner_review",
+    "submit_owner": "owner_review",
+    "approve": "approved",
+    "reject": "rejected",
+    "reset": "draft"
+  },
+  "approved": {
+    "submit_editor": "approved",
+    "submit_owner": "approved",
+    "approve": "approved",
+    "reject": "approved",
+    "reset": "draft"
+  },
+  "rejected": {
+    "submit_editor": "rejected",
+    "submit_owner": "rejected",
+    "approve": "rejected",
+    "reject": "rejected",
+    "reset": "draft"
+  }
+};
+let targetSteps = {
+  "draft": {
+    "submit_editor": "review",
+    "submit_owner": "review",
+    "approve": "draft",
+    "reject": "draft",
+    "reset": "draft"
+  },
+  "review": {
+    "submit_editor": "review",
+    "submit_owner": "review",
+    "approve": "approved",
+    "reject": "rejected",
+    "reset": "draft"
+  },
+  "approved": {
+    "submit_editor": "approved",
+    "submit_owner": "approved",
+    "approve": "approved",
+    "reject": "approved",
+    "reset": "draft"
+  },
+  "rejected": {
+    "submit_editor": "rejected",
+    "submit_owner": "rejected",
+    "approve": "rejected",
+    "reject": "rejected",
+    "reset": "draft"
+  }
+};
+process EditorialWorkflow = {
+  version: "1",
+  states: ["draft", "editor_review", "owner_review", "approved", "rejected"],
+  inputs: ["submit_editor", "submit_owner", "approve", "reject", "reset"],
+  initial: "draft",
+  step: fn(s, event) => sourceSteps[s][event],
+  observe: {publicStatus: project, canPublish: canPublish, reviewRoute: fn(s) => s}
+};
+process PublicWorkflow = {
+  version: "1",
+  states: ["draft", "review", "approved", "rejected"],
+  inputs: ["submit_editor", "submit_owner", "approve", "reject", "reset"],
+  initial: "draft",
+  step: fn(s, event) => targetSteps[s][event],
+  observe: {publicStatus: fn(s) => s, canPublish: canPublish}
+};
+request PublishingContract from EditorialWorkflow require ["publicStatus", "canPublish"];
+upheave SimplifyReview {
+  from PublishingContract;
+  into PublicWorkflow;
+  using project;
+  occasion {kind: "Rearticulation", explanation: "Use one public review state while preserving publication permission and visible status."};
+  retain initial because "Both workflows begin in draft.";
+  retain step because "Each event must preserve the mapped workflow state.";
+  retain "observation:publicStatus" because "Readers must see the same public status.";
+  retain "observation:canPublish" because "Simplifying review must never grant publication earlier.";
+  withdraw "observation:reviewRoute" because "This public interface does not distinguish the internal review route.";
+  assumptions [];
+};
+# Returning the candidate lets the gate check it against its independent contract.
+SimplifyReview;

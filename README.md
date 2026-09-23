@@ -14,8 +14,6 @@ An AI can propose a convincing rewrite. A programmer needs to know whether it st
 
 ## Upheaval
 
-`Aufheben`, `Sublation`, and `Upheaval` are exact aliases for the same Upheaval declaration. The accepted lowercase spellings are `aufheben`, `sublation`, `upheaval`, and `upheave`. Documentation uses **Upheaval**; `upheave` is the preferred verb. All seven spellings execute identically while diagnostics preserve the original spelling.
-
 An Upheaval specifies a development between representations, the occasion for it, and the disposition of earlier commitments. It may address a limitation or rearticulate a successful process. Preservation must name a relation; retaining an old value in a log does not establish semantic preservation.
 
 ## An example: four moments, one rhythm

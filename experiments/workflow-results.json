@@ -1,0 +1,126 @@
+{
+  "scope": "Six hand-authored deterministic cases; no LLM runs, statistical claims, or external deployment.",
+  "cases": [
+    {
+      "case": "unchanged workflow",
+      "required_and_inherited_observations": [
+        "canPublish",
+        "publicStatus",
+        "reviewRoute"
+      ],
+      "trace_baseline": {
+        "accepted": true,
+        "trace": null,
+        "reachable_pairs_checked": 6
+      },
+      "ordinary_finite_check": "ExhaustivelyChecked",
+      "lineage": "ExhaustivelyChecked",
+      "lineage_accepted": true,
+      "accounting": []
+    },
+    {
+      "case": "useful route merge, no loss authorization",
+      "required_and_inherited_observations": [
+        "canPublish",
+        "publicStatus"
+      ],
+      "trace_baseline": {
+        "accepted": true,
+        "trace": null,
+        "reachable_pairs_checked": 6
+      },
+      "ordinary_finite_check": "ExhaustivelyChecked",
+      "lineage": "Unknown",
+      "lineage_accepted": false,
+      "accounting": [
+        "Unaccounted"
+      ]
+    },
+    {
+      "case": "useful route merge, explicit authorization",
+      "required_and_inherited_observations": [
+        "canPublish",
+        "publicStatus"
+      ],
+      "trace_baseline": {
+        "accepted": true,
+        "trace": null,
+        "reachable_pairs_checked": 6
+      },
+      "ordinary_finite_check": "ExhaustivelyChecked",
+      "lineage": "ExhaustivelyChecked",
+      "lineage_accepted": true,
+      "accounting": [
+        "AuthorizedLoss"
+      ]
+    },
+    {
+      "case": "approval bypass from draft",
+      "required_and_inherited_observations": [
+        "canPublish",
+        "publicStatus",
+        "reviewRoute"
+      ],
+      "trace_baseline": {
+        "accepted": false,
+        "trace": [
+          "approve"
+        ],
+        "observation": "canPublish",
+        "expected": false,
+        "actual": true,
+        "reachable_pairs_checked": 4
+      },
+      "ordinary_finite_check": "Refuted",
+      "lineage": "Refuted",
+      "lineage_accepted": false,
+      "accounting": []
+    },
+    {
+      "case": "approval after cancellation",
+      "required_and_inherited_observations": [
+        "canPublish",
+        "publicStatus",
+        "reviewRoute"
+      ],
+      "trace_baseline": {
+        "accepted": false,
+        "trace": [
+          "cancel",
+          "approve"
+        ],
+        "observation": "canPublish",
+        "expected": false,
+        "actual": true,
+        "reachable_pairs_checked": 7
+      },
+      "ordinary_finite_check": "Refuted",
+      "lineage": "Refuted",
+      "lineage_accepted": false,
+      "accounting": []
+    },
+    {
+      "case": "withdraw previously retained route",
+      "required_and_inherited_observations": [
+        "canPublish",
+        "publicStatus",
+        "reviewRoute"
+      ],
+      "trace_baseline": {
+        "accepted": false,
+        "trace": [],
+        "observation": "reviewRoute",
+        "expected": "draft",
+        "actual": null,
+        "reachable_pairs_checked": 1
+      },
+      "ordinary_finite_check": "ExhaustivelyChecked",
+      "lineage": "Refuted",
+      "lineage_accepted": false,
+      "accounting": [
+        "AuthorizedLoss"
+      ]
+    }
+  ],
+  "conclusion": "Both methods catch these behavioral failures. Lineage adds explicit structural-loss accounting; no detection advantage is demonstrated."
+}

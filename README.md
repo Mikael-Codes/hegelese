@@ -10,6 +10,8 @@ An AI can propose a convincing rewrite. A programmer needs to know whether it st
 
 ![An abstract geometric structure unfolds and reorganizes, with a recurring red path suggesting what is retained through the change.](assets/hegelese-upheaval.png)
 
+For a concise account of the research question, executed comparisons, and open objections, see the [technical review brief](REVIEW-BRIEF.md).
+
 ## Upheaval
 
 An Upheaval specifies a development between representations, the occasion for it, and the disposition of earlier commitments. It may address a limitation or rearticulate a successful process. Preservation must name a relation; retaining an old value in a log does not establish semantic preservation.

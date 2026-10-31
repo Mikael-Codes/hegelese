@@ -164,6 +164,10 @@ Python implements the current bootstrap. An interpreter written in Hegelese is a
 
 Self-interpretation and a self-hosting compiler are separate milestones. Neither is a claim of philosophical self-grounding.
 
+## Reconstruction research
+
+[From checked change to necessary loss](experiments/reconstruction/README.md) connects the finite checker to a published binary-cut reconstruction theorem and investigates when a reconstruction demand determines a universal least-loss quotient. It includes runnable examples, exact finite searches, proofs for independent views and a protected common overlap, and counterexamples to unrestricted uniqueness. These are research experiments; the implemented language and acceptance rules are unchanged. [Read the public companion page](https://autio.github.io/ai-science/hegelese-reconstruction/).
+
 ## Research provenance
 
 The [Antonio Wolf inventory](docs/reading-coverage.md) records 51 fully read WordPress articles and two fully read Epoché essays as of 23 September 2026. Further entries are explicitly marked partially read, context-reviewed, or retrieved but unread. Full online corpus reading remains incomplete.

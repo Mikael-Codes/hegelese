@@ -1,0 +1,67 @@
+{
+  "method": "Exact GF2 comparison matrix into the kernel of the normalized Roos differential",
+  "checker_sha256": "e072aa39bca31a86548776fea1960c2567aa873a7d9bbd9c84ecb0844864a11b",
+  "cases": [
+    {
+      "case": "identity",
+      "n": 4,
+      "r": 3,
+      "augmentation_cutoff_d": null,
+      "source_dimension": 7,
+      "limit_dimension": 7,
+      "comparison_rank": 6,
+      "kernel_dimension": 1,
+      "cokernel_dimension": 1,
+      "H1_dimension": 1,
+      "cochain_dimensions": [
+        18,
+        12
+      ],
+      "differential_ranks": [
+        11
+      ],
+      "ordinary_comparison_is_isomorphism": false
+    },
+    {
+      "case": "quotient_J3",
+      "n": 4,
+      "r": 3,
+      "augmentation_cutoff_d": 3,
+      "source_dimension": 6,
+      "limit_dimension": 7,
+      "comparison_rank": 6,
+      "kernel_dimension": 0,
+      "cokernel_dimension": 1,
+      "H1_dimension": 1,
+      "cochain_dimensions": [
+        18,
+        12
+      ],
+      "differential_ranks": [
+        11
+      ],
+      "ordinary_comparison_is_isomorphism": false
+    },
+    {
+      "case": "quotient_J2",
+      "n": 4,
+      "r": 3,
+      "augmentation_cutoff_d": 2,
+      "source_dimension": 3,
+      "limit_dimension": 3,
+      "comparison_rank": 3,
+      "kernel_dimension": 0,
+      "cokernel_dimension": 0,
+      "H1_dimension": 1,
+      "cochain_dimensions": [
+        14,
+        12
+      ],
+      "differential_ranks": [
+        11
+      ],
+      "ordinary_comparison_is_isomorphism": true
+    }
+  ],
+  "scope": "One four-label reconstruction diagram. This finite calculation is not a proof of the universal theorem."
+}

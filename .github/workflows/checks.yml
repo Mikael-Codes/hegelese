@@ -17,6 +17,11 @@ jobs:
         with:
           python-version: ${{ matrix.python }}
       - run: python -m unittest discover -s tests -v
+      - name: Check reconstruction research examples
+        run: |
+          python experiments/reconstruction/bridge/check_binary_cut_bridge.py --checker hegelese.py --reconstruction-checker experiments/reconstruction/reference/verify-derived.py --output-dir "$RUNNER_TEMP/reconstruction-bridge"
+          python experiments/reconstruction/bridge/quotient_frontier.py --output "$RUNNER_TEMP/quotient-frontier.json"
+          python experiments/reconstruction/demands/verify_reconstruction.py --output-dir "$RUNNER_TEMP/reconstruction-demands"
       - name: Build installable wheel
         run: python -m pip wheel --no-deps --wheel-dir dist .
       - name: Install wheel

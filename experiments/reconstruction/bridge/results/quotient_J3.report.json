@@ -1,0 +1,1943 @@
+{
+  "checker": "hegelese-finite-checker/0.2",
+  "status": "ExhaustivelyChecked",
+  "accepted": true,
+  "request_sha256": "f5114c0dcfe68d61731f669fd153804db46629fd07f84c3d5418bf680017ada3",
+  "proposal_sha256": "fca37e0c3d83b8ee3deb59df85594f3ce4c9d056f46f829b1bdb5e332eb391d3",
+  "source_sha256": "a6582e9400e3bc867aec7ed86f1a3c89d436fcb48eed602837ad5b7821eeb5e8",
+  "target_sha256": "b734741b153a7d7213c7c31f054d68a2b558d68c6d1aecf04041ad9d8d9ca851",
+  "source_spelling": "Upheaval",
+  "articulation": {
+    "status": "Complete",
+    "meaning": "Required fields supplied; prose is not verified.",
+    "occasion": {
+      "kind": "Rearticulation",
+      "explanation": "Compare natural augmentation-power quotients at the four-label object."
+    },
+    "dispositions": {
+      "initial": {
+        "action": "retain",
+        "reason": "The quotient sends zero to zero."
+      },
+      "step": {
+        "action": "retain",
+        "reason": "Addition descends through the linear quotient."
+      },
+      "observation:linear_t1": {
+        "action": "retain",
+        "reason": "Check this observation on every source vector."
+      },
+      "observation:linear_t2": {
+        "action": "retain",
+        "reason": "Check this observation on every source vector."
+      },
+      "observation:linear_t4": {
+        "action": "retain",
+        "reason": "Check this observation on every source vector."
+      },
+      "observation:exactState": {
+        "action": "withdraw",
+        "reason": "Full vector identity is not part of the positive-case request."
+      }
+    }
+  },
+  "evidence": {
+    "status": "ExhaustivelyChecked",
+    "domain": "All declared source states and inputs",
+    "source_states": [
+      "0",
+      "1",
+      "2",
+      "3",
+      "4",
+      "5",
+      "6",
+      "7",
+      "8",
+      "9",
+      "10",
+      "11",
+      "12",
+      "13",
+      "14",
+      "15",
+      "16",
+      "17",
+      "18",
+      "19",
+      "20",
+      "21",
+      "22",
+      "23",
+      "24",
+      "25",
+      "26",
+      "27",
+      "28",
+      "29",
+      "30",
+      "31",
+      "32",
+      "33",
+      "34",
+      "35",
+      "36",
+      "37",
+      "38",
+      "39",
+      "40",
+      "41",
+      "42",
+      "43",
+      "44",
+      "45",
+      "46",
+      "47",
+      "48",
+      "49",
+      "50",
+      "51",
+      "52",
+      "53",
+      "54",
+      "55",
+      "56",
+      "57",
+      "58",
+      "59",
+      "60",
+      "61",
+      "62",
+      "63",
+      "64",
+      "65",
+      "66",
+      "67",
+      "68",
+      "69",
+      "70",
+      "71",
+      "72",
+      "73",
+      "74",
+      "75",
+      "76",
+      "77",
+      "78",
+      "79",
+      "80",
+      "81",
+      "82",
+      "83",
+      "84",
+      "85",
+      "86",
+      "87",
+      "88",
+      "89",
+      "90",
+      "91",
+      "92",
+      "93",
+      "94",
+      "95",
+      "96",
+      "97",
+      "98",
+      "99",
+      "100",
+      "101",
+      "102",
+      "103",
+      "104",
+      "105",
+      "106",
+      "107",
+      "108",
+      "109",
+      "110",
+      "111",
+      "112",
+      "113",
+      "114",
+      "115",
+      "116",
+      "117",
+      "118",
+      "119",
+      "120",
+      "121",
+      "122",
+      "123",
+      "124",
+      "125",
+      "126",
+      "127"
+    ],
+    "inputs": [
+      "add_t1",
+      "add_t2",
+      "add_t3",
+      "add_t4",
+      "add_t5",
+      "add_t6",
+      "add_t7"
+    ],
+    "observations": [
+      "linear_t1",
+      "linear_t2",
+      "linear_t4"
+    ],
+    "checks_total": 1281,
+    "checks_completed": 1281,
+    "budget_exhausted": false,
+    "failures": 0,
+    "counterexamples": [],
+    "counterexamples_omitted": 0
+  },
+  "structural_loss": {
+    "status": "ExhaustivelyDerived",
+    "groups": [
+      {
+        "kind": "MergedStates",
+        "source_sha256": "a6582e9400e3bc867aec7ed86f1a3c89d436fcb48eed602837ad5b7821eeb5e8",
+        "states": [
+          "0",
+          "64"
+        ],
+        "id": "1f344c51eb7a4ef46620df91017a2212aa5b191203f2bbc947d4e51b93e4b52f",
+        "target_state": "0",
+        "erased_pairs": 1,
+        "witness": [
+          "0",
+          "64"
+        ],
+        "nonrecoverable_observations": {
+          "exactState": {
+            "states": [
+              "0",
+              "64"
+            ],
+            "values": [
+              0,
+              64
+            ]
+          }
+        }
+      },
+      {
+        "kind": "MergedStates",
+        "source_sha256": "a6582e9400e3bc867aec7ed86f1a3c89d436fcb48eed602837ad5b7821eeb5e8",
+        "states": [
+          "1",
+          "65"
+        ],
+        "id": "403972558c60198f42024a4884fadf338bc38ab28a31f2808cb9928e222dfd64",
+        "target_state": "1",
+        "erased_pairs": 1,
+        "witness": [
+          "1",
+          "65"
+        ],
+        "nonrecoverable_observations": {
+          "exactState": {
+            "states": [
+              "1",
+              "65"
+            ],
+            "values": [
+              1,
+              65
+            ]
+          }
+        }
+      },
+      {
+        "kind": "MergedStates",
+        "source_sha256": "a6582e9400e3bc867aec7ed86f1a3c89d436fcb48eed602837ad5b7821eeb5e8",
+        "states": [
+          "10",
+          "74"
+        ],
+        "id": "d486f76361ae06d3295c4d994d177525166d4e964ccccfa5ac476f613f48b06c",
+        "target_state": "10",
+        "erased_pairs": 1,
+        "witness": [
+          "10",
+          "74"
+        ],
+        "nonrecoverable_observations": {
+          "exactState": {
+            "states": [
+              "10",
+              "74"
+            ],
+            "values": [
+              10,
+              74
+            ]
+          }
+        }
+      },
+      {
+        "kind": "MergedStates",
+        "source_sha256": "a6582e9400e3bc867aec7ed86f1a3c89d436fcb48eed602837ad5b7821eeb5e8",
+        "states": [
+          "11",
+          "75"
+        ],
+        "id": "30541d05599571283f0fb0e9488de824ee3d0f80eaa988049fcea99f45f495e5",
+        "target_state": "11",
+        "erased_pairs": 1,
+        "witness": [
+          "11",
+          "75"
+        ],
+        "nonrecoverable_observations": {
+          "exactState": {
+            "states": [
+              "11",
+              "75"
+            ],
+            "values": [
+              11,
+              75
+            ]
+          }
+        }
+      },
+      {
+        "kind": "MergedStates",
+        "source_sha256": "a6582e9400e3bc867aec7ed86f1a3c89d436fcb48eed602837ad5b7821eeb5e8",
+        "states": [
+          "12",
+          "76"
+        ],
+        "id": "2871ad28bb75feb4ea468399929310f1927502820ffcb26cccdc2e0de839b187",
+        "target_state": "12",
+        "erased_pairs": 1,
+        "witness": [
+          "12",
+          "76"
+        ],
+        "nonrecoverable_observations": {
+          "exactState": {
+            "states": [
+              "12",
+              "76"
+            ],
+            "values": [
+              12,
+              76
+            ]
+          }
+        }
+      },
+      {
+        "kind": "MergedStates",
+        "source_sha256": "a6582e9400e3bc867aec7ed86f1a3c89d436fcb48eed602837ad5b7821eeb5e8",
+        "states": [
+          "13",
+          "77"
+        ],
+        "id": "1a9f4c579729ec549b2c1e87c897626ddf87fc56340f85301ab55c422d518fb6",
+        "target_state": "13",
+        "erased_pairs": 1,
+        "witness": [
+          "13",
+          "77"
+        ],
+        "nonrecoverable_observations": {
+          "exactState": {
+            "states": [
+              "13",
+              "77"
+            ],
+            "values": [
+              13,
+              77
+            ]
+          }
+        }
+      },
+      {
+        "kind": "MergedStates",
+        "source_sha256": "a6582e9400e3bc867aec7ed86f1a3c89d436fcb48eed602837ad5b7821eeb5e8",
+        "states": [
+          "14",
+          "78"
+        ],
+        "id": "43bfcd8d03e5296ab5c88c71ee14fefb4a460ab00626c6d14c2b6e0f3052cf48",
+        "target_state": "14",
+        "erased_pairs": 1,
+        "witness": [
+          "14",
+          "78"
+        ],
+        "nonrecoverable_observations": {
+          "exactState": {
+            "states": [
+              "14",
+              "78"
+            ],
+            "values": [
+              14,
+              78
+            ]
+          }
+        }
+      },
+      {
+        "kind": "MergedStates",
+        "source_sha256": "a6582e9400e3bc867aec7ed86f1a3c89d436fcb48eed602837ad5b7821eeb5e8",
+        "states": [
+          "15",
+          "79"
+        ],
+        "id": "a09b755dda1015db7d064d9c3d931cceafbfd9effae465350cf00777ff6327d9",
+        "target_state": "15",
+        "erased_pairs": 1,
+        "witness": [
+          "15",
+          "79"
+        ],
+        "nonrecoverable_observations": {
+          "exactState": {
+            "states": [
+              "15",
+              "79"
+            ],
+            "values": [
+              15,
+              79
+            ]
+          }
+        }
+      },
+      {
+        "kind": "MergedStates",
+        "source_sha256": "a6582e9400e3bc867aec7ed86f1a3c89d436fcb48eed602837ad5b7821eeb5e8",
+        "states": [
+          "16",
+          "80"
+        ],
+        "id": "d79a1aac593010c7c1bf0bb93bb420930a4560e0127f7dd8f7ae3291649b36e4",
+        "target_state": "16",
+        "erased_pairs": 1,
+        "witness": [
+          "16",
+          "80"
+        ],
+        "nonrecoverable_observations": {
+          "exactState": {
+            "states": [
+              "16",
+              "80"
+            ],
+            "values": [
+              16,
+              80
+            ]
+          }
+        }
+      },
+      {
+        "kind": "MergedStates",
+        "source_sha256": "a6582e9400e3bc867aec7ed86f1a3c89d436fcb48eed602837ad5b7821eeb5e8",
+        "states": [
+          "17",
+          "81"
+        ],
+        "id": "5258240663606673f4e8e414719ad0f04af0f6e7a1243c40922b559b79555109",
+        "target_state": "17",
+        "erased_pairs": 1,
+        "witness": [
+          "17",
+          "81"
+        ],
+        "nonrecoverable_observations": {
+          "exactState": {
+            "states": [
+              "17",
+              "81"
+            ],
+            "values": [
+              17,
+              81
+            ]
+          }
+        }
+      },
+      {
+        "kind": "MergedStates",
+        "source_sha256": "a6582e9400e3bc867aec7ed86f1a3c89d436fcb48eed602837ad5b7821eeb5e8",
+        "states": [
+          "18",
+          "82"
+        ],
+        "id": "71a7b38d49c851e2f55e2afc8daf73426d590e4ad672f0faa3a987abc15c3ea7",
+        "target_state": "18",
+        "erased_pairs": 1,
+        "witness": [
+          "18",
+          "82"
+        ],
+        "nonrecoverable_observations": {
+          "exactState": {
+            "states": [
+              "18",
+              "82"
+            ],
+            "values": [
+              18,
+              82
+            ]
+          }
+        }
+      },
+      {
+        "kind": "MergedStates",
+        "source_sha256": "a6582e9400e3bc867aec7ed86f1a3c89d436fcb48eed602837ad5b7821eeb5e8",
+        "states": [
+          "19",
+          "83"
+        ],
+        "id": "85a28dff941647549bc98c8144682bef1c010bf018c88a4428e5ed7e78d248da",
+        "target_state": "19",
+        "erased_pairs": 1,
+        "witness": [
+          "19",
+          "83"
+        ],
+        "nonrecoverable_observations": {
+          "exactState": {
+            "states": [
+              "19",
+              "83"
+            ],
+            "values": [
+              19,
+              83
+            ]
+          }
+        }
+      },
+      {
+        "kind": "MergedStates",
+        "source_sha256": "a6582e9400e3bc867aec7ed86f1a3c89d436fcb48eed602837ad5b7821eeb5e8",
+        "states": [
+          "2",
+          "66"
+        ],
+        "id": "6db02aad4423feb30791de1fc1425edc09ad77e19fa06a7a04d648303a973046",
+        "target_state": "2",
+        "erased_pairs": 1,
+        "witness": [
+          "2",
+          "66"
+        ],
+        "nonrecoverable_observations": {
+          "exactState": {
+            "states": [
+              "2",
+              "66"
+            ],
+            "values": [
+              2,
+              66
+            ]
+          }
+        }
+      },
+      {
+        "kind": "MergedStates",
+        "source_sha256": "a6582e9400e3bc867aec7ed86f1a3c89d436fcb48eed602837ad5b7821eeb5e8",
+        "states": [
+          "20",
+          "84"
+        ],
+        "id": "5c8621de195ef1725550bd6ebee700448ed96909e0202d7c0510e9b02a0e4abf",
+        "target_state": "20",
+        "erased_pairs": 1,
+        "witness": [
+          "20",
+          "84"
+        ],
+        "nonrecoverable_observations": {
+          "exactState": {
+            "states": [
+              "20",
+              "84"
+            ],
+            "values": [
+              20,
+              84
+            ]
+          }
+        }
+      },
+      {
+        "kind": "MergedStates",
+        "source_sha256": "a6582e9400e3bc867aec7ed86f1a3c89d436fcb48eed602837ad5b7821eeb5e8",
+        "states": [
+          "21",
+          "85"
+        ],
+        "id": "cfae8d512b29f98a6f48e663453d04ea9b8d59ca7261351b85441e8cc40ac0cd",
+        "target_state": "21",
+        "erased_pairs": 1,
+        "witness": [
+          "21",
+          "85"
+        ],
+        "nonrecoverable_observations": {
+          "exactState": {
+            "states": [
+              "21",
+              "85"
+            ],
+            "values": [
+              21,
+              85
+            ]
+          }
+        }
+      },
+      {
+        "kind": "MergedStates",
+        "source_sha256": "a6582e9400e3bc867aec7ed86f1a3c89d436fcb48eed602837ad5b7821eeb5e8",
+        "states": [
+          "22",
+          "86"
+        ],
+        "id": "0a3e8aeddd0a312ae3cc98eb7303846e97c3ec8ea5067b5704b352d4c2e276b3",
+        "target_state": "22",
+        "erased_pairs": 1,
+        "witness": [
+          "22",
+          "86"
+        ],
+        "nonrecoverable_observations": {
+          "exactState": {
+            "states": [
+              "22",
+              "86"
+            ],
+            "values": [
+              22,
+              86
+            ]
+          }
+        }
+      },
+      {
+        "kind": "MergedStates",
+        "source_sha256": "a6582e9400e3bc867aec7ed86f1a3c89d436fcb48eed602837ad5b7821eeb5e8",
+        "states": [
+          "23",
+          "87"
+        ],
+        "id": "cdb46a63ddf920aa575cc6fe37260e6ee9faf104f9eb4441681ff51138cebb5a",
+        "target_state": "23",
+        "erased_pairs": 1,
+        "witness": [
+          "23",
+          "87"
+        ],
+        "nonrecoverable_observations": {
+          "exactState": {
+            "states": [
+              "23",
+              "87"
+            ],
+            "values": [
+              23,
+              87
+            ]
+          }
+        }
+      },
+      {
+        "kind": "MergedStates",
+        "source_sha256": "a6582e9400e3bc867aec7ed86f1a3c89d436fcb48eed602837ad5b7821eeb5e8",
+        "states": [
+          "24",
+          "88"
+        ],
+        "id": "224635add70f0941ffd3c0b480ad0f3db9579455fc81baf197c041e4170d4904",
+        "target_state": "24",
+        "erased_pairs": 1,
+        "witness": [
+          "24",
+          "88"
+        ],
+        "nonrecoverable_observations": {
+          "exactState": {
+            "states": [
+              "24",
+              "88"
+            ],
+            "values": [
+              24,
+              88
+            ]
+          }
+        }
+      },
+      {
+        "kind": "MergedStates",
+        "source_sha256": "a6582e9400e3bc867aec7ed86f1a3c89d436fcb48eed602837ad5b7821eeb5e8",
+        "states": [
+          "25",
+          "89"
+        ],
+        "id": "cfa3366bfc1840e802f8387ddfeaf5aaa10085239cec2e8de7c87f423c1bbe9c",
+        "target_state": "25",
+        "erased_pairs": 1,
+        "witness": [
+          "25",
+          "89"
+        ],
+        "nonrecoverable_observations": {
+          "exactState": {
+            "states": [
+              "25",
+              "89"
+            ],
+            "values": [
+              25,
+              89
+            ]
+          }
+        }
+      },
+      {
+        "kind": "MergedStates",
+        "source_sha256": "a6582e9400e3bc867aec7ed86f1a3c89d436fcb48eed602837ad5b7821eeb5e8",
+        "states": [
+          "26",
+          "90"
+        ],
+        "id": "5ebc6565530c426018079d708242c8b42733d509958dc999d44768b4b2656622",
+        "target_state": "26",
+        "erased_pairs": 1,
+        "witness": [
+          "26",
+          "90"
+        ],
+        "nonrecoverable_observations": {
+          "exactState": {
+            "states": [
+              "26",
+              "90"
+            ],
+            "values": [
+              26,
+              90
+            ]
+          }
+        }
+      },
+      {
+        "kind": "MergedStates",
+        "source_sha256": "a6582e9400e3bc867aec7ed86f1a3c89d436fcb48eed602837ad5b7821eeb5e8",
+        "states": [
+          "27",
+          "91"
+        ],
+        "id": "ad75b49a82a8028dfae31ed0528b66f6a4a865533f1fa452256276c0d21d6564",
+        "target_state": "27",
+        "erased_pairs": 1,
+        "witness": [
+          "27",
+          "91"
+        ],
+        "nonrecoverable_observations": {
+          "exactState": {
+            "states": [
+              "27",
+              "91"
+            ],
+            "values": [
+              27,
+              91
+            ]
+          }
+        }
+      },
+      {
+        "kind": "MergedStates",
+        "source_sha256": "a6582e9400e3bc867aec7ed86f1a3c89d436fcb48eed602837ad5b7821eeb5e8",
+        "states": [
+          "28",
+          "92"
+        ],
+        "id": "dfc5949be8bf35ec87cb89c58ea37f17466bc69534dd5b2c75fea4ab40635e4d",
+        "target_state": "28",
+        "erased_pairs": 1,
+        "witness": [
+          "28",
+          "92"
+        ],
+        "nonrecoverable_observations": {
+          "exactState": {
+            "states": [
+              "28",
+              "92"
+            ],
+            "values": [
+              28,
+              92
+            ]
+          }
+        }
+      },
+      {
+        "kind": "MergedStates",
+        "source_sha256": "a6582e9400e3bc867aec7ed86f1a3c89d436fcb48eed602837ad5b7821eeb5e8",
+        "states": [
+          "29",
+          "93"
+        ],
+        "id": "6c28ab279006ba2d058c67246ce0538c1192f451db812f65a4188d51351c244e",
+        "target_state": "29",
+        "erased_pairs": 1,
+        "witness": [
+          "29",
+          "93"
+        ],
+        "nonrecoverable_observations": {
+          "exactState": {
+            "states": [
+              "29",
+              "93"
+            ],
+            "values": [
+              29,
+              93
+            ]
+          }
+        }
+      },
+      {
+        "kind": "MergedStates",
+        "source_sha256": "a6582e9400e3bc867aec7ed86f1a3c89d436fcb48eed602837ad5b7821eeb5e8",
+        "states": [
+          "3",
+          "67"
+        ],
+        "id": "8a8b6db1565153a8c3f380495cd6f36b4a0f36fc504027876f9a60d23d38cc63",
+        "target_state": "3",
+        "erased_pairs": 1,
+        "witness": [
+          "3",
+          "67"
+        ],
+        "nonrecoverable_observations": {
+          "exactState": {
+            "states": [
+              "3",
+              "67"
+            ],
+            "values": [
+              3,
+              67
+            ]
+          }
+        }
+      },
+      {
+        "kind": "MergedStates",
+        "source_sha256": "a6582e9400e3bc867aec7ed86f1a3c89d436fcb48eed602837ad5b7821eeb5e8",
+        "states": [
+          "30",
+          "94"
+        ],
+        "id": "d5e3510e5cec728404a0e7248d93cbb2f825b67b3f6313790f38e519bbe3a26c",
+        "target_state": "30",
+        "erased_pairs": 1,
+        "witness": [
+          "30",
+          "94"
+        ],
+        "nonrecoverable_observations": {
+          "exactState": {
+            "states": [
+              "30",
+              "94"
+            ],
+            "values": [
+              30,
+              94
+            ]
+          }
+        }
+      },
+      {
+        "kind": "MergedStates",
+        "source_sha256": "a6582e9400e3bc867aec7ed86f1a3c89d436fcb48eed602837ad5b7821eeb5e8",
+        "states": [
+          "31",
+          "95"
+        ],
+        "id": "d9be2cad4735fe9eba0abab03baf8d949f69a4ad1ef97e0c4445ea60930df4b7",
+        "target_state": "31",
+        "erased_pairs": 1,
+        "witness": [
+          "31",
+          "95"
+        ],
+        "nonrecoverable_observations": {
+          "exactState": {
+            "states": [
+              "31",
+              "95"
+            ],
+            "values": [
+              31,
+              95
+            ]
+          }
+        }
+      },
+      {
+        "kind": "MergedStates",
+        "source_sha256": "a6582e9400e3bc867aec7ed86f1a3c89d436fcb48eed602837ad5b7821eeb5e8",
+        "states": [
+          "32",
+          "96"
+        ],
+        "id": "877badf6744f32db26399fd511afd2cea3f6717caca00f758f6f7dc90b318a9c",
+        "target_state": "32",
+        "erased_pairs": 1,
+        "witness": [
+          "32",
+          "96"
+        ],
+        "nonrecoverable_observations": {
+          "exactState": {
+            "states": [
+              "32",
+              "96"
+            ],
+            "values": [
+              32,
+              96
+            ]
+          }
+        }
+      },
+      {
+        "kind": "MergedStates",
+        "source_sha256": "a6582e9400e3bc867aec7ed86f1a3c89d436fcb48eed602837ad5b7821eeb5e8",
+        "states": [
+          "33",
+          "97"
+        ],
+        "id": "fa961a1f885cff2007c2e8c062e77dbaad536d4cda2820b417796c22b1850dc9",
+        "target_state": "33",
+        "erased_pairs": 1,
+        "witness": [
+          "33",
+          "97"
+        ],
+        "nonrecoverable_observations": {
+          "exactState": {
+            "states": [
+              "33",
+              "97"
+            ],
+            "values": [
+              33,
+              97
+            ]
+          }
+        }
+      },
+      {
+        "kind": "MergedStates",
+        "source_sha256": "a6582e9400e3bc867aec7ed86f1a3c89d436fcb48eed602837ad5b7821eeb5e8",
+        "states": [
+          "34",
+          "98"
+        ],
+        "id": "ccebf601e9d79f245c8f0a6bd9229d0de781776cb596ad033db2666f4b72f1dc",
+        "target_state": "34",
+        "erased_pairs": 1,
+        "witness": [
+          "34",
+          "98"
+        ],
+        "nonrecoverable_observations": {
+          "exactState": {
+            "states": [
+              "34",
+              "98"
+            ],
+            "values": [
+              34,
+              98
+            ]
+          }
+        }
+      },
+      {
+        "kind": "MergedStates",
+        "source_sha256": "a6582e9400e3bc867aec7ed86f1a3c89d436fcb48eed602837ad5b7821eeb5e8",
+        "states": [
+          "35",
+          "99"
+        ],
+        "id": "b014c8915f3c7bf79c351f27596e92a624d8c6c560fb1f50312045a86868288b",
+        "target_state": "35",
+        "erased_pairs": 1,
+        "witness": [
+          "35",
+          "99"
+        ],
+        "nonrecoverable_observations": {
+          "exactState": {
+            "states": [
+              "35",
+              "99"
+            ],
+            "values": [
+              35,
+              99
+            ]
+          }
+        }
+      },
+      {
+        "kind": "MergedStates",
+        "source_sha256": "a6582e9400e3bc867aec7ed86f1a3c89d436fcb48eed602837ad5b7821eeb5e8",
+        "states": [
+          "100",
+          "36"
+        ],
+        "id": "a20b6177d71015dba089a97cbbbfff3884552f5225db99f79334453f34523406",
+        "target_state": "36",
+        "erased_pairs": 1,
+        "witness": [
+          "100",
+          "36"
+        ],
+        "nonrecoverable_observations": {
+          "exactState": {
+            "states": [
+              "100",
+              "36"
+            ],
+            "values": [
+              100,
+              36
+            ]
+          }
+        }
+      },
+      {
+        "kind": "MergedStates",
+        "source_sha256": "a6582e9400e3bc867aec7ed86f1a3c89d436fcb48eed602837ad5b7821eeb5e8",
+        "states": [
+          "101",
+          "37"
+        ],
+        "id": "b7155c33011398c508160917bcf479cf64d8e8c2d4c7a8e0103fc5bd39a6a31e",
+        "target_state": "37",
+        "erased_pairs": 1,
+        "witness": [
+          "101",
+          "37"
+        ],
+        "nonrecoverable_observations": {
+          "exactState": {
+            "states": [
+              "101",
+              "37"
+            ],
+            "values": [
+              101,
+              37
+            ]
+          }
+        }
+      },
+      {
+        "kind": "MergedStates",
+        "source_sha256": "a6582e9400e3bc867aec7ed86f1a3c89d436fcb48eed602837ad5b7821eeb5e8",
+        "states": [
+          "102",
+          "38"
+        ],
+        "id": "fcf795880a602bab24d6d98b345dc21a7f7e06e83d22e1cab499b08f3d6cbcbf",
+        "target_state": "38",
+        "erased_pairs": 1,
+        "witness": [
+          "102",
+          "38"
+        ],
+        "nonrecoverable_observations": {
+          "exactState": {
+            "states": [
+              "102",
+              "38"
+            ],
+            "values": [
+              102,
+              38
+            ]
+          }
+        }
+      },
+      {
+        "kind": "MergedStates",
+        "source_sha256": "a6582e9400e3bc867aec7ed86f1a3c89d436fcb48eed602837ad5b7821eeb5e8",
+        "states": [
+          "103",
+          "39"
+        ],
+        "id": "f0934b7b40a837ed2f2db03a84147ed6ee74f420dc7f97e7795c4d08dcd93dd0",
+        "target_state": "39",
+        "erased_pairs": 1,
+        "witness": [
+          "103",
+          "39"
+        ],
+        "nonrecoverable_observations": {
+          "exactState": {
+            "states": [
+              "103",
+              "39"
+            ],
+            "values": [
+              103,
+              39
+            ]
+          }
+        }
+      },
+      {
+        "kind": "MergedStates",
+        "source_sha256": "a6582e9400e3bc867aec7ed86f1a3c89d436fcb48eed602837ad5b7821eeb5e8",
+        "states": [
+          "4",
+          "68"
+        ],
+        "id": "c85dbaab49605e92e00d125cfb71203c16b7c35276813f80c4870413519f1298",
+        "target_state": "4",
+        "erased_pairs": 1,
+        "witness": [
+          "4",
+          "68"
+        ],
+        "nonrecoverable_observations": {
+          "exactState": {
+            "states": [
+              "4",
+              "68"
+            ],
+            "values": [
+              4,
+              68
+            ]
+          }
+        }
+      },
+      {
+        "kind": "MergedStates",
+        "source_sha256": "a6582e9400e3bc867aec7ed86f1a3c89d436fcb48eed602837ad5b7821eeb5e8",
+        "states": [
+          "104",
+          "40"
+        ],
+        "id": "58a17c51414b69f815fa9bff55cb4c2932406df4ad771ae6a3bf30013c9ccda5",
+        "target_state": "40",
+        "erased_pairs": 1,
+        "witness": [
+          "104",
+          "40"
+        ],
+        "nonrecoverable_observations": {
+          "exactState": {
+            "states": [
+              "104",
+              "40"
+            ],
+            "values": [
+              104,
+              40
+            ]
+          }
+        }
+      },
+      {
+        "kind": "MergedStates",
+        "source_sha256": "a6582e9400e3bc867aec7ed86f1a3c89d436fcb48eed602837ad5b7821eeb5e8",
+        "states": [
+          "105",
+          "41"
+        ],
+        "id": "87bd276a619efcd94269be485e427682a137ae1d09c60cc5cb355fd85caf3f30",
+        "target_state": "41",
+        "erased_pairs": 1,
+        "witness": [
+          "105",
+          "41"
+        ],
+        "nonrecoverable_observations": {
+          "exactState": {
+            "states": [
+              "105",
+              "41"
+            ],
+            "values": [
+              105,
+              41
+            ]
+          }
+        }
+      },
+      {
+        "kind": "MergedStates",
+        "source_sha256": "a6582e9400e3bc867aec7ed86f1a3c89d436fcb48eed602837ad5b7821eeb5e8",
+        "states": [
+          "106",
+          "42"
+        ],
+        "id": "8592138c1bbea568911ae95caa529477773bed97a5f49d243765153b54c89d65",
+        "target_state": "42",
+        "erased_pairs": 1,
+        "witness": [
+          "106",
+          "42"
+        ],
+        "nonrecoverable_observations": {
+          "exactState": {
+            "states": [
+              "106",
+              "42"
+            ],
+            "values": [
+              106,
+              42
+            ]
+          }
+        }
+      },
+      {
+        "kind": "MergedStates",
+        "source_sha256": "a6582e9400e3bc867aec7ed86f1a3c89d436fcb48eed602837ad5b7821eeb5e8",
+        "states": [
+          "107",
+          "43"
+        ],
+        "id": "52ed855c47faab4159897a983edd2ced8be085e04a9bff85b736b4d64d4bb53b",
+        "target_state": "43",
+        "erased_pairs": 1,
+        "witness": [
+          "107",
+          "43"
+        ],
+        "nonrecoverable_observations": {
+          "exactState": {
+            "states": [
+              "107",
+              "43"
+            ],
+            "values": [
+              107,
+              43
+            ]
+          }
+        }
+      },
+      {
+        "kind": "MergedStates",
+        "source_sha256": "a6582e9400e3bc867aec7ed86f1a3c89d436fcb48eed602837ad5b7821eeb5e8",
+        "states": [
+          "108",
+          "44"
+        ],
+        "id": "49e253a9c5489681ab6a31353823c4ed4c5c9503320b5cb11a6702a225ed9659",
+        "target_state": "44",
+        "erased_pairs": 1,
+        "witness": [
+          "108",
+          "44"
+        ],
+        "nonrecoverable_observations": {
+          "exactState": {
+            "states": [
+              "108",
+              "44"
+            ],
+            "values": [
+              108,
+              44
+            ]
+          }
+        }
+      },
+      {
+        "kind": "MergedStates",
+        "source_sha256": "a6582e9400e3bc867aec7ed86f1a3c89d436fcb48eed602837ad5b7821eeb5e8",
+        "states": [
+          "109",
+          "45"
+        ],
+        "id": "161ebc1697afa78e4da46bd187c77adb0f26ad0369bc63964616a12b92d612f8",
+        "target_state": "45",
+        "erased_pairs": 1,
+        "witness": [
+          "109",
+          "45"
+        ],
+        "nonrecoverable_observations": {
+          "exactState": {
+            "states": [
+              "109",
+              "45"
+            ],
+            "values": [
+              109,
+              45
+            ]
+          }
+        }
+      },
+      {
+        "kind": "MergedStates",
+        "source_sha256": "a6582e9400e3bc867aec7ed86f1a3c89d436fcb48eed602837ad5b7821eeb5e8",
+        "states": [
+          "110",
+          "46"
+        ],
+        "id": "880776a21036eca477345f99c52f985fd4309b9b1c4074c4eacc204b1695d42a",
+        "target_state": "46",
+        "erased_pairs": 1,
+        "witness": [
+          "110",
+          "46"
+        ],
+        "nonrecoverable_observations": {
+          "exactState": {
+            "states": [
+              "110",
+              "46"
+            ],
+            "values": [
+              110,
+              46
+            ]
+          }
+        }
+      },
+      {
+        "kind": "MergedStates",
+        "source_sha256": "a6582e9400e3bc867aec7ed86f1a3c89d436fcb48eed602837ad5b7821eeb5e8",
+        "states": [
+          "111",
+          "47"
+        ],
+        "id": "9304c107c465b0eb7d014b741c831665a2c2abe59141c09ba67a5925c032a73e",
+        "target_state": "47",
+        "erased_pairs": 1,
+        "witness": [
+          "111",
+          "47"
+        ],
+        "nonrecoverable_observations": {
+          "exactState": {
+            "states": [
+              "111",
+              "47"
+            ],
+            "values": [
+              111,
+              47
+            ]
+          }
+        }
+      },
+      {
+        "kind": "MergedStates",
+        "source_sha256": "a6582e9400e3bc867aec7ed86f1a3c89d436fcb48eed602837ad5b7821eeb5e8",
+        "states": [
+          "112",
+          "48"
+        ],
+        "id": "fc2a195fbb43fc0c23087942b8b1331900acff76d9f805d513a4ba0a17638e11",
+        "target_state": "48",
+        "erased_pairs": 1,
+        "witness": [
+          "112",
+          "48"
+        ],
+        "nonrecoverable_observations": {
+          "exactState": {
+            "states": [
+              "112",
+              "48"
+            ],
+            "values": [
+              112,
+              48
+            ]
+          }
+        }
+      },
+      {
+        "kind": "MergedStates",
+        "source_sha256": "a6582e9400e3bc867aec7ed86f1a3c89d436fcb48eed602837ad5b7821eeb5e8",
+        "states": [
+          "113",
+          "49"
+        ],
+        "id": "10e6f79507f1d657093b200fd8f093c6765106bd9ff7bb8077f00c5285e30c4b",
+        "target_state": "49",
+        "erased_pairs": 1,
+        "witness": [
+          "113",
+          "49"
+        ],
+        "nonrecoverable_observations": {
+          "exactState": {
+            "states": [
+              "113",
+              "49"
+            ],
+            "values": [
+              113,
+              49
+            ]
+          }
+        }
+      },
+      {
+        "kind": "MergedStates",
+        "source_sha256": "a6582e9400e3bc867aec7ed86f1a3c89d436fcb48eed602837ad5b7821eeb5e8",
+        "states": [
+          "5",
+          "69"
+        ],
+        "id": "3dd1090751e741af529d1c08e8b16077d1bf3a955a201d797a5c862484b593c1",
+        "target_state": "5",
+        "erased_pairs": 1,
+        "witness": [
+          "5",
+          "69"
+        ],
+        "nonrecoverable_observations": {
+          "exactState": {
+            "states": [
+              "5",
+              "69"
+            ],
+            "values": [
+              5,
+              69
+            ]
+          }
+        }
+      },
+      {
+        "kind": "MergedStates",
+        "source_sha256": "a6582e9400e3bc867aec7ed86f1a3c89d436fcb48eed602837ad5b7821eeb5e8",
+        "states": [
+          "114",
+          "50"
+        ],
+        "id": "cc33f61be06785dbd917ab9b16120a06d44abafaf504b6b151c416bd2d3d6a3a",
+        "target_state": "50",
+        "erased_pairs": 1,
+        "witness": [
+          "114",
+          "50"
+        ],
+        "nonrecoverable_observations": {
+          "exactState": {
+            "states": [
+              "114",
+              "50"
+            ],
+            "values": [
+              114,
+              50
+            ]
+          }
+        }
+      },
+      {
+        "kind": "MergedStates",
+        "source_sha256": "a6582e9400e3bc867aec7ed86f1a3c89d436fcb48eed602837ad5b7821eeb5e8",
+        "states": [
+          "115",
+          "51"
+        ],
+        "id": "280f4c8ff54ef4f4135a354705878fb5847c1b216f557251d0fb8d89504e843f",
+        "target_state": "51",
+        "erased_pairs": 1,
+        "witness": [
+          "115",
+          "51"
+        ],
+        "nonrecoverable_observations": {
+          "exactState": {
+            "states": [
+              "115",
+              "51"
+            ],
+            "values": [
+              115,
+              51
+            ]
+          }
+        }
+      },
+      {
+        "kind": "MergedStates",
+        "source_sha256": "a6582e9400e3bc867aec7ed86f1a3c89d436fcb48eed602837ad5b7821eeb5e8",
+        "states": [
+          "116",
+          "52"
+        ],
+        "id": "e072725d7031d4bbde01d6e05f41d4d34508c45aca0d94e13e88ac9db38f38f5",
+        "target_state": "52",
+        "erased_pairs": 1,
+        "witness": [
+          "116",
+          "52"
+        ],
+        "nonrecoverable_observations": {
+          "exactState": {
+            "states": [
+              "116",
+              "52"
+            ],
+            "values": [
+              116,
+              52
+            ]
+          }
+        }
+      },
+      {
+        "kind": "MergedStates",
+        "source_sha256": "a6582e9400e3bc867aec7ed86f1a3c89d436fcb48eed602837ad5b7821eeb5e8",
+        "states": [
+          "117",
+          "53"
+        ],
+        "id": "5f3eba00859c9641601f3e4132bc62ca180efe3cbc0aec1ec545819428607e14",
+        "target_state": "53",
+        "erased_pairs": 1,
+        "witness": [
+          "117",
+          "53"
+        ],
+        "nonrecoverable_observations": {
+          "exactState": {
+            "states": [
+              "117",
+              "53"
+            ],
+            "values": [
+              117,
+              53
+            ]
+          }
+        }
+      },
+      {
+        "kind": "MergedStates",
+        "source_sha256": "a6582e9400e3bc867aec7ed86f1a3c89d436fcb48eed602837ad5b7821eeb5e8",
+        "states": [
+          "118",
+          "54"
+        ],
+        "id": "052f4919ce17b0f10fdf551c1b1fd6078d0b1facce842b81d9628f186a0d8805",
+        "target_state": "54",
+        "erased_pairs": 1,
+        "witness": [
+          "118",
+          "54"
+        ],
+        "nonrecoverable_observations": {
+          "exactState": {
+            "states": [
+              "118",
+              "54"
+            ],
+            "values": [
+              118,
+              54
+            ]
+          }
+        }
+      },
+      {
+        "kind": "MergedStates",
+        "source_sha256": "a6582e9400e3bc867aec7ed86f1a3c89d436fcb48eed602837ad5b7821eeb5e8",
+        "states": [
+          "119",
+          "55"
+        ],
+        "id": "c6aa523cba6f85cc6b6113008c8ef29781dd6cddd3baabb33e09677f56c98618",
+        "target_state": "55",
+        "erased_pairs": 1,
+        "witness": [
+          "119",
+          "55"
+        ],
+        "nonrecoverable_observations": {
+          "exactState": {
+            "states": [
+              "119",
+              "55"
+            ],
+            "values": [
+              119,
+              55
+            ]
+          }
+        }
+      },
+      {
+        "kind": "MergedStates",
+        "source_sha256": "a6582e9400e3bc867aec7ed86f1a3c89d436fcb48eed602837ad5b7821eeb5e8",
+        "states": [
+          "120",
+          "56"
+        ],
+        "id": "e72d9d269b5a1501bc01f687f00a77c1063e3432cd5db198d5455ace208b5109",
+        "target_state": "56",
+        "erased_pairs": 1,
+        "witness": [
+          "120",
+          "56"
+        ],
+        "nonrecoverable_observations": {
+          "exactState": {
+            "states": [
+              "120",
+              "56"
+            ],
+            "values": [
+              120,
+              56
+            ]
+          }
+        }
+      },
+      {
+        "kind": "MergedStates",
+        "source_sha256": "a6582e9400e3bc867aec7ed86f1a3c89d436fcb48eed602837ad5b7821eeb5e8",
+        "states": [
+          "121",
+          "57"
+        ],
+        "id": "ab2aecde2358fddf97406b50d63cee5286134951ad9378807d2df13faf40ed5c",
+        "target_state": "57",
+        "erased_pairs": 1,
+        "witness": [
+          "121",
+          "57"
+        ],
+        "nonrecoverable_observations": {
+          "exactState": {
+            "states": [
+              "121",
+              "57"
+            ],
+            "values": [
+              121,
+              57
+            ]
+          }
+        }
+      },
+      {
+        "kind": "MergedStates",
+        "source_sha256": "a6582e9400e3bc867aec7ed86f1a3c89d436fcb48eed602837ad5b7821eeb5e8",
+        "states": [
+          "122",
+          "58"
+        ],
+        "id": "a89e5eb889575f9e3441d7390c6d1c034d84610852d55aba76f6846384b7c7a3",
+        "target_state": "58",
+        "erased_pairs": 1,
+        "witness": [
+          "122",
+          "58"
+        ],
+        "nonrecoverable_observations": {
+          "exactState": {
+            "states": [
+              "122",
+              "58"
+            ],
+            "values": [
+              122,
+              58
+            ]
+          }
+        }
+      },
+      {
+        "kind": "MergedStates",
+        "source_sha256": "a6582e9400e3bc867aec7ed86f1a3c89d436fcb48eed602837ad5b7821eeb5e8",
+        "states": [
+          "123",
+          "59"
+        ],
+        "id": "b216eafef6cc98a0f897ceda48588205120e5d8cd60363dee545bc1e72b16910",
+        "target_state": "59",
+        "erased_pairs": 1,
+        "witness": [
+          "123",
+          "59"
+        ],
+        "nonrecoverable_observations": {
+          "exactState": {
+            "states": [
+              "123",
+              "59"
+            ],
+            "values": [
+              123,
+              59
+            ]
+          }
+        }
+      },
+      {
+        "kind": "MergedStates",
+        "source_sha256": "a6582e9400e3bc867aec7ed86f1a3c89d436fcb48eed602837ad5b7821eeb5e8",
+        "states": [
+          "6",
+          "70"
+        ],
+        "id": "0c2097e57f87a266e659266c8747f328fe8a6c9825258c199c28e0642f3dcfef",
+        "target_state": "6",
+        "erased_pairs": 1,
+        "witness": [
+          "6",
+          "70"
+        ],
+        "nonrecoverable_observations": {
+          "exactState": {
+            "states": [
+              "6",
+              "70"
+            ],
+            "values": [
+              6,
+              70
+            ]
+          }
+        }
+      },
+      {
+        "kind": "MergedStates",
+        "source_sha256": "a6582e9400e3bc867aec7ed86f1a3c89d436fcb48eed602837ad5b7821eeb5e8",
+        "states": [
+          "124",
+          "60"
+        ],
+        "id": "cd56500f42e698bfbfa73b95d5b1f5c881c1b93fa28aa029b1c7efb4b94ca3d9",
+        "target_state": "60",
+        "erased_pairs": 1,
+        "witness": [
+          "124",
+          "60"
+        ],
+        "nonrecoverable_observations": {
+          "exactState": {
+            "states": [
+              "124",
+              "60"
+            ],
+            "values": [
+              124,
+              60
+            ]
+          }
+        }
+      },
+      {
+        "kind": "MergedStates",
+        "source_sha256": "a6582e9400e3bc867aec7ed86f1a3c89d436fcb48eed602837ad5b7821eeb5e8",
+        "states": [
+          "125",
+          "61"
+        ],
+        "id": "8e2400e66a914711951ef3e7ad1f20529c974fc3d0e367922b56cfc42358ad28",
+        "target_state": "61",
+        "erased_pairs": 1,
+        "witness": [
+          "125",
+          "61"
+        ],
+        "nonrecoverable_observations": {
+          "exactState": {
+            "states": [
+              "125",
+              "61"
+            ],
+            "values": [
+              125,
+              61
+            ]
+          }
+        }
+      },
+      {
+        "kind": "MergedStates",
+        "source_sha256": "a6582e9400e3bc867aec7ed86f1a3c89d436fcb48eed602837ad5b7821eeb5e8",
+        "states": [
+          "126",
+          "62"
+        ],
+        "id": "a274dfa1ea18180695f0f421b1d9395540c285028eacf5578980d9409285e7fc",
+        "target_state": "62",
+        "erased_pairs": 1,
+        "witness": [
+          "126",
+          "62"
+        ],
+        "nonrecoverable_observations": {
+          "exactState": {
+            "states": [
+              "126",
+              "62"
+            ],
+            "values": [
+              126,
+              62
+            ]
+          }
+        }
+      },
+      {
+        "kind": "MergedStates",
+        "source_sha256": "a6582e9400e3bc867aec7ed86f1a3c89d436fcb48eed602837ad5b7821eeb5e8",
+        "states": [
+          "127",
+          "63"
+        ],
+        "id": "23942a13c733adf58f2fcabebb490ea09822f2326a50434356c3621f373eb613",
+        "target_state": "63",
+        "erased_pairs": 1,
+        "witness": [
+          "127",
+          "63"
+        ],
+        "nonrecoverable_observations": {
+          "exactState": {
+            "states": [
+              "127",
+              "63"
+            ],
+            "values": [
+              127,
+              63
+            ]
+          }
+        }
+      },
+      {
+        "kind": "MergedStates",
+        "source_sha256": "a6582e9400e3bc867aec7ed86f1a3c89d436fcb48eed602837ad5b7821eeb5e8",
+        "states": [
+          "7",
+          "71"
+        ],
+        "id": "55986c821b30070dad7788349d8338a7ad04bc48a838b578237408928cfa529d",
+        "target_state": "7",
+        "erased_pairs": 1,
+        "witness": [
+          "7",
+          "71"
+        ],
+        "nonrecoverable_observations": {
+          "exactState": {
+            "states": [
+              "7",
+              "71"
+            ],
+            "values": [
+              7,
+              71
+            ]
+          }
+        }
+      },
+      {
+        "kind": "MergedStates",
+        "source_sha256": "a6582e9400e3bc867aec7ed86f1a3c89d436fcb48eed602837ad5b7821eeb5e8",
+        "states": [
+          "72",
+          "8"
+        ],
+        "id": "5f5f703a631d8dcfc29459856316b6e16a61a94d8051f075948614f4a48c5906",
+        "target_state": "8",
+        "erased_pairs": 1,
+        "witness": [
+          "72",
+          "8"
+        ],
+        "nonrecoverable_observations": {
+          "exactState": {
+            "states": [
+              "72",
+              "8"
+            ],
+            "values": [
+              72,
+              8
+            ]
+          }
+        }
+      },
+      {
+        "kind": "MergedStates",
+        "source_sha256": "a6582e9400e3bc867aec7ed86f1a3c89d436fcb48eed602837ad5b7821eeb5e8",
+        "states": [
+          "73",
+          "9"
+        ],
+        "id": "bed2246bcc4b435a3df0fe04c56864896d6e87a9b8ffdebcef86678b02f788b8",
+        "target_state": "9",
+        "erased_pairs": 1,
+        "witness": [
+          "73",
+          "9"
+        ],
+        "nonrecoverable_observations": {
+          "exactState": {
+            "states": [
+              "73",
+              "9"
+            ],
+            "values": [
+              73,
+              9
+            ]
+          }
+        }
+      }
+    ],
+    "erased_pairs": 64,
+    "scope": "All declared source states; distinctions of state identity under this map, not necessarily application behavior.",
+    "recoverability": "A source-state observation factors through this map iff it is constant on each fiber.",
+    "budget": "Separate bounded structural pass; equation budget does not limit fiber analysis."
+  },
+  "unresolved_assumptions": [],
+  "limits": [
+    "Finite deterministic tables with total state maps and unchanged input alphabets only.",
+    "Reasons and occasion are supplied explanations, not checked philosophical derivations.",
+    "Target-only observations and claims about minimality, timing, resources, or external reality are not checked.",
+    "Hashes bind content but do not authenticate the request or certify the checker.",
+    "This checker accepts a scoped abstraction; it does not apply changes to a program."
+  ]
+}

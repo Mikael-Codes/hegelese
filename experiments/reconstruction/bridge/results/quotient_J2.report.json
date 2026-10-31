@@ -1,0 +1,543 @@
+{
+  "checker": "hegelese-finite-checker/0.2",
+  "status": "ExhaustivelyChecked",
+  "accepted": true,
+  "request_sha256": "f5114c0dcfe68d61731f669fd153804db46629fd07f84c3d5418bf680017ada3",
+  "proposal_sha256": "4999cb00bf5bf363af520f96726765e49c0605c16338e45230a239d37978b758",
+  "source_sha256": "a6582e9400e3bc867aec7ed86f1a3c89d436fcb48eed602837ad5b7821eeb5e8",
+  "target_sha256": "d7b0cb709b501032f6fc348c5fc56021451673966e24077eff4953da9a8d7c72",
+  "source_spelling": "Upheaval",
+  "articulation": {
+    "status": "Complete",
+    "meaning": "Required fields supplied; prose is not verified.",
+    "occasion": {
+      "kind": "Rearticulation",
+      "explanation": "Compare natural augmentation-power quotients at the four-label object."
+    },
+    "dispositions": {
+      "initial": {
+        "action": "retain",
+        "reason": "The quotient sends zero to zero."
+      },
+      "step": {
+        "action": "retain",
+        "reason": "Addition descends through the linear quotient."
+      },
+      "observation:linear_t1": {
+        "action": "retain",
+        "reason": "Check this observation on every source vector."
+      },
+      "observation:linear_t2": {
+        "action": "retain",
+        "reason": "Check this observation on every source vector."
+      },
+      "observation:linear_t4": {
+        "action": "retain",
+        "reason": "Check this observation on every source vector."
+      },
+      "observation:exactState": {
+        "action": "withdraw",
+        "reason": "Full vector identity is not part of the positive-case request."
+      }
+    }
+  },
+  "evidence": {
+    "status": "ExhaustivelyChecked",
+    "domain": "All declared source states and inputs",
+    "source_states": [
+      "0",
+      "1",
+      "2",
+      "3",
+      "4",
+      "5",
+      "6",
+      "7",
+      "8",
+      "9",
+      "10",
+      "11",
+      "12",
+      "13",
+      "14",
+      "15",
+      "16",
+      "17",
+      "18",
+      "19",
+      "20",
+      "21",
+      "22",
+      "23",
+      "24",
+      "25",
+      "26",
+      "27",
+      "28",
+      "29",
+      "30",
+      "31",
+      "32",
+      "33",
+      "34",
+      "35",
+      "36",
+      "37",
+      "38",
+      "39",
+      "40",
+      "41",
+      "42",
+      "43",
+      "44",
+      "45",
+      "46",
+      "47",
+      "48",
+      "49",
+      "50",
+      "51",
+      "52",
+      "53",
+      "54",
+      "55",
+      "56",
+      "57",
+      "58",
+      "59",
+      "60",
+      "61",
+      "62",
+      "63",
+      "64",
+      "65",
+      "66",
+      "67",
+      "68",
+      "69",
+      "70",
+      "71",
+      "72",
+      "73",
+      "74",
+      "75",
+      "76",
+      "77",
+      "78",
+      "79",
+      "80",
+      "81",
+      "82",
+      "83",
+      "84",
+      "85",
+      "86",
+      "87",
+      "88",
+      "89",
+      "90",
+      "91",
+      "92",
+      "93",
+      "94",
+      "95",
+      "96",
+      "97",
+      "98",
+      "99",
+      "100",
+      "101",
+      "102",
+      "103",
+      "104",
+      "105",
+      "106",
+      "107",
+      "108",
+      "109",
+      "110",
+      "111",
+      "112",
+      "113",
+      "114",
+      "115",
+      "116",
+      "117",
+      "118",
+      "119",
+      "120",
+      "121",
+      "122",
+      "123",
+      "124",
+      "125",
+      "126",
+      "127"
+    ],
+    "inputs": [
+      "add_t1",
+      "add_t2",
+      "add_t3",
+      "add_t4",
+      "add_t5",
+      "add_t6",
+      "add_t7"
+    ],
+    "observations": [
+      "linear_t1",
+      "linear_t2",
+      "linear_t4"
+    ],
+    "checks_total": 1281,
+    "checks_completed": 1281,
+    "budget_exhausted": false,
+    "failures": 0,
+    "counterexamples": [],
+    "counterexamples_omitted": 0
+  },
+  "structural_loss": {
+    "status": "ExhaustivelyDerived",
+    "groups": [
+      {
+        "kind": "MergedStates",
+        "source_sha256": "a6582e9400e3bc867aec7ed86f1a3c89d436fcb48eed602837ad5b7821eeb5e8",
+        "states": [
+          "0",
+          "100",
+          "112",
+          "116",
+          "16",
+          "20",
+          "32",
+          "36",
+          "4",
+          "48",
+          "52",
+          "64",
+          "68",
+          "80",
+          "84",
+          "96"
+        ],
+        "id": "ac902beff7216408427c15d9deee2de3c05503d1da091f2d82df95c553fd1763",
+        "target_state": "0",
+        "erased_pairs": 120,
+        "witness": [
+          "0",
+          "100"
+        ],
+        "nonrecoverable_observations": {
+          "exactState": {
+            "states": [
+              "0",
+              "100"
+            ],
+            "values": [
+              0,
+              100
+            ]
+          }
+        }
+      },
+      {
+        "kind": "MergedStates",
+        "source_sha256": "a6582e9400e3bc867aec7ed86f1a3c89d436fcb48eed602837ad5b7821eeb5e8",
+        "states": [
+          "1",
+          "101",
+          "113",
+          "117",
+          "17",
+          "21",
+          "33",
+          "37",
+          "49",
+          "5",
+          "53",
+          "65",
+          "69",
+          "81",
+          "85",
+          "97"
+        ],
+        "id": "e86b42bf9691f6e62b8579ee9fc2d9e69ad4c9ae7de2aaf53e6b38b481cec257",
+        "target_state": "1",
+        "erased_pairs": 120,
+        "witness": [
+          "1",
+          "101"
+        ],
+        "nonrecoverable_observations": {
+          "exactState": {
+            "states": [
+              "1",
+              "101"
+            ],
+            "values": [
+              1,
+              101
+            ]
+          }
+        }
+      },
+      {
+        "kind": "MergedStates",
+        "source_sha256": "a6582e9400e3bc867aec7ed86f1a3c89d436fcb48eed602837ad5b7821eeb5e8",
+        "states": [
+          "102",
+          "114",
+          "118",
+          "18",
+          "2",
+          "22",
+          "34",
+          "38",
+          "50",
+          "54",
+          "6",
+          "66",
+          "70",
+          "82",
+          "86",
+          "98"
+        ],
+        "id": "560a077cf54efb025a25574b102b30a0ec9af2f993e3f1fadb17081ea5991d8e",
+        "target_state": "2",
+        "erased_pairs": 120,
+        "witness": [
+          "102",
+          "114"
+        ],
+        "nonrecoverable_observations": {
+          "exactState": {
+            "states": [
+              "102",
+              "114"
+            ],
+            "values": [
+              102,
+              114
+            ]
+          }
+        }
+      },
+      {
+        "kind": "MergedStates",
+        "source_sha256": "a6582e9400e3bc867aec7ed86f1a3c89d436fcb48eed602837ad5b7821eeb5e8",
+        "states": [
+          "103",
+          "115",
+          "119",
+          "19",
+          "23",
+          "3",
+          "35",
+          "39",
+          "51",
+          "55",
+          "67",
+          "7",
+          "71",
+          "83",
+          "87",
+          "99"
+        ],
+        "id": "113e650bf88b5af31aa6801455cc7a989f91646354fef863125f624a380e919e",
+        "target_state": "3",
+        "erased_pairs": 120,
+        "witness": [
+          "103",
+          "115"
+        ],
+        "nonrecoverable_observations": {
+          "exactState": {
+            "states": [
+              "103",
+              "115"
+            ],
+            "values": [
+              103,
+              115
+            ]
+          }
+        }
+      },
+      {
+        "kind": "MergedStates",
+        "source_sha256": "a6582e9400e3bc867aec7ed86f1a3c89d436fcb48eed602837ad5b7821eeb5e8",
+        "states": [
+          "104",
+          "108",
+          "12",
+          "120",
+          "124",
+          "24",
+          "28",
+          "40",
+          "44",
+          "56",
+          "60",
+          "72",
+          "76",
+          "8",
+          "88",
+          "92"
+        ],
+        "id": "40b08506316729058aca51d36206054406a36972be8db95f483bdbf480d647b9",
+        "target_state": "4",
+        "erased_pairs": 120,
+        "witness": [
+          "104",
+          "108"
+        ],
+        "nonrecoverable_observations": {
+          "exactState": {
+            "states": [
+              "104",
+              "108"
+            ],
+            "values": [
+              104,
+              108
+            ]
+          }
+        }
+      },
+      {
+        "kind": "MergedStates",
+        "source_sha256": "a6582e9400e3bc867aec7ed86f1a3c89d436fcb48eed602837ad5b7821eeb5e8",
+        "states": [
+          "105",
+          "109",
+          "121",
+          "125",
+          "13",
+          "25",
+          "29",
+          "41",
+          "45",
+          "57",
+          "61",
+          "73",
+          "77",
+          "89",
+          "9",
+          "93"
+        ],
+        "id": "a2c59b2786227f50a6aa17aa73973c6e508484a309cae7a916dc0f1e4cc367e5",
+        "target_state": "5",
+        "erased_pairs": 120,
+        "witness": [
+          "105",
+          "109"
+        ],
+        "nonrecoverable_observations": {
+          "exactState": {
+            "states": [
+              "105",
+              "109"
+            ],
+            "values": [
+              105,
+              109
+            ]
+          }
+        }
+      },
+      {
+        "kind": "MergedStates",
+        "source_sha256": "a6582e9400e3bc867aec7ed86f1a3c89d436fcb48eed602837ad5b7821eeb5e8",
+        "states": [
+          "10",
+          "106",
+          "110",
+          "122",
+          "126",
+          "14",
+          "26",
+          "30",
+          "42",
+          "46",
+          "58",
+          "62",
+          "74",
+          "78",
+          "90",
+          "94"
+        ],
+        "id": "545335381473569194a27a28c8fdbc643ec22e79f04ae33d57239f23265b99ed",
+        "target_state": "6",
+        "erased_pairs": 120,
+        "witness": [
+          "10",
+          "106"
+        ],
+        "nonrecoverable_observations": {
+          "exactState": {
+            "states": [
+              "10",
+              "106"
+            ],
+            "values": [
+              10,
+              106
+            ]
+          }
+        }
+      },
+      {
+        "kind": "MergedStates",
+        "source_sha256": "a6582e9400e3bc867aec7ed86f1a3c89d436fcb48eed602837ad5b7821eeb5e8",
+        "states": [
+          "107",
+          "11",
+          "111",
+          "123",
+          "127",
+          "15",
+          "27",
+          "31",
+          "43",
+          "47",
+          "59",
+          "63",
+          "75",
+          "79",
+          "91",
+          "95"
+        ],
+        "id": "a67154dcc776c6b479ba6e45e1077ef1c1054f9b098984e80b05dd6f928627ed",
+        "target_state": "7",
+        "erased_pairs": 120,
+        "witness": [
+          "107",
+          "11"
+        ],
+        "nonrecoverable_observations": {
+          "exactState": {
+            "states": [
+              "107",
+              "11"
+            ],
+            "values": [
+              107,
+              11
+            ]
+          }
+        }
+      }
+    ],
+    "erased_pairs": 960,
+    "scope": "All declared source states; distinctions of state identity under this map, not necessarily application behavior.",
+    "recoverability": "A source-state observation factors through this map iff it is constant on each fiber.",
+    "budget": "Separate bounded structural pass; equation budget does not limit fiber analysis."
+  },
+  "unresolved_assumptions": [],
+  "limits": [
+    "Finite deterministic tables with total state maps and unchanged input alphabets only.",
+    "Reasons and occasion are supplied explanations, not checked philosophical derivations.",
+    "Target-only observations and claims about minimality, timing, resources, or external reality are not checked.",
+    "Hashes bind content but do not authenticate the request or certify the checker.",
+    "This checker accepts a scoped abstraction; it does not apply changes to a program."
+  ]
+}

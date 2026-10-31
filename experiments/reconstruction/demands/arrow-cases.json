@@ -1,0 +1,7691 @@
+[
+  {
+    "axis_sizes": [
+      1
+    ],
+    "source_states": 1,
+    "distinct_joint_images": 1,
+    "joint_surjective": true,
+    "endpoint_surjective": true,
+    "feasible_quotients": 1,
+    "finest_quotients": 1,
+    "universal_quotient_exists": true,
+    "intersection_feasible": true,
+    "minimal_kernels": [
+      [
+        [
+          0
+        ],
+        [
+          0
+        ]
+      ]
+    ],
+    "intersection_kernel": [
+      [
+        0
+      ],
+      [
+        0
+      ]
+    ],
+    "images": [
+      0
+    ],
+    "all_equivalence_pairs_examined": 1
+  },
+  {
+    "axis_sizes": [
+      1
+    ],
+    "source_states": 2,
+    "distinct_joint_images": 1,
+    "joint_surjective": true,
+    "endpoint_surjective": true,
+    "feasible_quotients": 1,
+    "finest_quotients": 1,
+    "universal_quotient_exists": true,
+    "intersection_feasible": true,
+    "minimal_kernels": [
+      [
+        [
+          0,
+          0
+        ],
+        [
+          0
+        ]
+      ]
+    ],
+    "intersection_kernel": [
+      [
+        0,
+        0
+      ],
+      [
+        0
+      ]
+    ],
+    "images": [
+      0,
+      0
+    ],
+    "all_equivalence_pairs_examined": 2
+  },
+  {
+    "axis_sizes": [
+      1
+    ],
+    "source_states": 3,
+    "distinct_joint_images": 1,
+    "joint_surjective": true,
+    "endpoint_surjective": true,
+    "feasible_quotients": 1,
+    "finest_quotients": 1,
+    "universal_quotient_exists": true,
+    "intersection_feasible": true,
+    "minimal_kernels": [
+      [
+        [
+          0,
+          0,
+          0
+        ],
+        [
+          0
+        ]
+      ]
+    ],
+    "intersection_kernel": [
+      [
+        0,
+        0,
+        0
+      ],
+      [
+        0
+      ]
+    ],
+    "images": [
+      0,
+      0,
+      0
+    ],
+    "all_equivalence_pairs_examined": 5
+  },
+  {
+    "axis_sizes": [
+      1
+    ],
+    "source_states": 4,
+    "distinct_joint_images": 1,
+    "joint_surjective": true,
+    "endpoint_surjective": true,
+    "feasible_quotients": 1,
+    "finest_quotients": 1,
+    "universal_quotient_exists": true,
+    "intersection_feasible": true,
+    "minimal_kernels": [
+      [
+        [
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0
+        ]
+      ]
+    ],
+    "intersection_kernel": [
+      [
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0
+      ]
+    ],
+    "images": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "all_equivalence_pairs_examined": 15
+  },
+  {
+    "axis_sizes": [
+      2
+    ],
+    "source_states": 1,
+    "distinct_joint_images": 1,
+    "joint_surjective": false,
+    "endpoint_surjective": false,
+    "feasible_quotients": 1,
+    "finest_quotients": 1,
+    "universal_quotient_exists": true,
+    "intersection_feasible": true,
+    "minimal_kernels": [
+      [
+        [
+          0
+        ],
+        [
+          0,
+          0
+        ]
+      ]
+    ],
+    "intersection_kernel": [
+      [
+        0
+      ],
+      [
+        0,
+        0
+      ]
+    ],
+    "images": [
+      0
+    ],
+    "all_equivalence_pairs_examined": 2
+  },
+  {
+    "axis_sizes": [
+      2
+    ],
+    "source_states": 1,
+    "distinct_joint_images": 1,
+    "joint_surjective": false,
+    "endpoint_surjective": false,
+    "feasible_quotients": 1,
+    "finest_quotients": 1,
+    "universal_quotient_exists": true,
+    "intersection_feasible": true,
+    "minimal_kernels": [
+      [
+        [
+          0
+        ],
+        [
+          0,
+          0
+        ]
+      ]
+    ],
+    "intersection_kernel": [
+      [
+        0
+      ],
+      [
+        0,
+        0
+      ]
+    ],
+    "images": [
+      1
+    ],
+    "all_equivalence_pairs_examined": 2
+  },
+  {
+    "axis_sizes": [
+      2
+    ],
+    "source_states": 2,
+    "distinct_joint_images": 1,
+    "joint_surjective": false,
+    "endpoint_surjective": false,
+    "feasible_quotients": 1,
+    "finest_quotients": 1,
+    "universal_quotient_exists": true,
+    "intersection_feasible": true,
+    "minimal_kernels": [
+      [
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          0
+        ]
+      ]
+    ],
+    "intersection_kernel": [
+      [
+        0,
+        0
+      ],
+      [
+        0,
+        0
+      ]
+    ],
+    "images": [
+      0,
+      0
+    ],
+    "all_equivalence_pairs_examined": 4
+  },
+  {
+    "axis_sizes": [
+      2
+    ],
+    "source_states": 2,
+    "distinct_joint_images": 2,
+    "joint_surjective": true,
+    "endpoint_surjective": true,
+    "feasible_quotients": 2,
+    "finest_quotients": 1,
+    "universal_quotient_exists": true,
+    "intersection_feasible": true,
+    "minimal_kernels": [
+      [
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          1
+        ]
+      ]
+    ],
+    "intersection_kernel": [
+      [
+        0,
+        1
+      ],
+      [
+        0,
+        1
+      ]
+    ],
+    "images": [
+      0,
+      1
+    ],
+    "all_equivalence_pairs_examined": 4
+  },
+  {
+    "axis_sizes": [
+      2
+    ],
+    "source_states": 2,
+    "distinct_joint_images": 1,
+    "joint_surjective": false,
+    "endpoint_surjective": false,
+    "feasible_quotients": 1,
+    "finest_quotients": 1,
+    "universal_quotient_exists": true,
+    "intersection_feasible": true,
+    "minimal_kernels": [
+      [
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          0
+        ]
+      ]
+    ],
+    "intersection_kernel": [
+      [
+        0,
+        0
+      ],
+      [
+        0,
+        0
+      ]
+    ],
+    "images": [
+      1,
+      1
+    ],
+    "all_equivalence_pairs_examined": 4
+  },
+  {
+    "axis_sizes": [
+      2
+    ],
+    "source_states": 3,
+    "distinct_joint_images": 1,
+    "joint_surjective": false,
+    "endpoint_surjective": false,
+    "feasible_quotients": 1,
+    "finest_quotients": 1,
+    "universal_quotient_exists": true,
+    "intersection_feasible": true,
+    "minimal_kernels": [
+      [
+        [
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0
+        ]
+      ]
+    ],
+    "intersection_kernel": [
+      [
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0
+      ]
+    ],
+    "images": [
+      0,
+      0,
+      0
+    ],
+    "all_equivalence_pairs_examined": 10
+  },
+  {
+    "axis_sizes": [
+      2
+    ],
+    "source_states": 3,
+    "distinct_joint_images": 2,
+    "joint_surjective": true,
+    "endpoint_surjective": true,
+    "feasible_quotients": 2,
+    "finest_quotients": 1,
+    "universal_quotient_exists": true,
+    "intersection_feasible": true,
+    "minimal_kernels": [
+      [
+        [
+          0,
+          0,
+          1
+        ],
+        [
+          0,
+          1
+        ]
+      ]
+    ],
+    "intersection_kernel": [
+      [
+        0,
+        0,
+        1
+      ],
+      [
+        0,
+        1
+      ]
+    ],
+    "images": [
+      0,
+      0,
+      1
+    ],
+    "all_equivalence_pairs_examined": 10
+  },
+  {
+    "axis_sizes": [
+      2
+    ],
+    "source_states": 3,
+    "distinct_joint_images": 2,
+    "joint_surjective": true,
+    "endpoint_surjective": true,
+    "feasible_quotients": 2,
+    "finest_quotients": 1,
+    "universal_quotient_exists": true,
+    "intersection_feasible": true,
+    "minimal_kernels": [
+      [
+        [
+          0,
+          1,
+          1
+        ],
+        [
+          0,
+          1
+        ]
+      ]
+    ],
+    "intersection_kernel": [
+      [
+        0,
+        1,
+        1
+      ],
+      [
+        0,
+        1
+      ]
+    ],
+    "images": [
+      0,
+      1,
+      1
+    ],
+    "all_equivalence_pairs_examined": 10
+  },
+  {
+    "axis_sizes": [
+      2
+    ],
+    "source_states": 3,
+    "distinct_joint_images": 1,
+    "joint_surjective": false,
+    "endpoint_surjective": false,
+    "feasible_quotients": 1,
+    "finest_quotients": 1,
+    "universal_quotient_exists": true,
+    "intersection_feasible": true,
+    "minimal_kernels": [
+      [
+        [
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0
+        ]
+      ]
+    ],
+    "intersection_kernel": [
+      [
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0
+      ]
+    ],
+    "images": [
+      1,
+      1,
+      1
+    ],
+    "all_equivalence_pairs_examined": 10
+  },
+  {
+    "axis_sizes": [
+      2
+    ],
+    "source_states": 4,
+    "distinct_joint_images": 1,
+    "joint_surjective": false,
+    "endpoint_surjective": false,
+    "feasible_quotients": 1,
+    "finest_quotients": 1,
+    "universal_quotient_exists": true,
+    "intersection_feasible": true,
+    "minimal_kernels": [
+      [
+        [
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0
+        ]
+      ]
+    ],
+    "intersection_kernel": [
+      [
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0
+      ]
+    ],
+    "images": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "all_equivalence_pairs_examined": 30
+  },
+  {
+    "axis_sizes": [
+      2
+    ],
+    "source_states": 4,
+    "distinct_joint_images": 2,
+    "joint_surjective": true,
+    "endpoint_surjective": true,
+    "feasible_quotients": 2,
+    "finest_quotients": 1,
+    "universal_quotient_exists": true,
+    "intersection_feasible": true,
+    "minimal_kernels": [
+      [
+        [
+          0,
+          0,
+          0,
+          1
+        ],
+        [
+          0,
+          1
+        ]
+      ]
+    ],
+    "intersection_kernel": [
+      [
+        0,
+        0,
+        0,
+        1
+      ],
+      [
+        0,
+        1
+      ]
+    ],
+    "images": [
+      0,
+      0,
+      0,
+      1
+    ],
+    "all_equivalence_pairs_examined": 30
+  },
+  {
+    "axis_sizes": [
+      2
+    ],
+    "source_states": 4,
+    "distinct_joint_images": 2,
+    "joint_surjective": true,
+    "endpoint_surjective": true,
+    "feasible_quotients": 2,
+    "finest_quotients": 1,
+    "universal_quotient_exists": true,
+    "intersection_feasible": true,
+    "minimal_kernels": [
+      [
+        [
+          0,
+          0,
+          1,
+          1
+        ],
+        [
+          0,
+          1
+        ]
+      ]
+    ],
+    "intersection_kernel": [
+      [
+        0,
+        0,
+        1,
+        1
+      ],
+      [
+        0,
+        1
+      ]
+    ],
+    "images": [
+      0,
+      0,
+      1,
+      1
+    ],
+    "all_equivalence_pairs_examined": 30
+  },
+  {
+    "axis_sizes": [
+      2
+    ],
+    "source_states": 4,
+    "distinct_joint_images": 2,
+    "joint_surjective": true,
+    "endpoint_surjective": true,
+    "feasible_quotients": 2,
+    "finest_quotients": 1,
+    "universal_quotient_exists": true,
+    "intersection_feasible": true,
+    "minimal_kernels": [
+      [
+        [
+          0,
+          1,
+          1,
+          1
+        ],
+        [
+          0,
+          1
+        ]
+      ]
+    ],
+    "intersection_kernel": [
+      [
+        0,
+        1,
+        1,
+        1
+      ],
+      [
+        0,
+        1
+      ]
+    ],
+    "images": [
+      0,
+      1,
+      1,
+      1
+    ],
+    "all_equivalence_pairs_examined": 30
+  },
+  {
+    "axis_sizes": [
+      2
+    ],
+    "source_states": 4,
+    "distinct_joint_images": 1,
+    "joint_surjective": false,
+    "endpoint_surjective": false,
+    "feasible_quotients": 1,
+    "finest_quotients": 1,
+    "universal_quotient_exists": true,
+    "intersection_feasible": true,
+    "minimal_kernels": [
+      [
+        [
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0
+        ]
+      ]
+    ],
+    "intersection_kernel": [
+      [
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0
+      ]
+    ],
+    "images": [
+      1,
+      1,
+      1,
+      1
+    ],
+    "all_equivalence_pairs_examined": 30
+  },
+  {
+    "axis_sizes": [
+      3
+    ],
+    "source_states": 1,
+    "distinct_joint_images": 1,
+    "joint_surjective": false,
+    "endpoint_surjective": false,
+    "feasible_quotients": 1,
+    "finest_quotients": 1,
+    "universal_quotient_exists": true,
+    "intersection_feasible": true,
+    "minimal_kernels": [
+      [
+        [
+          0
+        ],
+        [
+          0,
+          0,
+          0
+        ]
+      ]
+    ],
+    "intersection_kernel": [
+      [
+        0
+      ],
+      [
+        0,
+        0,
+        0
+      ]
+    ],
+    "images": [
+      0
+    ],
+    "all_equivalence_pairs_examined": 5
+  },
+  {
+    "axis_sizes": [
+      3
+    ],
+    "source_states": 1,
+    "distinct_joint_images": 1,
+    "joint_surjective": false,
+    "endpoint_surjective": false,
+    "feasible_quotients": 1,
+    "finest_quotients": 1,
+    "universal_quotient_exists": true,
+    "intersection_feasible": true,
+    "minimal_kernels": [
+      [
+        [
+          0
+        ],
+        [
+          0,
+          0,
+          0
+        ]
+      ]
+    ],
+    "intersection_kernel": [
+      [
+        0
+      ],
+      [
+        0,
+        0,
+        0
+      ]
+    ],
+    "images": [
+      1
+    ],
+    "all_equivalence_pairs_examined": 5
+  },
+  {
+    "axis_sizes": [
+      3
+    ],
+    "source_states": 1,
+    "distinct_joint_images": 1,
+    "joint_surjective": false,
+    "endpoint_surjective": false,
+    "feasible_quotients": 1,
+    "finest_quotients": 1,
+    "universal_quotient_exists": true,
+    "intersection_feasible": true,
+    "minimal_kernels": [
+      [
+        [
+          0
+        ],
+        [
+          0,
+          0,
+          0
+        ]
+      ]
+    ],
+    "intersection_kernel": [
+      [
+        0
+      ],
+      [
+        0,
+        0,
+        0
+      ]
+    ],
+    "images": [
+      2
+    ],
+    "all_equivalence_pairs_examined": 5
+  },
+  {
+    "axis_sizes": [
+      3
+    ],
+    "source_states": 2,
+    "distinct_joint_images": 1,
+    "joint_surjective": false,
+    "endpoint_surjective": false,
+    "feasible_quotients": 1,
+    "finest_quotients": 1,
+    "universal_quotient_exists": true,
+    "intersection_feasible": true,
+    "minimal_kernels": [
+      [
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0
+        ]
+      ]
+    ],
+    "intersection_kernel": [
+      [
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0
+      ]
+    ],
+    "images": [
+      0,
+      0
+    ],
+    "all_equivalence_pairs_examined": 10
+  },
+  {
+    "axis_sizes": [
+      3
+    ],
+    "source_states": 2,
+    "distinct_joint_images": 2,
+    "joint_surjective": false,
+    "endpoint_surjective": false,
+    "feasible_quotients": 3,
+    "finest_quotients": 2,
+    "universal_quotient_exists": false,
+    "intersection_feasible": false,
+    "minimal_kernels": [
+      [
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          1,
+          0
+        ]
+      ],
+      [
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          1,
+          1
+        ]
+      ]
+    ],
+    "intersection_kernel": [
+      [
+        0,
+        1
+      ],
+      [
+        0,
+        1,
+        2
+      ]
+    ],
+    "images": [
+      0,
+      1
+    ],
+    "all_equivalence_pairs_examined": 10
+  },
+  {
+    "axis_sizes": [
+      3
+    ],
+    "source_states": 2,
+    "distinct_joint_images": 2,
+    "joint_surjective": false,
+    "endpoint_surjective": false,
+    "feasible_quotients": 3,
+    "finest_quotients": 2,
+    "universal_quotient_exists": false,
+    "intersection_feasible": false,
+    "minimal_kernels": [
+      [
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          0,
+          1
+        ]
+      ],
+      [
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          1,
+          1
+        ]
+      ]
+    ],
+    "intersection_kernel": [
+      [
+        0,
+        1
+      ],
+      [
+        0,
+        1,
+        2
+      ]
+    ],
+    "images": [
+      0,
+      2
+    ],
+    "all_equivalence_pairs_examined": 10
+  },
+  {
+    "axis_sizes": [
+      3
+    ],
+    "source_states": 2,
+    "distinct_joint_images": 1,
+    "joint_surjective": false,
+    "endpoint_surjective": false,
+    "feasible_quotients": 1,
+    "finest_quotients": 1,
+    "universal_quotient_exists": true,
+    "intersection_feasible": true,
+    "minimal_kernels": [
+      [
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0
+        ]
+      ]
+    ],
+    "intersection_kernel": [
+      [
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0
+      ]
+    ],
+    "images": [
+      1,
+      1
+    ],
+    "all_equivalence_pairs_examined": 10
+  },
+  {
+    "axis_sizes": [
+      3
+    ],
+    "source_states": 2,
+    "distinct_joint_images": 2,
+    "joint_surjective": false,
+    "endpoint_surjective": false,
+    "feasible_quotients": 3,
+    "finest_quotients": 2,
+    "universal_quotient_exists": false,
+    "intersection_feasible": false,
+    "minimal_kernels": [
+      [
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          0,
+          1
+        ]
+      ],
+      [
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          1,
+          0
+        ]
+      ]
+    ],
+    "intersection_kernel": [
+      [
+        0,
+        1
+      ],
+      [
+        0,
+        1,
+        2
+      ]
+    ],
+    "images": [
+      1,
+      2
+    ],
+    "all_equivalence_pairs_examined": 10
+  },
+  {
+    "axis_sizes": [
+      3
+    ],
+    "source_states": 2,
+    "distinct_joint_images": 1,
+    "joint_surjective": false,
+    "endpoint_surjective": false,
+    "feasible_quotients": 1,
+    "finest_quotients": 1,
+    "universal_quotient_exists": true,
+    "intersection_feasible": true,
+    "minimal_kernels": [
+      [
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0
+        ]
+      ]
+    ],
+    "intersection_kernel": [
+      [
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0
+      ]
+    ],
+    "images": [
+      2,
+      2
+    ],
+    "all_equivalence_pairs_examined": 10
+  },
+  {
+    "axis_sizes": [
+      3
+    ],
+    "source_states": 3,
+    "distinct_joint_images": 1,
+    "joint_surjective": false,
+    "endpoint_surjective": false,
+    "feasible_quotients": 1,
+    "finest_quotients": 1,
+    "universal_quotient_exists": true,
+    "intersection_feasible": true,
+    "minimal_kernels": [
+      [
+        [
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0
+        ]
+      ]
+    ],
+    "intersection_kernel": [
+      [
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0
+      ]
+    ],
+    "images": [
+      0,
+      0,
+      0
+    ],
+    "all_equivalence_pairs_examined": 25
+  },
+  {
+    "axis_sizes": [
+      3
+    ],
+    "source_states": 3,
+    "distinct_joint_images": 2,
+    "joint_surjective": false,
+    "endpoint_surjective": false,
+    "feasible_quotients": 3,
+    "finest_quotients": 2,
+    "universal_quotient_exists": false,
+    "intersection_feasible": false,
+    "minimal_kernels": [
+      [
+        [
+          0,
+          0,
+          1
+        ],
+        [
+          0,
+          1,
+          0
+        ]
+      ],
+      [
+        [
+          0,
+          0,
+          1
+        ],
+        [
+          0,
+          1,
+          1
+        ]
+      ]
+    ],
+    "intersection_kernel": [
+      [
+        0,
+        0,
+        1
+      ],
+      [
+        0,
+        1,
+        2
+      ]
+    ],
+    "images": [
+      0,
+      0,
+      1
+    ],
+    "all_equivalence_pairs_examined": 25
+  },
+  {
+    "axis_sizes": [
+      3
+    ],
+    "source_states": 3,
+    "distinct_joint_images": 2,
+    "joint_surjective": false,
+    "endpoint_surjective": false,
+    "feasible_quotients": 3,
+    "finest_quotients": 2,
+    "universal_quotient_exists": false,
+    "intersection_feasible": false,
+    "minimal_kernels": [
+      [
+        [
+          0,
+          0,
+          1
+        ],
+        [
+          0,
+          0,
+          1
+        ]
+      ],
+      [
+        [
+          0,
+          0,
+          1
+        ],
+        [
+          0,
+          1,
+          1
+        ]
+      ]
+    ],
+    "intersection_kernel": [
+      [
+        0,
+        0,
+        1
+      ],
+      [
+        0,
+        1,
+        2
+      ]
+    ],
+    "images": [
+      0,
+      0,
+      2
+    ],
+    "all_equivalence_pairs_examined": 25
+  },
+  {
+    "axis_sizes": [
+      3
+    ],
+    "source_states": 3,
+    "distinct_joint_images": 2,
+    "joint_surjective": false,
+    "endpoint_surjective": false,
+    "feasible_quotients": 3,
+    "finest_quotients": 2,
+    "universal_quotient_exists": false,
+    "intersection_feasible": false,
+    "minimal_kernels": [
+      [
+        [
+          0,
+          1,
+          1
+        ],
+        [
+          0,
+          1,
+          0
+        ]
+      ],
+      [
+        [
+          0,
+          1,
+          1
+        ],
+        [
+          0,
+          1,
+          1
+        ]
+      ]
+    ],
+    "intersection_kernel": [
+      [
+        0,
+        1,
+        1
+      ],
+      [
+        0,
+        1,
+        2
+      ]
+    ],
+    "images": [
+      0,
+      1,
+      1
+    ],
+    "all_equivalence_pairs_examined": 25
+  },
+  {
+    "axis_sizes": [
+      3
+    ],
+    "source_states": 3,
+    "distinct_joint_images": 3,
+    "joint_surjective": true,
+    "endpoint_surjective": true,
+    "feasible_quotients": 5,
+    "finest_quotients": 1,
+    "universal_quotient_exists": true,
+    "intersection_feasible": true,
+    "minimal_kernels": [
+      [
+        [
+          0,
+          1,
+          2
+        ],
+        [
+          0,
+          1,
+          2
+        ]
+      ]
+    ],
+    "intersection_kernel": [
+      [
+        0,
+        1,
+        2
+      ],
+      [
+        0,
+        1,
+        2
+      ]
+    ],
+    "images": [
+      0,
+      1,
+      2
+    ],
+    "all_equivalence_pairs_examined": 25
+  },
+  {
+    "axis_sizes": [
+      3
+    ],
+    "source_states": 3,
+    "distinct_joint_images": 2,
+    "joint_surjective": false,
+    "endpoint_surjective": false,
+    "feasible_quotients": 3,
+    "finest_quotients": 2,
+    "universal_quotient_exists": false,
+    "intersection_feasible": false,
+    "minimal_kernels": [
+      [
+        [
+          0,
+          1,
+          1
+        ],
+        [
+          0,
+          0,
+          1
+        ]
+      ],
+      [
+        [
+          0,
+          1,
+          1
+        ],
+        [
+          0,
+          1,
+          1
+        ]
+      ]
+    ],
+    "intersection_kernel": [
+      [
+        0,
+        1,
+        1
+      ],
+      [
+        0,
+        1,
+        2
+      ]
+    ],
+    "images": [
+      0,
+      2,
+      2
+    ],
+    "all_equivalence_pairs_examined": 25
+  },
+  {
+    "axis_sizes": [
+      3
+    ],
+    "source_states": 3,
+    "distinct_joint_images": 1,
+    "joint_surjective": false,
+    "endpoint_surjective": false,
+    "feasible_quotients": 1,
+    "finest_quotients": 1,
+    "universal_quotient_exists": true,
+    "intersection_feasible": true,
+    "minimal_kernels": [
+      [
+        [
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0
+        ]
+      ]
+    ],
+    "intersection_kernel": [
+      [
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0
+      ]
+    ],
+    "images": [
+      1,
+      1,
+      1
+    ],
+    "all_equivalence_pairs_examined": 25
+  },
+  {
+    "axis_sizes": [
+      3
+    ],
+    "source_states": 3,
+    "distinct_joint_images": 2,
+    "joint_surjective": false,
+    "endpoint_surjective": false,
+    "feasible_quotients": 3,
+    "finest_quotients": 2,
+    "universal_quotient_exists": false,
+    "intersection_feasible": false,
+    "minimal_kernels": [
+      [
+        [
+          0,
+          0,
+          1
+        ],
+        [
+          0,
+          0,
+          1
+        ]
+      ],
+      [
+        [
+          0,
+          0,
+          1
+        ],
+        [
+          0,
+          1,
+          0
+        ]
+      ]
+    ],
+    "intersection_kernel": [
+      [
+        0,
+        0,
+        1
+      ],
+      [
+        0,
+        1,
+        2
+      ]
+    ],
+    "images": [
+      1,
+      1,
+      2
+    ],
+    "all_equivalence_pairs_examined": 25
+  },
+  {
+    "axis_sizes": [
+      3
+    ],
+    "source_states": 3,
+    "distinct_joint_images": 2,
+    "joint_surjective": false,
+    "endpoint_surjective": false,
+    "feasible_quotients": 3,
+    "finest_quotients": 2,
+    "universal_quotient_exists": false,
+    "intersection_feasible": false,
+    "minimal_kernels": [
+      [
+        [
+          0,
+          1,
+          1
+        ],
+        [
+          0,
+          0,
+          1
+        ]
+      ],
+      [
+        [
+          0,
+          1,
+          1
+        ],
+        [
+          0,
+          1,
+          0
+        ]
+      ]
+    ],
+    "intersection_kernel": [
+      [
+        0,
+        1,
+        1
+      ],
+      [
+        0,
+        1,
+        2
+      ]
+    ],
+    "images": [
+      1,
+      2,
+      2
+    ],
+    "all_equivalence_pairs_examined": 25
+  },
+  {
+    "axis_sizes": [
+      3
+    ],
+    "source_states": 3,
+    "distinct_joint_images": 1,
+    "joint_surjective": false,
+    "endpoint_surjective": false,
+    "feasible_quotients": 1,
+    "finest_quotients": 1,
+    "universal_quotient_exists": true,
+    "intersection_feasible": true,
+    "minimal_kernels": [
+      [
+        [
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0
+        ]
+      ]
+    ],
+    "intersection_kernel": [
+      [
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0
+      ]
+    ],
+    "images": [
+      2,
+      2,
+      2
+    ],
+    "all_equivalence_pairs_examined": 25
+  },
+  {
+    "axis_sizes": [
+      3
+    ],
+    "source_states": 4,
+    "distinct_joint_images": 1,
+    "joint_surjective": false,
+    "endpoint_surjective": false,
+    "feasible_quotients": 1,
+    "finest_quotients": 1,
+    "universal_quotient_exists": true,
+    "intersection_feasible": true,
+    "minimal_kernels": [
+      [
+        [
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0
+        ]
+      ]
+    ],
+    "intersection_kernel": [
+      [
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0
+      ]
+    ],
+    "images": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "all_equivalence_pairs_examined": 75
+  },
+  {
+    "axis_sizes": [
+      3
+    ],
+    "source_states": 4,
+    "distinct_joint_images": 2,
+    "joint_surjective": false,
+    "endpoint_surjective": false,
+    "feasible_quotients": 3,
+    "finest_quotients": 2,
+    "universal_quotient_exists": false,
+    "intersection_feasible": false,
+    "minimal_kernels": [
+      [
+        [
+          0,
+          0,
+          0,
+          1
+        ],
+        [
+          0,
+          1,
+          0
+        ]
+      ],
+      [
+        [
+          0,
+          0,
+          0,
+          1
+        ],
+        [
+          0,
+          1,
+          1
+        ]
+      ]
+    ],
+    "intersection_kernel": [
+      [
+        0,
+        0,
+        0,
+        1
+      ],
+      [
+        0,
+        1,
+        2
+      ]
+    ],
+    "images": [
+      0,
+      0,
+      0,
+      1
+    ],
+    "all_equivalence_pairs_examined": 75
+  },
+  {
+    "axis_sizes": [
+      3
+    ],
+    "source_states": 4,
+    "distinct_joint_images": 2,
+    "joint_surjective": false,
+    "endpoint_surjective": false,
+    "feasible_quotients": 3,
+    "finest_quotients": 2,
+    "universal_quotient_exists": false,
+    "intersection_feasible": false,
+    "minimal_kernels": [
+      [
+        [
+          0,
+          0,
+          0,
+          1
+        ],
+        [
+          0,
+          0,
+          1
+        ]
+      ],
+      [
+        [
+          0,
+          0,
+          0,
+          1
+        ],
+        [
+          0,
+          1,
+          1
+        ]
+      ]
+    ],
+    "intersection_kernel": [
+      [
+        0,
+        0,
+        0,
+        1
+      ],
+      [
+        0,
+        1,
+        2
+      ]
+    ],
+    "images": [
+      0,
+      0,
+      0,
+      2
+    ],
+    "all_equivalence_pairs_examined": 75
+  },
+  {
+    "axis_sizes": [
+      3
+    ],
+    "source_states": 4,
+    "distinct_joint_images": 2,
+    "joint_surjective": false,
+    "endpoint_surjective": false,
+    "feasible_quotients": 3,
+    "finest_quotients": 2,
+    "universal_quotient_exists": false,
+    "intersection_feasible": false,
+    "minimal_kernels": [
+      [
+        [
+          0,
+          0,
+          1,
+          1
+        ],
+        [
+          0,
+          1,
+          0
+        ]
+      ],
+      [
+        [
+          0,
+          0,
+          1,
+          1
+        ],
+        [
+          0,
+          1,
+          1
+        ]
+      ]
+    ],
+    "intersection_kernel": [
+      [
+        0,
+        0,
+        1,
+        1
+      ],
+      [
+        0,
+        1,
+        2
+      ]
+    ],
+    "images": [
+      0,
+      0,
+      1,
+      1
+    ],
+    "all_equivalence_pairs_examined": 75
+  },
+  {
+    "axis_sizes": [
+      3
+    ],
+    "source_states": 4,
+    "distinct_joint_images": 3,
+    "joint_surjective": true,
+    "endpoint_surjective": true,
+    "feasible_quotients": 5,
+    "finest_quotients": 1,
+    "universal_quotient_exists": true,
+    "intersection_feasible": true,
+    "minimal_kernels": [
+      [
+        [
+          0,
+          0,
+          1,
+          2
+        ],
+        [
+          0,
+          1,
+          2
+        ]
+      ]
+    ],
+    "intersection_kernel": [
+      [
+        0,
+        0,
+        1,
+        2
+      ],
+      [
+        0,
+        1,
+        2
+      ]
+    ],
+    "images": [
+      0,
+      0,
+      1,
+      2
+    ],
+    "all_equivalence_pairs_examined": 75
+  },
+  {
+    "axis_sizes": [
+      3
+    ],
+    "source_states": 4,
+    "distinct_joint_images": 2,
+    "joint_surjective": false,
+    "endpoint_surjective": false,
+    "feasible_quotients": 3,
+    "finest_quotients": 2,
+    "universal_quotient_exists": false,
+    "intersection_feasible": false,
+    "minimal_kernels": [
+      [
+        [
+          0,
+          0,
+          1,
+          1
+        ],
+        [
+          0,
+          0,
+          1
+        ]
+      ],
+      [
+        [
+          0,
+          0,
+          1,
+          1
+        ],
+        [
+          0,
+          1,
+          1
+        ]
+      ]
+    ],
+    "intersection_kernel": [
+      [
+        0,
+        0,
+        1,
+        1
+      ],
+      [
+        0,
+        1,
+        2
+      ]
+    ],
+    "images": [
+      0,
+      0,
+      2,
+      2
+    ],
+    "all_equivalence_pairs_examined": 75
+  },
+  {
+    "axis_sizes": [
+      3
+    ],
+    "source_states": 4,
+    "distinct_joint_images": 2,
+    "joint_surjective": false,
+    "endpoint_surjective": false,
+    "feasible_quotients": 3,
+    "finest_quotients": 2,
+    "universal_quotient_exists": false,
+    "intersection_feasible": false,
+    "minimal_kernels": [
+      [
+        [
+          0,
+          1,
+          1,
+          1
+        ],
+        [
+          0,
+          1,
+          0
+        ]
+      ],
+      [
+        [
+          0,
+          1,
+          1,
+          1
+        ],
+        [
+          0,
+          1,
+          1
+        ]
+      ]
+    ],
+    "intersection_kernel": [
+      [
+        0,
+        1,
+        1,
+        1
+      ],
+      [
+        0,
+        1,
+        2
+      ]
+    ],
+    "images": [
+      0,
+      1,
+      1,
+      1
+    ],
+    "all_equivalence_pairs_examined": 75
+  },
+  {
+    "axis_sizes": [
+      3
+    ],
+    "source_states": 4,
+    "distinct_joint_images": 3,
+    "joint_surjective": true,
+    "endpoint_surjective": true,
+    "feasible_quotients": 5,
+    "finest_quotients": 1,
+    "universal_quotient_exists": true,
+    "intersection_feasible": true,
+    "minimal_kernels": [
+      [
+        [
+          0,
+          1,
+          1,
+          2
+        ],
+        [
+          0,
+          1,
+          2
+        ]
+      ]
+    ],
+    "intersection_kernel": [
+      [
+        0,
+        1,
+        1,
+        2
+      ],
+      [
+        0,
+        1,
+        2
+      ]
+    ],
+    "images": [
+      0,
+      1,
+      1,
+      2
+    ],
+    "all_equivalence_pairs_examined": 75
+  },
+  {
+    "axis_sizes": [
+      3
+    ],
+    "source_states": 4,
+    "distinct_joint_images": 3,
+    "joint_surjective": true,
+    "endpoint_surjective": true,
+    "feasible_quotients": 5,
+    "finest_quotients": 1,
+    "universal_quotient_exists": true,
+    "intersection_feasible": true,
+    "minimal_kernels": [
+      [
+        [
+          0,
+          1,
+          2,
+          2
+        ],
+        [
+          0,
+          1,
+          2
+        ]
+      ]
+    ],
+    "intersection_kernel": [
+      [
+        0,
+        1,
+        2,
+        2
+      ],
+      [
+        0,
+        1,
+        2
+      ]
+    ],
+    "images": [
+      0,
+      1,
+      2,
+      2
+    ],
+    "all_equivalence_pairs_examined": 75
+  },
+  {
+    "axis_sizes": [
+      3
+    ],
+    "source_states": 4,
+    "distinct_joint_images": 2,
+    "joint_surjective": false,
+    "endpoint_surjective": false,
+    "feasible_quotients": 3,
+    "finest_quotients": 2,
+    "universal_quotient_exists": false,
+    "intersection_feasible": false,
+    "minimal_kernels": [
+      [
+        [
+          0,
+          1,
+          1,
+          1
+        ],
+        [
+          0,
+          0,
+          1
+        ]
+      ],
+      [
+        [
+          0,
+          1,
+          1,
+          1
+        ],
+        [
+          0,
+          1,
+          1
+        ]
+      ]
+    ],
+    "intersection_kernel": [
+      [
+        0,
+        1,
+        1,
+        1
+      ],
+      [
+        0,
+        1,
+        2
+      ]
+    ],
+    "images": [
+      0,
+      2,
+      2,
+      2
+    ],
+    "all_equivalence_pairs_examined": 75
+  },
+  {
+    "axis_sizes": [
+      3
+    ],
+    "source_states": 4,
+    "distinct_joint_images": 1,
+    "joint_surjective": false,
+    "endpoint_surjective": false,
+    "feasible_quotients": 1,
+    "finest_quotients": 1,
+    "universal_quotient_exists": true,
+    "intersection_feasible": true,
+    "minimal_kernels": [
+      [
+        [
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0
+        ]
+      ]
+    ],
+    "intersection_kernel": [
+      [
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0
+      ]
+    ],
+    "images": [
+      1,
+      1,
+      1,
+      1
+    ],
+    "all_equivalence_pairs_examined": 75
+  },
+  {
+    "axis_sizes": [
+      3
+    ],
+    "source_states": 4,
+    "distinct_joint_images": 2,
+    "joint_surjective": false,
+    "endpoint_surjective": false,
+    "feasible_quotients": 3,
+    "finest_quotients": 2,
+    "universal_quotient_exists": false,
+    "intersection_feasible": false,
+    "minimal_kernels": [
+      [
+        [
+          0,
+          0,
+          0,
+          1
+        ],
+        [
+          0,
+          0,
+          1
+        ]
+      ],
+      [
+        [
+          0,
+          0,
+          0,
+          1
+        ],
+        [
+          0,
+          1,
+          0
+        ]
+      ]
+    ],
+    "intersection_kernel": [
+      [
+        0,
+        0,
+        0,
+        1
+      ],
+      [
+        0,
+        1,
+        2
+      ]
+    ],
+    "images": [
+      1,
+      1,
+      1,
+      2
+    ],
+    "all_equivalence_pairs_examined": 75
+  },
+  {
+    "axis_sizes": [
+      3
+    ],
+    "source_states": 4,
+    "distinct_joint_images": 2,
+    "joint_surjective": false,
+    "endpoint_surjective": false,
+    "feasible_quotients": 3,
+    "finest_quotients": 2,
+    "universal_quotient_exists": false,
+    "intersection_feasible": false,
+    "minimal_kernels": [
+      [
+        [
+          0,
+          0,
+          1,
+          1
+        ],
+        [
+          0,
+          0,
+          1
+        ]
+      ],
+      [
+        [
+          0,
+          0,
+          1,
+          1
+        ],
+        [
+          0,
+          1,
+          0
+        ]
+      ]
+    ],
+    "intersection_kernel": [
+      [
+        0,
+        0,
+        1,
+        1
+      ],
+      [
+        0,
+        1,
+        2
+      ]
+    ],
+    "images": [
+      1,
+      1,
+      2,
+      2
+    ],
+    "all_equivalence_pairs_examined": 75
+  },
+  {
+    "axis_sizes": [
+      3
+    ],
+    "source_states": 4,
+    "distinct_joint_images": 2,
+    "joint_surjective": false,
+    "endpoint_surjective": false,
+    "feasible_quotients": 3,
+    "finest_quotients": 2,
+    "universal_quotient_exists": false,
+    "intersection_feasible": false,
+    "minimal_kernels": [
+      [
+        [
+          0,
+          1,
+          1,
+          1
+        ],
+        [
+          0,
+          0,
+          1
+        ]
+      ],
+      [
+        [
+          0,
+          1,
+          1,
+          1
+        ],
+        [
+          0,
+          1,
+          0
+        ]
+      ]
+    ],
+    "intersection_kernel": [
+      [
+        0,
+        1,
+        1,
+        1
+      ],
+      [
+        0,
+        1,
+        2
+      ]
+    ],
+    "images": [
+      1,
+      2,
+      2,
+      2
+    ],
+    "all_equivalence_pairs_examined": 75
+  },
+  {
+    "axis_sizes": [
+      3
+    ],
+    "source_states": 4,
+    "distinct_joint_images": 1,
+    "joint_surjective": false,
+    "endpoint_surjective": false,
+    "feasible_quotients": 1,
+    "finest_quotients": 1,
+    "universal_quotient_exists": true,
+    "intersection_feasible": true,
+    "minimal_kernels": [
+      [
+        [
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0
+        ]
+      ]
+    ],
+    "intersection_kernel": [
+      [
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0
+      ]
+    ],
+    "images": [
+      2,
+      2,
+      2,
+      2
+    ],
+    "all_equivalence_pairs_examined": 75
+  },
+  {
+    "axis_sizes": [
+      4
+    ],
+    "source_states": 1,
+    "distinct_joint_images": 1,
+    "joint_surjective": false,
+    "endpoint_surjective": false,
+    "feasible_quotients": 1,
+    "finest_quotients": 1,
+    "universal_quotient_exists": true,
+    "intersection_feasible": true,
+    "minimal_kernels": [
+      [
+        [
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0
+        ]
+      ]
+    ],
+    "intersection_kernel": [
+      [
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0
+      ]
+    ],
+    "images": [
+      0
+    ],
+    "all_equivalence_pairs_examined": 15
+  },
+  {
+    "axis_sizes": [
+      4
+    ],
+    "source_states": 1,
+    "distinct_joint_images": 1,
+    "joint_surjective": false,
+    "endpoint_surjective": false,
+    "feasible_quotients": 1,
+    "finest_quotients": 1,
+    "universal_quotient_exists": true,
+    "intersection_feasible": true,
+    "minimal_kernels": [
+      [
+        [
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0
+        ]
+      ]
+    ],
+    "intersection_kernel": [
+      [
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0
+      ]
+    ],
+    "images": [
+      1
+    ],
+    "all_equivalence_pairs_examined": 15
+  },
+  {
+    "axis_sizes": [
+      4
+    ],
+    "source_states": 1,
+    "distinct_joint_images": 1,
+    "joint_surjective": false,
+    "endpoint_surjective": false,
+    "feasible_quotients": 1,
+    "finest_quotients": 1,
+    "universal_quotient_exists": true,
+    "intersection_feasible": true,
+    "minimal_kernels": [
+      [
+        [
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0
+        ]
+      ]
+    ],
+    "intersection_kernel": [
+      [
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0
+      ]
+    ],
+    "images": [
+      2
+    ],
+    "all_equivalence_pairs_examined": 15
+  },
+  {
+    "axis_sizes": [
+      4
+    ],
+    "source_states": 1,
+    "distinct_joint_images": 1,
+    "joint_surjective": false,
+    "endpoint_surjective": false,
+    "feasible_quotients": 1,
+    "finest_quotients": 1,
+    "universal_quotient_exists": true,
+    "intersection_feasible": true,
+    "minimal_kernels": [
+      [
+        [
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0
+        ]
+      ]
+    ],
+    "intersection_kernel": [
+      [
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0
+      ]
+    ],
+    "images": [
+      3
+    ],
+    "all_equivalence_pairs_examined": 15
+  },
+  {
+    "axis_sizes": [
+      4
+    ],
+    "source_states": 2,
+    "distinct_joint_images": 1,
+    "joint_surjective": false,
+    "endpoint_surjective": false,
+    "feasible_quotients": 1,
+    "finest_quotients": 1,
+    "universal_quotient_exists": true,
+    "intersection_feasible": true,
+    "minimal_kernels": [
+      [
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0
+        ]
+      ]
+    ],
+    "intersection_kernel": [
+      [
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0
+      ]
+    ],
+    "images": [
+      0,
+      0
+    ],
+    "all_equivalence_pairs_examined": 30
+  },
+  {
+    "axis_sizes": [
+      4
+    ],
+    "source_states": 2,
+    "distinct_joint_images": 2,
+    "joint_surjective": false,
+    "endpoint_surjective": false,
+    "feasible_quotients": 5,
+    "finest_quotients": 4,
+    "universal_quotient_exists": false,
+    "intersection_feasible": false,
+    "minimal_kernels": [
+      [
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          1,
+          0,
+          0
+        ]
+      ],
+      [
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          1,
+          0,
+          1
+        ]
+      ],
+      [
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          1,
+          1,
+          0
+        ]
+      ],
+      [
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          1,
+          1,
+          1
+        ]
+      ]
+    ],
+    "intersection_kernel": [
+      [
+        0,
+        1
+      ],
+      [
+        0,
+        1,
+        2,
+        3
+      ]
+    ],
+    "images": [
+      0,
+      1
+    ],
+    "all_equivalence_pairs_examined": 30
+  },
+  {
+    "axis_sizes": [
+      4
+    ],
+    "source_states": 2,
+    "distinct_joint_images": 2,
+    "joint_surjective": false,
+    "endpoint_surjective": false,
+    "feasible_quotients": 5,
+    "finest_quotients": 4,
+    "universal_quotient_exists": false,
+    "intersection_feasible": false,
+    "minimal_kernels": [
+      [
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          0,
+          1,
+          0
+        ]
+      ],
+      [
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          0,
+          1,
+          1
+        ]
+      ],
+      [
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          1,
+          1,
+          0
+        ]
+      ],
+      [
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          1,
+          1,
+          1
+        ]
+      ]
+    ],
+    "intersection_kernel": [
+      [
+        0,
+        1
+      ],
+      [
+        0,
+        1,
+        2,
+        3
+      ]
+    ],
+    "images": [
+      0,
+      2
+    ],
+    "all_equivalence_pairs_examined": 30
+  },
+  {
+    "axis_sizes": [
+      4
+    ],
+    "source_states": 2,
+    "distinct_joint_images": 2,
+    "joint_surjective": false,
+    "endpoint_surjective": false,
+    "feasible_quotients": 5,
+    "finest_quotients": 4,
+    "universal_quotient_exists": false,
+    "intersection_feasible": false,
+    "minimal_kernels": [
+      [
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          0,
+          0,
+          1
+        ]
+      ],
+      [
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          0,
+          1,
+          1
+        ]
+      ],
+      [
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          1,
+          0,
+          1
+        ]
+      ],
+      [
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          1,
+          1,
+          1
+        ]
+      ]
+    ],
+    "intersection_kernel": [
+      [
+        0,
+        1
+      ],
+      [
+        0,
+        1,
+        2,
+        3
+      ]
+    ],
+    "images": [
+      0,
+      3
+    ],
+    "all_equivalence_pairs_examined": 30
+  },
+  {
+    "axis_sizes": [
+      4
+    ],
+    "source_states": 2,
+    "distinct_joint_images": 1,
+    "joint_surjective": false,
+    "endpoint_surjective": false,
+    "feasible_quotients": 1,
+    "finest_quotients": 1,
+    "universal_quotient_exists": true,
+    "intersection_feasible": true,
+    "minimal_kernels": [
+      [
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0
+        ]
+      ]
+    ],
+    "intersection_kernel": [
+      [
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0
+      ]
+    ],
+    "images": [
+      1,
+      1
+    ],
+    "all_equivalence_pairs_examined": 30
+  },
+  {
+    "axis_sizes": [
+      4
+    ],
+    "source_states": 2,
+    "distinct_joint_images": 2,
+    "joint_surjective": false,
+    "endpoint_surjective": false,
+    "feasible_quotients": 5,
+    "finest_quotients": 4,
+    "universal_quotient_exists": false,
+    "intersection_feasible": false,
+    "minimal_kernels": [
+      [
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          0,
+          1,
+          0
+        ]
+      ],
+      [
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          0,
+          1,
+          1
+        ]
+      ],
+      [
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          1,
+          0,
+          0
+        ]
+      ],
+      [
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          1,
+          0,
+          1
+        ]
+      ]
+    ],
+    "intersection_kernel": [
+      [
+        0,
+        1
+      ],
+      [
+        0,
+        1,
+        2,
+        3
+      ]
+    ],
+    "images": [
+      1,
+      2
+    ],
+    "all_equivalence_pairs_examined": 30
+  },
+  {
+    "axis_sizes": [
+      4
+    ],
+    "source_states": 2,
+    "distinct_joint_images": 2,
+    "joint_surjective": false,
+    "endpoint_surjective": false,
+    "feasible_quotients": 5,
+    "finest_quotients": 4,
+    "universal_quotient_exists": false,
+    "intersection_feasible": false,
+    "minimal_kernels": [
+      [
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          0,
+          0,
+          1
+        ]
+      ],
+      [
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          0,
+          1,
+          1
+        ]
+      ],
+      [
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          1,
+          0,
+          0
+        ]
+      ],
+      [
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          1,
+          1,
+          0
+        ]
+      ]
+    ],
+    "intersection_kernel": [
+      [
+        0,
+        1
+      ],
+      [
+        0,
+        1,
+        2,
+        3
+      ]
+    ],
+    "images": [
+      1,
+      3
+    ],
+    "all_equivalence_pairs_examined": 30
+  },
+  {
+    "axis_sizes": [
+      4
+    ],
+    "source_states": 2,
+    "distinct_joint_images": 1,
+    "joint_surjective": false,
+    "endpoint_surjective": false,
+    "feasible_quotients": 1,
+    "finest_quotients": 1,
+    "universal_quotient_exists": true,
+    "intersection_feasible": true,
+    "minimal_kernels": [
+      [
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0
+        ]
+      ]
+    ],
+    "intersection_kernel": [
+      [
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0
+      ]
+    ],
+    "images": [
+      2,
+      2
+    ],
+    "all_equivalence_pairs_examined": 30
+  },
+  {
+    "axis_sizes": [
+      4
+    ],
+    "source_states": 2,
+    "distinct_joint_images": 2,
+    "joint_surjective": false,
+    "endpoint_surjective": false,
+    "feasible_quotients": 5,
+    "finest_quotients": 4,
+    "universal_quotient_exists": false,
+    "intersection_feasible": false,
+    "minimal_kernels": [
+      [
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          0,
+          0,
+          1
+        ]
+      ],
+      [
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          0,
+          1,
+          0
+        ]
+      ],
+      [
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          1,
+          0,
+          1
+        ]
+      ],
+      [
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          1,
+          1,
+          0
+        ]
+      ]
+    ],
+    "intersection_kernel": [
+      [
+        0,
+        1
+      ],
+      [
+        0,
+        1,
+        2,
+        3
+      ]
+    ],
+    "images": [
+      2,
+      3
+    ],
+    "all_equivalence_pairs_examined": 30
+  },
+  {
+    "axis_sizes": [
+      4
+    ],
+    "source_states": 2,
+    "distinct_joint_images": 1,
+    "joint_surjective": false,
+    "endpoint_surjective": false,
+    "feasible_quotients": 1,
+    "finest_quotients": 1,
+    "universal_quotient_exists": true,
+    "intersection_feasible": true,
+    "minimal_kernels": [
+      [
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0
+        ]
+      ]
+    ],
+    "intersection_kernel": [
+      [
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0
+      ]
+    ],
+    "images": [
+      3,
+      3
+    ],
+    "all_equivalence_pairs_examined": 30
+  },
+  {
+    "axis_sizes": [
+      4
+    ],
+    "source_states": 3,
+    "distinct_joint_images": 1,
+    "joint_surjective": false,
+    "endpoint_surjective": false,
+    "feasible_quotients": 1,
+    "finest_quotients": 1,
+    "universal_quotient_exists": true,
+    "intersection_feasible": true,
+    "minimal_kernels": [
+      [
+        [
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0
+        ]
+      ]
+    ],
+    "intersection_kernel": [
+      [
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0
+      ]
+    ],
+    "images": [
+      0,
+      0,
+      0
+    ],
+    "all_equivalence_pairs_examined": 75
+  },
+  {
+    "axis_sizes": [
+      4
+    ],
+    "source_states": 3,
+    "distinct_joint_images": 2,
+    "joint_surjective": false,
+    "endpoint_surjective": false,
+    "feasible_quotients": 5,
+    "finest_quotients": 4,
+    "universal_quotient_exists": false,
+    "intersection_feasible": false,
+    "minimal_kernels": [
+      [
+        [
+          0,
+          0,
+          1
+        ],
+        [
+          0,
+          1,
+          0,
+          0
+        ]
+      ],
+      [
+        [
+          0,
+          0,
+          1
+        ],
+        [
+          0,
+          1,
+          0,
+          1
+        ]
+      ],
+      [
+        [
+          0,
+          0,
+          1
+        ],
+        [
+          0,
+          1,
+          1,
+          0
+        ]
+      ],
+      [
+        [
+          0,
+          0,
+          1
+        ],
+        [
+          0,
+          1,
+          1,
+          1
+        ]
+      ]
+    ],
+    "intersection_kernel": [
+      [
+        0,
+        0,
+        1
+      ],
+      [
+        0,
+        1,
+        2,
+        3
+      ]
+    ],
+    "images": [
+      0,
+      0,
+      1
+    ],
+    "all_equivalence_pairs_examined": 75
+  },
+  {
+    "axis_sizes": [
+      4
+    ],
+    "source_states": 3,
+    "distinct_joint_images": 2,
+    "joint_surjective": false,
+    "endpoint_surjective": false,
+    "feasible_quotients": 5,
+    "finest_quotients": 4,
+    "universal_quotient_exists": false,
+    "intersection_feasible": false,
+    "minimal_kernels": [
+      [
+        [
+          0,
+          0,
+          1
+        ],
+        [
+          0,
+          0,
+          1,
+          0
+        ]
+      ],
+      [
+        [
+          0,
+          0,
+          1
+        ],
+        [
+          0,
+          0,
+          1,
+          1
+        ]
+      ],
+      [
+        [
+          0,
+          0,
+          1
+        ],
+        [
+          0,
+          1,
+          1,
+          0
+        ]
+      ],
+      [
+        [
+          0,
+          0,
+          1
+        ],
+        [
+          0,
+          1,
+          1,
+          1
+        ]
+      ]
+    ],
+    "intersection_kernel": [
+      [
+        0,
+        0,
+        1
+      ],
+      [
+        0,
+        1,
+        2,
+        3
+      ]
+    ],
+    "images": [
+      0,
+      0,
+      2
+    ],
+    "all_equivalence_pairs_examined": 75
+  },
+  {
+    "axis_sizes": [
+      4
+    ],
+    "source_states": 3,
+    "distinct_joint_images": 2,
+    "joint_surjective": false,
+    "endpoint_surjective": false,
+    "feasible_quotients": 5,
+    "finest_quotients": 4,
+    "universal_quotient_exists": false,
+    "intersection_feasible": false,
+    "minimal_kernels": [
+      [
+        [
+          0,
+          0,
+          1
+        ],
+        [
+          0,
+          0,
+          0,
+          1
+        ]
+      ],
+      [
+        [
+          0,
+          0,
+          1
+        ],
+        [
+          0,
+          0,
+          1,
+          1
+        ]
+      ],
+      [
+        [
+          0,
+          0,
+          1
+        ],
+        [
+          0,
+          1,
+          0,
+          1
+        ]
+      ],
+      [
+        [
+          0,
+          0,
+          1
+        ],
+        [
+          0,
+          1,
+          1,
+          1
+        ]
+      ]
+    ],
+    "intersection_kernel": [
+      [
+        0,
+        0,
+        1
+      ],
+      [
+        0,
+        1,
+        2,
+        3
+      ]
+    ],
+    "images": [
+      0,
+      0,
+      3
+    ],
+    "all_equivalence_pairs_examined": 75
+  },
+  {
+    "axis_sizes": [
+      4
+    ],
+    "source_states": 3,
+    "distinct_joint_images": 2,
+    "joint_surjective": false,
+    "endpoint_surjective": false,
+    "feasible_quotients": 5,
+    "finest_quotients": 4,
+    "universal_quotient_exists": false,
+    "intersection_feasible": false,
+    "minimal_kernels": [
+      [
+        [
+          0,
+          1,
+          1
+        ],
+        [
+          0,
+          1,
+          0,
+          0
+        ]
+      ],
+      [
+        [
+          0,
+          1,
+          1
+        ],
+        [
+          0,
+          1,
+          0,
+          1
+        ]
+      ],
+      [
+        [
+          0,
+          1,
+          1
+        ],
+        [
+          0,
+          1,
+          1,
+          0
+        ]
+      ],
+      [
+        [
+          0,
+          1,
+          1
+        ],
+        [
+          0,
+          1,
+          1,
+          1
+        ]
+      ]
+    ],
+    "intersection_kernel": [
+      [
+        0,
+        1,
+        1
+      ],
+      [
+        0,
+        1,
+        2,
+        3
+      ]
+    ],
+    "images": [
+      0,
+      1,
+      1
+    ],
+    "all_equivalence_pairs_examined": 75
+  },
+  {
+    "axis_sizes": [
+      4
+    ],
+    "source_states": 3,
+    "distinct_joint_images": 3,
+    "joint_surjective": false,
+    "endpoint_surjective": false,
+    "feasible_quotients": 10,
+    "finest_quotients": 3,
+    "universal_quotient_exists": false,
+    "intersection_feasible": false,
+    "minimal_kernels": [
+      [
+        [
+          0,
+          1,
+          2
+        ],
+        [
+          0,
+          1,
+          2,
+          0
+        ]
+      ],
+      [
+        [
+          0,
+          1,
+          2
+        ],
+        [
+          0,
+          1,
+          2,
+          1
+        ]
+      ],
+      [
+        [
+          0,
+          1,
+          2
+        ],
+        [
+          0,
+          1,
+          2,
+          2
+        ]
+      ]
+    ],
+    "intersection_kernel": [
+      [
+        0,
+        1,
+        2
+      ],
+      [
+        0,
+        1,
+        2,
+        3
+      ]
+    ],
+    "images": [
+      0,
+      1,
+      2
+    ],
+    "all_equivalence_pairs_examined": 75
+  },
+  {
+    "axis_sizes": [
+      4
+    ],
+    "source_states": 3,
+    "distinct_joint_images": 3,
+    "joint_surjective": false,
+    "endpoint_surjective": false,
+    "feasible_quotients": 10,
+    "finest_quotients": 3,
+    "universal_quotient_exists": false,
+    "intersection_feasible": false,
+    "minimal_kernels": [
+      [
+        [
+          0,
+          1,
+          2
+        ],
+        [
+          0,
+          1,
+          0,
+          2
+        ]
+      ],
+      [
+        [
+          0,
+          1,
+          2
+        ],
+        [
+          0,
+          1,
+          1,
+          2
+        ]
+      ],
+      [
+        [
+          0,
+          1,
+          2
+        ],
+        [
+          0,
+          1,
+          2,
+          2
+        ]
+      ]
+    ],
+    "intersection_kernel": [
+      [
+        0,
+        1,
+        2
+      ],
+      [
+        0,
+        1,
+        2,
+        3
+      ]
+    ],
+    "images": [
+      0,
+      1,
+      3
+    ],
+    "all_equivalence_pairs_examined": 75
+  },
+  {
+    "axis_sizes": [
+      4
+    ],
+    "source_states": 3,
+    "distinct_joint_images": 2,
+    "joint_surjective": false,
+    "endpoint_surjective": false,
+    "feasible_quotients": 5,
+    "finest_quotients": 4,
+    "universal_quotient_exists": false,
+    "intersection_feasible": false,
+    "minimal_kernels": [
+      [
+        [
+          0,
+          1,
+          1
+        ],
+        [
+          0,
+          0,
+          1,
+          0
+        ]
+      ],
+      [
+        [
+          0,
+          1,
+          1
+        ],
+        [
+          0,
+          0,
+          1,
+          1
+        ]
+      ],
+      [
+        [
+          0,
+          1,
+          1
+        ],
+        [
+          0,
+          1,
+          1,
+          0
+        ]
+      ],
+      [
+        [
+          0,
+          1,
+          1
+        ],
+        [
+          0,
+          1,
+          1,
+          1
+        ]
+      ]
+    ],
+    "intersection_kernel": [
+      [
+        0,
+        1,
+        1
+      ],
+      [
+        0,
+        1,
+        2,
+        3
+      ]
+    ],
+    "images": [
+      0,
+      2,
+      2
+    ],
+    "all_equivalence_pairs_examined": 75
+  },
+  {
+    "axis_sizes": [
+      4
+    ],
+    "source_states": 3,
+    "distinct_joint_images": 3,
+    "joint_surjective": false,
+    "endpoint_surjective": false,
+    "feasible_quotients": 10,
+    "finest_quotients": 3,
+    "universal_quotient_exists": false,
+    "intersection_feasible": false,
+    "minimal_kernels": [
+      [
+        [
+          0,
+          1,
+          2
+        ],
+        [
+          0,
+          0,
+          1,
+          2
+        ]
+      ],
+      [
+        [
+          0,
+          1,
+          2
+        ],
+        [
+          0,
+          1,
+          1,
+          2
+        ]
+      ],
+      [
+        [
+          0,
+          1,
+          2
+        ],
+        [
+          0,
+          1,
+          2,
+          1
+        ]
+      ]
+    ],
+    "intersection_kernel": [
+      [
+        0,
+        1,
+        2
+      ],
+      [
+        0,
+        1,
+        2,
+        3
+      ]
+    ],
+    "images": [
+      0,
+      2,
+      3
+    ],
+    "all_equivalence_pairs_examined": 75
+  },
+  {
+    "axis_sizes": [
+      4
+    ],
+    "source_states": 3,
+    "distinct_joint_images": 2,
+    "joint_surjective": false,
+    "endpoint_surjective": false,
+    "feasible_quotients": 5,
+    "finest_quotients": 4,
+    "universal_quotient_exists": false,
+    "intersection_feasible": false,
+    "minimal_kernels": [
+      [
+        [
+          0,
+          1,
+          1
+        ],
+        [
+          0,
+          0,
+          0,
+          1
+        ]
+      ],
+      [
+        [
+          0,
+          1,
+          1
+        ],
+        [
+          0,
+          0,
+          1,
+          1
+        ]
+      ],
+      [
+        [
+          0,
+          1,
+          1
+        ],
+        [
+          0,
+          1,
+          0,
+          1
+        ]
+      ],
+      [
+        [
+          0,
+          1,
+          1
+        ],
+        [
+          0,
+          1,
+          1,
+          1
+        ]
+      ]
+    ],
+    "intersection_kernel": [
+      [
+        0,
+        1,
+        1
+      ],
+      [
+        0,
+        1,
+        2,
+        3
+      ]
+    ],
+    "images": [
+      0,
+      3,
+      3
+    ],
+    "all_equivalence_pairs_examined": 75
+  },
+  {
+    "axis_sizes": [
+      4
+    ],
+    "source_states": 3,
+    "distinct_joint_images": 1,
+    "joint_surjective": false,
+    "endpoint_surjective": false,
+    "feasible_quotients": 1,
+    "finest_quotients": 1,
+    "universal_quotient_exists": true,
+    "intersection_feasible": true,
+    "minimal_kernels": [
+      [
+        [
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0
+        ]
+      ]
+    ],
+    "intersection_kernel": [
+      [
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0
+      ]
+    ],
+    "images": [
+      1,
+      1,
+      1
+    ],
+    "all_equivalence_pairs_examined": 75
+  },
+  {
+    "axis_sizes": [
+      4
+    ],
+    "source_states": 3,
+    "distinct_joint_images": 2,
+    "joint_surjective": false,
+    "endpoint_surjective": false,
+    "feasible_quotients": 5,
+    "finest_quotients": 4,
+    "universal_quotient_exists": false,
+    "intersection_feasible": false,
+    "minimal_kernels": [
+      [
+        [
+          0,
+          0,
+          1
+        ],
+        [
+          0,
+          0,
+          1,
+          0
+        ]
+      ],
+      [
+        [
+          0,
+          0,
+          1
+        ],
+        [
+          0,
+          0,
+          1,
+          1
+        ]
+      ],
+      [
+        [
+          0,
+          0,
+          1
+        ],
+        [
+          0,
+          1,
+          0,
+          0
+        ]
+      ],
+      [
+        [
+          0,
+          0,
+          1
+        ],
+        [
+          0,
+          1,
+          0,
+          1
+        ]
+      ]
+    ],
+    "intersection_kernel": [
+      [
+        0,
+        0,
+        1
+      ],
+      [
+        0,
+        1,
+        2,
+        3
+      ]
+    ],
+    "images": [
+      1,
+      1,
+      2
+    ],
+    "all_equivalence_pairs_examined": 75
+  },
+  {
+    "axis_sizes": [
+      4
+    ],
+    "source_states": 3,
+    "distinct_joint_images": 2,
+    "joint_surjective": false,
+    "endpoint_surjective": false,
+    "feasible_quotients": 5,
+    "finest_quotients": 4,
+    "universal_quotient_exists": false,
+    "intersection_feasible": false,
+    "minimal_kernels": [
+      [
+        [
+          0,
+          0,
+          1
+        ],
+        [
+          0,
+          0,
+          0,
+          1
+        ]
+      ],
+      [
+        [
+          0,
+          0,
+          1
+        ],
+        [
+          0,
+          0,
+          1,
+          1
+        ]
+      ],
+      [
+        [
+          0,
+          0,
+          1
+        ],
+        [
+          0,
+          1,
+          0,
+          0
+        ]
+      ],
+      [
+        [
+          0,
+          0,
+          1
+        ],
+        [
+          0,
+          1,
+          1,
+          0
+        ]
+      ]
+    ],
+    "intersection_kernel": [
+      [
+        0,
+        0,
+        1
+      ],
+      [
+        0,
+        1,
+        2,
+        3
+      ]
+    ],
+    "images": [
+      1,
+      1,
+      3
+    ],
+    "all_equivalence_pairs_examined": 75
+  },
+  {
+    "axis_sizes": [
+      4
+    ],
+    "source_states": 3,
+    "distinct_joint_images": 2,
+    "joint_surjective": false,
+    "endpoint_surjective": false,
+    "feasible_quotients": 5,
+    "finest_quotients": 4,
+    "universal_quotient_exists": false,
+    "intersection_feasible": false,
+    "minimal_kernels": [
+      [
+        [
+          0,
+          1,
+          1
+        ],
+        [
+          0,
+          0,
+          1,
+          0
+        ]
+      ],
+      [
+        [
+          0,
+          1,
+          1
+        ],
+        [
+          0,
+          0,
+          1,
+          1
+        ]
+      ],
+      [
+        [
+          0,
+          1,
+          1
+        ],
+        [
+          0,
+          1,
+          0,
+          0
+        ]
+      ],
+      [
+        [
+          0,
+          1,
+          1
+        ],
+        [
+          0,
+          1,
+          0,
+          1
+        ]
+      ]
+    ],
+    "intersection_kernel": [
+      [
+        0,
+        1,
+        1
+      ],
+      [
+        0,
+        1,
+        2,
+        3
+      ]
+    ],
+    "images": [
+      1,
+      2,
+      2
+    ],
+    "all_equivalence_pairs_examined": 75
+  },
+  {
+    "axis_sizes": [
+      4
+    ],
+    "source_states": 3,
+    "distinct_joint_images": 3,
+    "joint_surjective": false,
+    "endpoint_surjective": false,
+    "feasible_quotients": 10,
+    "finest_quotients": 3,
+    "universal_quotient_exists": false,
+    "intersection_feasible": false,
+    "minimal_kernels": [
+      [
+        [
+          0,
+          1,
+          2
+        ],
+        [
+          0,
+          0,
+          1,
+          2
+        ]
+      ],
+      [
+        [
+          0,
+          1,
+          2
+        ],
+        [
+          0,
+          1,
+          0,
+          2
+        ]
+      ],
+      [
+        [
+          0,
+          1,
+          2
+        ],
+        [
+          0,
+          1,
+          2,
+          0
+        ]
+      ]
+    ],
+    "intersection_kernel": [
+      [
+        0,
+        1,
+        2
+      ],
+      [
+        0,
+        1,
+        2,
+        3
+      ]
+    ],
+    "images": [
+      1,
+      2,
+      3
+    ],
+    "all_equivalence_pairs_examined": 75
+  },
+  {
+    "axis_sizes": [
+      4
+    ],
+    "source_states": 3,
+    "distinct_joint_images": 2,
+    "joint_surjective": false,
+    "endpoint_surjective": false,
+    "feasible_quotients": 5,
+    "finest_quotients": 4,
+    "universal_quotient_exists": false,
+    "intersection_feasible": false,
+    "minimal_kernels": [
+      [
+        [
+          0,
+          1,
+          1
+        ],
+        [
+          0,
+          0,
+          0,
+          1
+        ]
+      ],
+      [
+        [
+          0,
+          1,
+          1
+        ],
+        [
+          0,
+          0,
+          1,
+          1
+        ]
+      ],
+      [
+        [
+          0,
+          1,
+          1
+        ],
+        [
+          0,
+          1,
+          0,
+          0
+        ]
+      ],
+      [
+        [
+          0,
+          1,
+          1
+        ],
+        [
+          0,
+          1,
+          1,
+          0
+        ]
+      ]
+    ],
+    "intersection_kernel": [
+      [
+        0,
+        1,
+        1
+      ],
+      [
+        0,
+        1,
+        2,
+        3
+      ]
+    ],
+    "images": [
+      1,
+      3,
+      3
+    ],
+    "all_equivalence_pairs_examined": 75
+  },
+  {
+    "axis_sizes": [
+      4
+    ],
+    "source_states": 3,
+    "distinct_joint_images": 1,
+    "joint_surjective": false,
+    "endpoint_surjective": false,
+    "feasible_quotients": 1,
+    "finest_quotients": 1,
+    "universal_quotient_exists": true,
+    "intersection_feasible": true,
+    "minimal_kernels": [
+      [
+        [
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0
+        ]
+      ]
+    ],
+    "intersection_kernel": [
+      [
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0
+      ]
+    ],
+    "images": [
+      2,
+      2,
+      2
+    ],
+    "all_equivalence_pairs_examined": 75
+  },
+  {
+    "axis_sizes": [
+      4
+    ],
+    "source_states": 3,
+    "distinct_joint_images": 2,
+    "joint_surjective": false,
+    "endpoint_surjective": false,
+    "feasible_quotients": 5,
+    "finest_quotients": 4,
+    "universal_quotient_exists": false,
+    "intersection_feasible": false,
+    "minimal_kernels": [
+      [
+        [
+          0,
+          0,
+          1
+        ],
+        [
+          0,
+          0,
+          0,
+          1
+        ]
+      ],
+      [
+        [
+          0,
+          0,
+          1
+        ],
+        [
+          0,
+          0,
+          1,
+          0
+        ]
+      ],
+      [
+        [
+          0,
+          0,
+          1
+        ],
+        [
+          0,
+          1,
+          0,
+          1
+        ]
+      ],
+      [
+        [
+          0,
+          0,
+          1
+        ],
+        [
+          0,
+          1,
+          1,
+          0
+        ]
+      ]
+    ],
+    "intersection_kernel": [
+      [
+        0,
+        0,
+        1
+      ],
+      [
+        0,
+        1,
+        2,
+        3
+      ]
+    ],
+    "images": [
+      2,
+      2,
+      3
+    ],
+    "all_equivalence_pairs_examined": 75
+  },
+  {
+    "axis_sizes": [
+      4
+    ],
+    "source_states": 3,
+    "distinct_joint_images": 2,
+    "joint_surjective": false,
+    "endpoint_surjective": false,
+    "feasible_quotients": 5,
+    "finest_quotients": 4,
+    "universal_quotient_exists": false,
+    "intersection_feasible": false,
+    "minimal_kernels": [
+      [
+        [
+          0,
+          1,
+          1
+        ],
+        [
+          0,
+          0,
+          0,
+          1
+        ]
+      ],
+      [
+        [
+          0,
+          1,
+          1
+        ],
+        [
+          0,
+          0,
+          1,
+          0
+        ]
+      ],
+      [
+        [
+          0,
+          1,
+          1
+        ],
+        [
+          0,
+          1,
+          0,
+          1
+        ]
+      ],
+      [
+        [
+          0,
+          1,
+          1
+        ],
+        [
+          0,
+          1,
+          1,
+          0
+        ]
+      ]
+    ],
+    "intersection_kernel": [
+      [
+        0,
+        1,
+        1
+      ],
+      [
+        0,
+        1,
+        2,
+        3
+      ]
+    ],
+    "images": [
+      2,
+      3,
+      3
+    ],
+    "all_equivalence_pairs_examined": 75
+  },
+  {
+    "axis_sizes": [
+      4
+    ],
+    "source_states": 3,
+    "distinct_joint_images": 1,
+    "joint_surjective": false,
+    "endpoint_surjective": false,
+    "feasible_quotients": 1,
+    "finest_quotients": 1,
+    "universal_quotient_exists": true,
+    "intersection_feasible": true,
+    "minimal_kernels": [
+      [
+        [
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0
+        ]
+      ]
+    ],
+    "intersection_kernel": [
+      [
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0
+      ]
+    ],
+    "images": [
+      3,
+      3,
+      3
+    ],
+    "all_equivalence_pairs_examined": 75
+  },
+  {
+    "axis_sizes": [
+      4
+    ],
+    "source_states": 4,
+    "distinct_joint_images": 1,
+    "joint_surjective": false,
+    "endpoint_surjective": false,
+    "feasible_quotients": 1,
+    "finest_quotients": 1,
+    "universal_quotient_exists": true,
+    "intersection_feasible": true,
+    "minimal_kernels": [
+      [
+        [
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0
+        ]
+      ]
+    ],
+    "intersection_kernel": [
+      [
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0
+      ]
+    ],
+    "images": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "all_equivalence_pairs_examined": 225
+  },
+  {
+    "axis_sizes": [
+      4
+    ],
+    "source_states": 4,
+    "distinct_joint_images": 2,
+    "joint_surjective": false,
+    "endpoint_surjective": false,
+    "feasible_quotients": 5,
+    "finest_quotients": 4,
+    "universal_quotient_exists": false,
+    "intersection_feasible": false,
+    "minimal_kernels": [
+      [
+        [
+          0,
+          0,
+          0,
+          1
+        ],
+        [
+          0,
+          1,
+          0,
+          0
+        ]
+      ],
+      [
+        [
+          0,
+          0,
+          0,
+          1
+        ],
+        [
+          0,
+          1,
+          0,
+          1
+        ]
+      ],
+      [
+        [
+          0,
+          0,
+          0,
+          1
+        ],
+        [
+          0,
+          1,
+          1,
+          0
+        ]
+      ],
+      [
+        [
+          0,
+          0,
+          0,
+          1
+        ],
+        [
+          0,
+          1,
+          1,
+          1
+        ]
+      ]
+    ],
+    "intersection_kernel": [
+      [
+        0,
+        0,
+        0,
+        1
+      ],
+      [
+        0,
+        1,
+        2,
+        3
+      ]
+    ],
+    "images": [
+      0,
+      0,
+      0,
+      1
+    ],
+    "all_equivalence_pairs_examined": 225
+  },
+  {
+    "axis_sizes": [
+      4
+    ],
+    "source_states": 4,
+    "distinct_joint_images": 2,
+    "joint_surjective": false,
+    "endpoint_surjective": false,
+    "feasible_quotients": 5,
+    "finest_quotients": 4,
+    "universal_quotient_exists": false,
+    "intersection_feasible": false,
+    "minimal_kernels": [
+      [
+        [
+          0,
+          0,
+          0,
+          1
+        ],
+        [
+          0,
+          0,
+          1,
+          0
+        ]
+      ],
+      [
+        [
+          0,
+          0,
+          0,
+          1
+        ],
+        [
+          0,
+          0,
+          1,
+          1
+        ]
+      ],
+      [
+        [
+          0,
+          0,
+          0,
+          1
+        ],
+        [
+          0,
+          1,
+          1,
+          0
+        ]
+      ],
+      [
+        [
+          0,
+          0,
+          0,
+          1
+        ],
+        [
+          0,
+          1,
+          1,
+          1
+        ]
+      ]
+    ],
+    "intersection_kernel": [
+      [
+        0,
+        0,
+        0,
+        1
+      ],
+      [
+        0,
+        1,
+        2,
+        3
+      ]
+    ],
+    "images": [
+      0,
+      0,
+      0,
+      2
+    ],
+    "all_equivalence_pairs_examined": 225
+  },
+  {
+    "axis_sizes": [
+      4
+    ],
+    "source_states": 4,
+    "distinct_joint_images": 2,
+    "joint_surjective": false,
+    "endpoint_surjective": false,
+    "feasible_quotients": 5,
+    "finest_quotients": 4,
+    "universal_quotient_exists": false,
+    "intersection_feasible": false,
+    "minimal_kernels": [
+      [
+        [
+          0,
+          0,
+          0,
+          1
+        ],
+        [
+          0,
+          0,
+          0,
+          1
+        ]
+      ],
+      [
+        [
+          0,
+          0,
+          0,
+          1
+        ],
+        [
+          0,
+          0,
+          1,
+          1
+        ]
+      ],
+      [
+        [
+          0,
+          0,
+          0,
+          1
+        ],
+        [
+          0,
+          1,
+          0,
+          1
+        ]
+      ],
+      [
+        [
+          0,
+          0,
+          0,
+          1
+        ],
+        [
+          0,
+          1,
+          1,
+          1
+        ]
+      ]
+    ],
+    "intersection_kernel": [
+      [
+        0,
+        0,
+        0,
+        1
+      ],
+      [
+        0,
+        1,
+        2,
+        3
+      ]
+    ],
+    "images": [
+      0,
+      0,
+      0,
+      3
+    ],
+    "all_equivalence_pairs_examined": 225
+  },
+  {
+    "axis_sizes": [
+      4
+    ],
+    "source_states": 4,
+    "distinct_joint_images": 2,
+    "joint_surjective": false,
+    "endpoint_surjective": false,
+    "feasible_quotients": 5,
+    "finest_quotients": 4,
+    "universal_quotient_exists": false,
+    "intersection_feasible": false,
+    "minimal_kernels": [
+      [
+        [
+          0,
+          0,
+          1,
+          1
+        ],
+        [
+          0,
+          1,
+          0,
+          0
+        ]
+      ],
+      [
+        [
+          0,
+          0,
+          1,
+          1
+        ],
+        [
+          0,
+          1,
+          0,
+          1
+        ]
+      ],
+      [
+        [
+          0,
+          0,
+          1,
+          1
+        ],
+        [
+          0,
+          1,
+          1,
+          0
+        ]
+      ],
+      [
+        [
+          0,
+          0,
+          1,
+          1
+        ],
+        [
+          0,
+          1,
+          1,
+          1
+        ]
+      ]
+    ],
+    "intersection_kernel": [
+      [
+        0,
+        0,
+        1,
+        1
+      ],
+      [
+        0,
+        1,
+        2,
+        3
+      ]
+    ],
+    "images": [
+      0,
+      0,
+      1,
+      1
+    ],
+    "all_equivalence_pairs_examined": 225
+  },
+  {
+    "axis_sizes": [
+      4
+    ],
+    "source_states": 4,
+    "distinct_joint_images": 3,
+    "joint_surjective": false,
+    "endpoint_surjective": false,
+    "feasible_quotients": 10,
+    "finest_quotients": 3,
+    "universal_quotient_exists": false,
+    "intersection_feasible": false,
+    "minimal_kernels": [
+      [
+        [
+          0,
+          0,
+          1,
+          2
+        ],
+        [
+          0,
+          1,
+          2,
+          0
+        ]
+      ],
+      [
+        [
+          0,
+          0,
+          1,
+          2
+        ],
+        [
+          0,
+          1,
+          2,
+          1
+        ]
+      ],
+      [
+        [
+          0,
+          0,
+          1,
+          2
+        ],
+        [
+          0,
+          1,
+          2,
+          2
+        ]
+      ]
+    ],
+    "intersection_kernel": [
+      [
+        0,
+        0,
+        1,
+        2
+      ],
+      [
+        0,
+        1,
+        2,
+        3
+      ]
+    ],
+    "images": [
+      0,
+      0,
+      1,
+      2
+    ],
+    "all_equivalence_pairs_examined": 225
+  },
+  {
+    "axis_sizes": [
+      4
+    ],
+    "source_states": 4,
+    "distinct_joint_images": 3,
+    "joint_surjective": false,
+    "endpoint_surjective": false,
+    "feasible_quotients": 10,
+    "finest_quotients": 3,
+    "universal_quotient_exists": false,
+    "intersection_feasible": false,
+    "minimal_kernels": [
+      [
+        [
+          0,
+          0,
+          1,
+          2
+        ],
+        [
+          0,
+          1,
+          0,
+          2
+        ]
+      ],
+      [
+        [
+          0,
+          0,
+          1,
+          2
+        ],
+        [
+          0,
+          1,
+          1,
+          2
+        ]
+      ],
+      [
+        [
+          0,
+          0,
+          1,
+          2
+        ],
+        [
+          0,
+          1,
+          2,
+          2
+        ]
+      ]
+    ],
+    "intersection_kernel": [
+      [
+        0,
+        0,
+        1,
+        2
+      ],
+      [
+        0,
+        1,
+        2,
+        3
+      ]
+    ],
+    "images": [
+      0,
+      0,
+      1,
+      3
+    ],
+    "all_equivalence_pairs_examined": 225
+  },
+  {
+    "axis_sizes": [
+      4
+    ],
+    "source_states": 4,
+    "distinct_joint_images": 2,
+    "joint_surjective": false,
+    "endpoint_surjective": false,
+    "feasible_quotients": 5,
+    "finest_quotients": 4,
+    "universal_quotient_exists": false,
+    "intersection_feasible": false,
+    "minimal_kernels": [
+      [
+        [
+          0,
+          0,
+          1,
+          1
+        ],
+        [
+          0,
+          0,
+          1,
+          0
+        ]
+      ],
+      [
+        [
+          0,
+          0,
+          1,
+          1
+        ],
+        [
+          0,
+          0,
+          1,
+          1
+        ]
+      ],
+      [
+        [
+          0,
+          0,
+          1,
+          1
+        ],
+        [
+          0,
+          1,
+          1,
+          0
+        ]
+      ],
+      [
+        [
+          0,
+          0,
+          1,
+          1
+        ],
+        [
+          0,
+          1,
+          1,
+          1
+        ]
+      ]
+    ],
+    "intersection_kernel": [
+      [
+        0,
+        0,
+        1,
+        1
+      ],
+      [
+        0,
+        1,
+        2,
+        3
+      ]
+    ],
+    "images": [
+      0,
+      0,
+      2,
+      2
+    ],
+    "all_equivalence_pairs_examined": 225
+  },
+  {
+    "axis_sizes": [
+      4
+    ],
+    "source_states": 4,
+    "distinct_joint_images": 3,
+    "joint_surjective": false,
+    "endpoint_surjective": false,
+    "feasible_quotients": 10,
+    "finest_quotients": 3,
+    "universal_quotient_exists": false,
+    "intersection_feasible": false,
+    "minimal_kernels": [
+      [
+        [
+          0,
+          0,
+          1,
+          2
+        ],
+        [
+          0,
+          0,
+          1,
+          2
+        ]
+      ],
+      [
+        [
+          0,
+          0,
+          1,
+          2
+        ],
+        [
+          0,
+          1,
+          1,
+          2
+        ]
+      ],
+      [
+        [
+          0,
+          0,
+          1,
+          2
+        ],
+        [
+          0,
+          1,
+          2,
+          1
+        ]
+      ]
+    ],
+    "intersection_kernel": [
+      [
+        0,
+        0,
+        1,
+        2
+      ],
+      [
+        0,
+        1,
+        2,
+        3
+      ]
+    ],
+    "images": [
+      0,
+      0,
+      2,
+      3
+    ],
+    "all_equivalence_pairs_examined": 225
+  },
+  {
+    "axis_sizes": [
+      4
+    ],
+    "source_states": 4,
+    "distinct_joint_images": 2,
+    "joint_surjective": false,
+    "endpoint_surjective": false,
+    "feasible_quotients": 5,
+    "finest_quotients": 4,
+    "universal_quotient_exists": false,
+    "intersection_feasible": false,
+    "minimal_kernels": [
+      [
+        [
+          0,
+          0,
+          1,
+          1
+        ],
+        [
+          0,
+          0,
+          0,
+          1
+        ]
+      ],
+      [
+        [
+          0,
+          0,
+          1,
+          1
+        ],
+        [
+          0,
+          0,
+          1,
+          1
+        ]
+      ],
+      [
+        [
+          0,
+          0,
+          1,
+          1
+        ],
+        [
+          0,
+          1,
+          0,
+          1
+        ]
+      ],
+      [
+        [
+          0,
+          0,
+          1,
+          1
+        ],
+        [
+          0,
+          1,
+          1,
+          1
+        ]
+      ]
+    ],
+    "intersection_kernel": [
+      [
+        0,
+        0,
+        1,
+        1
+      ],
+      [
+        0,
+        1,
+        2,
+        3
+      ]
+    ],
+    "images": [
+      0,
+      0,
+      3,
+      3
+    ],
+    "all_equivalence_pairs_examined": 225
+  },
+  {
+    "axis_sizes": [
+      4
+    ],
+    "source_states": 4,
+    "distinct_joint_images": 2,
+    "joint_surjective": false,
+    "endpoint_surjective": false,
+    "feasible_quotients": 5,
+    "finest_quotients": 4,
+    "universal_quotient_exists": false,
+    "intersection_feasible": false,
+    "minimal_kernels": [
+      [
+        [
+          0,
+          1,
+          1,
+          1
+        ],
+        [
+          0,
+          1,
+          0,
+          0
+        ]
+      ],
+      [
+        [
+          0,
+          1,
+          1,
+          1
+        ],
+        [
+          0,
+          1,
+          0,
+          1
+        ]
+      ],
+      [
+        [
+          0,
+          1,
+          1,
+          1
+        ],
+        [
+          0,
+          1,
+          1,
+          0
+        ]
+      ],
+      [
+        [
+          0,
+          1,
+          1,
+          1
+        ],
+        [
+          0,
+          1,
+          1,
+          1
+        ]
+      ]
+    ],
+    "intersection_kernel": [
+      [
+        0,
+        1,
+        1,
+        1
+      ],
+      [
+        0,
+        1,
+        2,
+        3
+      ]
+    ],
+    "images": [
+      0,
+      1,
+      1,
+      1
+    ],
+    "all_equivalence_pairs_examined": 225
+  },
+  {
+    "axis_sizes": [
+      4
+    ],
+    "source_states": 4,
+    "distinct_joint_images": 3,
+    "joint_surjective": false,
+    "endpoint_surjective": false,
+    "feasible_quotients": 10,
+    "finest_quotients": 3,
+    "universal_quotient_exists": false,
+    "intersection_feasible": false,
+    "minimal_kernels": [
+      [
+        [
+          0,
+          1,
+          1,
+          2
+        ],
+        [
+          0,
+          1,
+          2,
+          0
+        ]
+      ],
+      [
+        [
+          0,
+          1,
+          1,
+          2
+        ],
+        [
+          0,
+          1,
+          2,
+          1
+        ]
+      ],
+      [
+        [
+          0,
+          1,
+          1,
+          2
+        ],
+        [
+          0,
+          1,
+          2,
+          2
+        ]
+      ]
+    ],
+    "intersection_kernel": [
+      [
+        0,
+        1,
+        1,
+        2
+      ],
+      [
+        0,
+        1,
+        2,
+        3
+      ]
+    ],
+    "images": [
+      0,
+      1,
+      1,
+      2
+    ],
+    "all_equivalence_pairs_examined": 225
+  },
+  {
+    "axis_sizes": [
+      4
+    ],
+    "source_states": 4,
+    "distinct_joint_images": 3,
+    "joint_surjective": false,
+    "endpoint_surjective": false,
+    "feasible_quotients": 10,
+    "finest_quotients": 3,
+    "universal_quotient_exists": false,
+    "intersection_feasible": false,
+    "minimal_kernels": [
+      [
+        [
+          0,
+          1,
+          1,
+          2
+        ],
+        [
+          0,
+          1,
+          0,
+          2
+        ]
+      ],
+      [
+        [
+          0,
+          1,
+          1,
+          2
+        ],
+        [
+          0,
+          1,
+          1,
+          2
+        ]
+      ],
+      [
+        [
+          0,
+          1,
+          1,
+          2
+        ],
+        [
+          0,
+          1,
+          2,
+          2
+        ]
+      ]
+    ],
+    "intersection_kernel": [
+      [
+        0,
+        1,
+        1,
+        2
+      ],
+      [
+        0,
+        1,
+        2,
+        3
+      ]
+    ],
+    "images": [
+      0,
+      1,
+      1,
+      3
+    ],
+    "all_equivalence_pairs_examined": 225
+  },
+  {
+    "axis_sizes": [
+      4
+    ],
+    "source_states": 4,
+    "distinct_joint_images": 3,
+    "joint_surjective": false,
+    "endpoint_surjective": false,
+    "feasible_quotients": 10,
+    "finest_quotients": 3,
+    "universal_quotient_exists": false,
+    "intersection_feasible": false,
+    "minimal_kernels": [
+      [
+        [
+          0,
+          1,
+          2,
+          2
+        ],
+        [
+          0,
+          1,
+          2,
+          0
+        ]
+      ],
+      [
+        [
+          0,
+          1,
+          2,
+          2
+        ],
+        [
+          0,
+          1,
+          2,
+          1
+        ]
+      ],
+      [
+        [
+          0,
+          1,
+          2,
+          2
+        ],
+        [
+          0,
+          1,
+          2,
+          2
+        ]
+      ]
+    ],
+    "intersection_kernel": [
+      [
+        0,
+        1,
+        2,
+        2
+      ],
+      [
+        0,
+        1,
+        2,
+        3
+      ]
+    ],
+    "images": [
+      0,
+      1,
+      2,
+      2
+    ],
+    "all_equivalence_pairs_examined": 225
+  },
+  {
+    "axis_sizes": [
+      4
+    ],
+    "source_states": 4,
+    "distinct_joint_images": 4,
+    "joint_surjective": true,
+    "endpoint_surjective": true,
+    "feasible_quotients": 15,
+    "finest_quotients": 1,
+    "universal_quotient_exists": true,
+    "intersection_feasible": true,
+    "minimal_kernels": [
+      [
+        [
+          0,
+          1,
+          2,
+          3
+        ],
+        [
+          0,
+          1,
+          2,
+          3
+        ]
+      ]
+    ],
+    "intersection_kernel": [
+      [
+        0,
+        1,
+        2,
+        3
+      ],
+      [
+        0,
+        1,
+        2,
+        3
+      ]
+    ],
+    "images": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "all_equivalence_pairs_examined": 225
+  },
+  {
+    "axis_sizes": [
+      4
+    ],
+    "source_states": 4,
+    "distinct_joint_images": 3,
+    "joint_surjective": false,
+    "endpoint_surjective": false,
+    "feasible_quotients": 10,
+    "finest_quotients": 3,
+    "universal_quotient_exists": false,
+    "intersection_feasible": false,
+    "minimal_kernels": [
+      [
+        [
+          0,
+          1,
+          2,
+          2
+        ],
+        [
+          0,
+          1,
+          0,
+          2
+        ]
+      ],
+      [
+        [
+          0,
+          1,
+          2,
+          2
+        ],
+        [
+          0,
+          1,
+          1,
+          2
+        ]
+      ],
+      [
+        [
+          0,
+          1,
+          2,
+          2
+        ],
+        [
+          0,
+          1,
+          2,
+          2
+        ]
+      ]
+    ],
+    "intersection_kernel": [
+      [
+        0,
+        1,
+        2,
+        2
+      ],
+      [
+        0,
+        1,
+        2,
+        3
+      ]
+    ],
+    "images": [
+      0,
+      1,
+      3,
+      3
+    ],
+    "all_equivalence_pairs_examined": 225
+  },
+  {
+    "axis_sizes": [
+      4
+    ],
+    "source_states": 4,
+    "distinct_joint_images": 2,
+    "joint_surjective": false,
+    "endpoint_surjective": false,
+    "feasible_quotients": 5,
+    "finest_quotients": 4,
+    "universal_quotient_exists": false,
+    "intersection_feasible": false,
+    "minimal_kernels": [
+      [
+        [
+          0,
+          1,
+          1,
+          1
+        ],
+        [
+          0,
+          0,
+          1,
+          0
+        ]
+      ],
+      [
+        [
+          0,
+          1,
+          1,
+          1
+        ],
+        [
+          0,
+          0,
+          1,
+          1
+        ]
+      ],
+      [
+        [
+          0,
+          1,
+          1,
+          1
+        ],
+        [
+          0,
+          1,
+          1,
+          0
+        ]
+      ],
+      [
+        [
+          0,
+          1,
+          1,
+          1
+        ],
+        [
+          0,
+          1,
+          1,
+          1
+        ]
+      ]
+    ],
+    "intersection_kernel": [
+      [
+        0,
+        1,
+        1,
+        1
+      ],
+      [
+        0,
+        1,
+        2,
+        3
+      ]
+    ],
+    "images": [
+      0,
+      2,
+      2,
+      2
+    ],
+    "all_equivalence_pairs_examined": 225
+  },
+  {
+    "axis_sizes": [
+      4
+    ],
+    "source_states": 4,
+    "distinct_joint_images": 3,
+    "joint_surjective": false,
+    "endpoint_surjective": false,
+    "feasible_quotients": 10,
+    "finest_quotients": 3,
+    "universal_quotient_exists": false,
+    "intersection_feasible": false,
+    "minimal_kernels": [
+      [
+        [
+          0,
+          1,
+          1,
+          2
+        ],
+        [
+          0,
+          0,
+          1,
+          2
+        ]
+      ],
+      [
+        [
+          0,
+          1,
+          1,
+          2
+        ],
+        [
+          0,
+          1,
+          1,
+          2
+        ]
+      ],
+      [
+        [
+          0,
+          1,
+          1,
+          2
+        ],
+        [
+          0,
+          1,
+          2,
+          1
+        ]
+      ]
+    ],
+    "intersection_kernel": [
+      [
+        0,
+        1,
+        1,
+        2
+      ],
+      [
+        0,
+        1,
+        2,
+        3
+      ]
+    ],
+    "images": [
+      0,
+      2,
+      2,
+      3
+    ],
+    "all_equivalence_pairs_examined": 225
+  },
+  {
+    "axis_sizes": [
+      4
+    ],
+    "source_states": 4,
+    "distinct_joint_images": 3,
+    "joint_surjective": false,
+    "endpoint_surjective": false,
+    "feasible_quotients": 10,
+    "finest_quotients": 3,
+    "universal_quotient_exists": false,
+    "intersection_feasible": false,
+    "minimal_kernels": [
+      [
+        [
+          0,
+          1,
+          2,
+          2
+        ],
+        [
+          0,
+          0,
+          1,
+          2
+        ]
+      ],
+      [
+        [
+          0,
+          1,
+          2,
+          2
+        ],
+        [
+          0,
+          1,
+          1,
+          2
+        ]
+      ],
+      [
+        [
+          0,
+          1,
+          2,
+          2
+        ],
+        [
+          0,
+          1,
+          2,
+          1
+        ]
+      ]
+    ],
+    "intersection_kernel": [
+      [
+        0,
+        1,
+        2,
+        2
+      ],
+      [
+        0,
+        1,
+        2,
+        3
+      ]
+    ],
+    "images": [
+      0,
+      2,
+      3,
+      3
+    ],
+    "all_equivalence_pairs_examined": 225
+  },
+  {
+    "axis_sizes": [
+      4
+    ],
+    "source_states": 4,
+    "distinct_joint_images": 2,
+    "joint_surjective": false,
+    "endpoint_surjective": false,
+    "feasible_quotients": 5,
+    "finest_quotients": 4,
+    "universal_quotient_exists": false,
+    "intersection_feasible": false,
+    "minimal_kernels": [
+      [
+        [
+          0,
+          1,
+          1,
+          1
+        ],
+        [
+          0,
+          0,
+          0,
+          1
+        ]
+      ],
+      [
+        [
+          0,
+          1,
+          1,
+          1
+        ],
+        [
+          0,
+          0,
+          1,
+          1
+        ]
+      ],
+      [
+        [
+          0,
+          1,
+          1,
+          1
+        ],
+        [
+          0,
+          1,
+          0,
+          1
+        ]
+      ],
+      [
+        [
+          0,
+          1,
+          1,
+          1
+        ],
+        [
+          0,
+          1,
+          1,
+          1
+        ]
+      ]
+    ],
+    "intersection_kernel": [
+      [
+        0,
+        1,
+        1,
+        1
+      ],
+      [
+        0,
+        1,
+        2,
+        3
+      ]
+    ],
+    "images": [
+      0,
+      3,
+      3,
+      3
+    ],
+    "all_equivalence_pairs_examined": 225
+  },
+  {
+    "axis_sizes": [
+      4
+    ],
+    "source_states": 4,
+    "distinct_joint_images": 1,
+    "joint_surjective": false,
+    "endpoint_surjective": false,
+    "feasible_quotients": 1,
+    "finest_quotients": 1,
+    "universal_quotient_exists": true,
+    "intersection_feasible": true,
+    "minimal_kernels": [
+      [
+        [
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0
+        ]
+      ]
+    ],
+    "intersection_kernel": [
+      [
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0
+      ]
+    ],
+    "images": [
+      1,
+      1,
+      1,
+      1
+    ],
+    "all_equivalence_pairs_examined": 225
+  },
+  {
+    "axis_sizes": [
+      4
+    ],
+    "source_states": 4,
+    "distinct_joint_images": 2,
+    "joint_surjective": false,
+    "endpoint_surjective": false,
+    "feasible_quotients": 5,
+    "finest_quotients": 4,
+    "universal_quotient_exists": false,
+    "intersection_feasible": false,
+    "minimal_kernels": [
+      [
+        [
+          0,
+          0,
+          0,
+          1
+        ],
+        [
+          0,
+          0,
+          1,
+          0
+        ]
+      ],
+      [
+        [
+          0,
+          0,
+          0,
+          1
+        ],
+        [
+          0,
+          0,
+          1,
+          1
+        ]
+      ],
+      [
+        [
+          0,
+          0,
+          0,
+          1
+        ],
+        [
+          0,
+          1,
+          0,
+          0
+        ]
+      ],
+      [
+        [
+          0,
+          0,
+          0,
+          1
+        ],
+        [
+          0,
+          1,
+          0,
+          1
+        ]
+      ]
+    ],
+    "intersection_kernel": [
+      [
+        0,
+        0,
+        0,
+        1
+      ],
+      [
+        0,
+        1,
+        2,
+        3
+      ]
+    ],
+    "images": [
+      1,
+      1,
+      1,
+      2
+    ],
+    "all_equivalence_pairs_examined": 225
+  },
+  {
+    "axis_sizes": [
+      4
+    ],
+    "source_states": 4,
+    "distinct_joint_images": 2,
+    "joint_surjective": false,
+    "endpoint_surjective": false,
+    "feasible_quotients": 5,
+    "finest_quotients": 4,
+    "universal_quotient_exists": false,
+    "intersection_feasible": false,
+    "minimal_kernels": [
+      [
+        [
+          0,
+          0,
+          0,
+          1
+        ],
+        [
+          0,
+          0,
+          0,
+          1
+        ]
+      ],
+      [
+        [
+          0,
+          0,
+          0,
+          1
+        ],
+        [
+          0,
+          0,
+          1,
+          1
+        ]
+      ],
+      [
+        [
+          0,
+          0,
+          0,
+          1
+        ],
+        [
+          0,
+          1,
+          0,
+          0
+        ]
+      ],
+      [
+        [
+          0,
+          0,
+          0,
+          1
+        ],
+        [
+          0,
+          1,
+          1,
+          0
+        ]
+      ]
+    ],
+    "intersection_kernel": [
+      [
+        0,
+        0,
+        0,
+        1
+      ],
+      [
+        0,
+        1,
+        2,
+        3
+      ]
+    ],
+    "images": [
+      1,
+      1,
+      1,
+      3
+    ],
+    "all_equivalence_pairs_examined": 225
+  },
+  {
+    "axis_sizes": [
+      4
+    ],
+    "source_states": 4,
+    "distinct_joint_images": 2,
+    "joint_surjective": false,
+    "endpoint_surjective": false,
+    "feasible_quotients": 5,
+    "finest_quotients": 4,
+    "universal_quotient_exists": false,
+    "intersection_feasible": false,
+    "minimal_kernels": [
+      [
+        [
+          0,
+          0,
+          1,
+          1
+        ],
+        [
+          0,
+          0,
+          1,
+          0
+        ]
+      ],
+      [
+        [
+          0,
+          0,
+          1,
+          1
+        ],
+        [
+          0,
+          0,
+          1,
+          1
+        ]
+      ],
+      [
+        [
+          0,
+          0,
+          1,
+          1
+        ],
+        [
+          0,
+          1,
+          0,
+          0
+        ]
+      ],
+      [
+        [
+          0,
+          0,
+          1,
+          1
+        ],
+        [
+          0,
+          1,
+          0,
+          1
+        ]
+      ]
+    ],
+    "intersection_kernel": [
+      [
+        0,
+        0,
+        1,
+        1
+      ],
+      [
+        0,
+        1,
+        2,
+        3
+      ]
+    ],
+    "images": [
+      1,
+      1,
+      2,
+      2
+    ],
+    "all_equivalence_pairs_examined": 225
+  },
+  {
+    "axis_sizes": [
+      4
+    ],
+    "source_states": 4,
+    "distinct_joint_images": 3,
+    "joint_surjective": false,
+    "endpoint_surjective": false,
+    "feasible_quotients": 10,
+    "finest_quotients": 3,
+    "universal_quotient_exists": false,
+    "intersection_feasible": false,
+    "minimal_kernels": [
+      [
+        [
+          0,
+          0,
+          1,
+          2
+        ],
+        [
+          0,
+          0,
+          1,
+          2
+        ]
+      ],
+      [
+        [
+          0,
+          0,
+          1,
+          2
+        ],
+        [
+          0,
+          1,
+          0,
+          2
+        ]
+      ],
+      [
+        [
+          0,
+          0,
+          1,
+          2
+        ],
+        [
+          0,
+          1,
+          2,
+          0
+        ]
+      ]
+    ],
+    "intersection_kernel": [
+      [
+        0,
+        0,
+        1,
+        2
+      ],
+      [
+        0,
+        1,
+        2,
+        3
+      ]
+    ],
+    "images": [
+      1,
+      1,
+      2,
+      3
+    ],
+    "all_equivalence_pairs_examined": 225
+  },
+  {
+    "axis_sizes": [
+      4
+    ],
+    "source_states": 4,
+    "distinct_joint_images": 2,
+    "joint_surjective": false,
+    "endpoint_surjective": false,
+    "feasible_quotients": 5,
+    "finest_quotients": 4,
+    "universal_quotient_exists": false,
+    "intersection_feasible": false,
+    "minimal_kernels": [
+      [
+        [
+          0,
+          0,
+          1,
+          1
+        ],
+        [
+          0,
+          0,
+          0,
+          1
+        ]
+      ],
+      [
+        [
+          0,
+          0,
+          1,
+          1
+        ],
+        [
+          0,
+          0,
+          1,
+          1
+        ]
+      ],
+      [
+        [
+          0,
+          0,
+          1,
+          1
+        ],
+        [
+          0,
+          1,
+          0,
+          0
+        ]
+      ],
+      [
+        [
+          0,
+          0,
+          1,
+          1
+        ],
+        [
+          0,
+          1,
+          1,
+          0
+        ]
+      ]
+    ],
+    "intersection_kernel": [
+      [
+        0,
+        0,
+        1,
+        1
+      ],
+      [
+        0,
+        1,
+        2,
+        3
+      ]
+    ],
+    "images": [
+      1,
+      1,
+      3,
+      3
+    ],
+    "all_equivalence_pairs_examined": 225
+  },
+  {
+    "axis_sizes": [
+      4
+    ],
+    "source_states": 4,
+    "distinct_joint_images": 2,
+    "joint_surjective": false,
+    "endpoint_surjective": false,
+    "feasible_quotients": 5,
+    "finest_quotients": 4,
+    "universal_quotient_exists": false,
+    "intersection_feasible": false,
+    "minimal_kernels": [
+      [
+        [
+          0,
+          1,
+          1,
+          1
+        ],
+        [
+          0,
+          0,
+          1,
+          0
+        ]
+      ],
+      [
+        [
+          0,
+          1,
+          1,
+          1
+        ],
+        [
+          0,
+          0,
+          1,
+          1
+        ]
+      ],
+      [
+        [
+          0,
+          1,
+          1,
+          1
+        ],
+        [
+          0,
+          1,
+          0,
+          0
+        ]
+      ],
+      [
+        [
+          0,
+          1,
+          1,
+          1
+        ],
+        [
+          0,
+          1,
+          0,
+          1
+        ]
+      ]
+    ],
+    "intersection_kernel": [
+      [
+        0,
+        1,
+        1,
+        1
+      ],
+      [
+        0,
+        1,
+        2,
+        3
+      ]
+    ],
+    "images": [
+      1,
+      2,
+      2,
+      2
+    ],
+    "all_equivalence_pairs_examined": 225
+  },
+  {
+    "axis_sizes": [
+      4
+    ],
+    "source_states": 4,
+    "distinct_joint_images": 3,
+    "joint_surjective": false,
+    "endpoint_surjective": false,
+    "feasible_quotients": 10,
+    "finest_quotients": 3,
+    "universal_quotient_exists": false,
+    "intersection_feasible": false,
+    "minimal_kernels": [
+      [
+        [
+          0,
+          1,
+          1,
+          2
+        ],
+        [
+          0,
+          0,
+          1,
+          2
+        ]
+      ],
+      [
+        [
+          0,
+          1,
+          1,
+          2
+        ],
+        [
+          0,
+          1,
+          0,
+          2
+        ]
+      ],
+      [
+        [
+          0,
+          1,
+          1,
+          2
+        ],
+        [
+          0,
+          1,
+          2,
+          0
+        ]
+      ]
+    ],
+    "intersection_kernel": [
+      [
+        0,
+        1,
+        1,
+        2
+      ],
+      [
+        0,
+        1,
+        2,
+        3
+      ]
+    ],
+    "images": [
+      1,
+      2,
+      2,
+      3
+    ],
+    "all_equivalence_pairs_examined": 225
+  },
+  {
+    "axis_sizes": [
+      4
+    ],
+    "source_states": 4,
+    "distinct_joint_images": 3,
+    "joint_surjective": false,
+    "endpoint_surjective": false,
+    "feasible_quotients": 10,
+    "finest_quotients": 3,
+    "universal_quotient_exists": false,
+    "intersection_feasible": false,
+    "minimal_kernels": [
+      [
+        [
+          0,
+          1,
+          2,
+          2
+        ],
+        [
+          0,
+          0,
+          1,
+          2
+        ]
+      ],
+      [
+        [
+          0,
+          1,
+          2,
+          2
+        ],
+        [
+          0,
+          1,
+          0,
+          2
+        ]
+      ],
+      [
+        [
+          0,
+          1,
+          2,
+          2
+        ],
+        [
+          0,
+          1,
+          2,
+          0
+        ]
+      ]
+    ],
+    "intersection_kernel": [
+      [
+        0,
+        1,
+        2,
+        2
+      ],
+      [
+        0,
+        1,
+        2,
+        3
+      ]
+    ],
+    "images": [
+      1,
+      2,
+      3,
+      3
+    ],
+    "all_equivalence_pairs_examined": 225
+  },
+  {
+    "axis_sizes": [
+      4
+    ],
+    "source_states": 4,
+    "distinct_joint_images": 2,
+    "joint_surjective": false,
+    "endpoint_surjective": false,
+    "feasible_quotients": 5,
+    "finest_quotients": 4,
+    "universal_quotient_exists": false,
+    "intersection_feasible": false,
+    "minimal_kernels": [
+      [
+        [
+          0,
+          1,
+          1,
+          1
+        ],
+        [
+          0,
+          0,
+          0,
+          1
+        ]
+      ],
+      [
+        [
+          0,
+          1,
+          1,
+          1
+        ],
+        [
+          0,
+          0,
+          1,
+          1
+        ]
+      ],
+      [
+        [
+          0,
+          1,
+          1,
+          1
+        ],
+        [
+          0,
+          1,
+          0,
+          0
+        ]
+      ],
+      [
+        [
+          0,
+          1,
+          1,
+          1
+        ],
+        [
+          0,
+          1,
+          1,
+          0
+        ]
+      ]
+    ],
+    "intersection_kernel": [
+      [
+        0,
+        1,
+        1,
+        1
+      ],
+      [
+        0,
+        1,
+        2,
+        3
+      ]
+    ],
+    "images": [
+      1,
+      3,
+      3,
+      3
+    ],
+    "all_equivalence_pairs_examined": 225
+  },
+  {
+    "axis_sizes": [
+      4
+    ],
+    "source_states": 4,
+    "distinct_joint_images": 1,
+    "joint_surjective": false,
+    "endpoint_surjective": false,
+    "feasible_quotients": 1,
+    "finest_quotients": 1,
+    "universal_quotient_exists": true,
+    "intersection_feasible": true,
+    "minimal_kernels": [
+      [
+        [
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0
+        ]
+      ]
+    ],
+    "intersection_kernel": [
+      [
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0
+      ]
+    ],
+    "images": [
+      2,
+      2,
+      2,
+      2
+    ],
+    "all_equivalence_pairs_examined": 225
+  },
+  {
+    "axis_sizes": [
+      4
+    ],
+    "source_states": 4,
+    "distinct_joint_images": 2,
+    "joint_surjective": false,
+    "endpoint_surjective": false,
+    "feasible_quotients": 5,
+    "finest_quotients": 4,
+    "universal_quotient_exists": false,
+    "intersection_feasible": false,
+    "minimal_kernels": [
+      [
+        [
+          0,
+          0,
+          0,
+          1
+        ],
+        [
+          0,
+          0,
+          0,
+          1
+        ]
+      ],
+      [
+        [
+          0,
+          0,
+          0,
+          1
+        ],
+        [
+          0,
+          0,
+          1,
+          0
+        ]
+      ],
+      [
+        [
+          0,
+          0,
+          0,
+          1
+        ],
+        [
+          0,
+          1,
+          0,
+          1
+        ]
+      ],
+      [
+        [
+          0,
+          0,
+          0,
+          1
+        ],
+        [
+          0,
+          1,
+          1,
+          0
+        ]
+      ]
+    ],
+    "intersection_kernel": [
+      [
+        0,
+        0,
+        0,
+        1
+      ],
+      [
+        0,
+        1,
+        2,
+        3
+      ]
+    ],
+    "images": [
+      2,
+      2,
+      2,
+      3
+    ],
+    "all_equivalence_pairs_examined": 225
+  },
+  {
+    "axis_sizes": [
+      4
+    ],
+    "source_states": 4,
+    "distinct_joint_images": 2,
+    "joint_surjective": false,
+    "endpoint_surjective": false,
+    "feasible_quotients": 5,
+    "finest_quotients": 4,
+    "universal_quotient_exists": false,
+    "intersection_feasible": false,
+    "minimal_kernels": [
+      [
+        [
+          0,
+          0,
+          1,
+          1
+        ],
+        [
+          0,
+          0,
+          0,
+          1
+        ]
+      ],
+      [
+        [
+          0,
+          0,
+          1,
+          1
+        ],
+        [
+          0,
+          0,
+          1,
+          0
+        ]
+      ],
+      [
+        [
+          0,
+          0,
+          1,
+          1
+        ],
+        [
+          0,
+          1,
+          0,
+          1
+        ]
+      ],
+      [
+        [
+          0,
+          0,
+          1,
+          1
+        ],
+        [
+          0,
+          1,
+          1,
+          0
+        ]
+      ]
+    ],
+    "intersection_kernel": [
+      [
+        0,
+        0,
+        1,
+        1
+      ],
+      [
+        0,
+        1,
+        2,
+        3
+      ]
+    ],
+    "images": [
+      2,
+      2,
+      3,
+      3
+    ],
+    "all_equivalence_pairs_examined": 225
+  },
+  {
+    "axis_sizes": [
+      4
+    ],
+    "source_states": 4,
+    "distinct_joint_images": 2,
+    "joint_surjective": false,
+    "endpoint_surjective": false,
+    "feasible_quotients": 5,
+    "finest_quotients": 4,
+    "universal_quotient_exists": false,
+    "intersection_feasible": false,
+    "minimal_kernels": [
+      [
+        [
+          0,
+          1,
+          1,
+          1
+        ],
+        [
+          0,
+          0,
+          0,
+          1
+        ]
+      ],
+      [
+        [
+          0,
+          1,
+          1,
+          1
+        ],
+        [
+          0,
+          0,
+          1,
+          0
+        ]
+      ],
+      [
+        [
+          0,
+          1,
+          1,
+          1
+        ],
+        [
+          0,
+          1,
+          0,
+          1
+        ]
+      ],
+      [
+        [
+          0,
+          1,
+          1,
+          1
+        ],
+        [
+          0,
+          1,
+          1,
+          0
+        ]
+      ]
+    ],
+    "intersection_kernel": [
+      [
+        0,
+        1,
+        1,
+        1
+      ],
+      [
+        0,
+        1,
+        2,
+        3
+      ]
+    ],
+    "images": [
+      2,
+      3,
+      3,
+      3
+    ],
+    "all_equivalence_pairs_examined": 225
+  },
+  {
+    "axis_sizes": [
+      4
+    ],
+    "source_states": 4,
+    "distinct_joint_images": 1,
+    "joint_surjective": false,
+    "endpoint_surjective": false,
+    "feasible_quotients": 1,
+    "finest_quotients": 1,
+    "universal_quotient_exists": true,
+    "intersection_feasible": true,
+    "minimal_kernels": [
+      [
+        [
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0
+        ]
+      ]
+    ],
+    "intersection_kernel": [
+      [
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0
+      ]
+    ],
+    "images": [
+      3,
+      3,
+      3,
+      3
+    ],
+    "all_equivalence_pairs_examined": 225
+  }
+]

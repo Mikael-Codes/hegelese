@@ -1,0 +1,4 @@
+# Generated exact-check records are available in full; focus code review on proofs and programs.
+bridge/results/*.json linguist-generated=true
+bridge/quotient-frontier-results.json linguist-generated=true
+demands/*.json linguist-generated=true

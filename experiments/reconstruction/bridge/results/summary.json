@@ -1,0 +1,175 @@
+{
+  "checker_repository": "https://github.com/Mikael-Codes/hegelese",
+  "checker_commit": "3199a7fd4d83ab061c5d445d28be6c07edb0d61e",
+  "checker_sha256": "f64de70ed86c4988871ed3d66ee1241ff97a40e4c95816217526444ec49215c9",
+  "checker_version": "0.3.0",
+  "python_version": "3.14.7",
+  "algebra": {
+    "field": "F2",
+    "labels": 4,
+    "non_root_labels": [
+      1,
+      2,
+      3
+    ],
+    "basis_subset_masks": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7
+    ],
+    "source_dimension": 7,
+    "state_encoding": "bit i is the coefficient of t_A for A with mask i+1"
+  },
+  "cases": [
+    {
+      "case": "identity",
+      "source_states": 128,
+      "target_states": 128,
+      "status": "ExhaustivelyChecked",
+      "accepted": true,
+      "checks_completed": 1281,
+      "failures": 0,
+      "erased_pairs": 0,
+      "retained_coordinate_masks": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ]
+    },
+    {
+      "case": "quotient_J3",
+      "source_states": 128,
+      "target_states": 64,
+      "status": "ExhaustivelyChecked",
+      "accepted": true,
+      "checks_completed": 1281,
+      "failures": 0,
+      "erased_pairs": 64,
+      "retained_coordinate_masks": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ]
+    },
+    {
+      "case": "quotient_J2",
+      "source_states": 128,
+      "target_states": 8,
+      "status": "ExhaustivelyChecked",
+      "accepted": true,
+      "checks_completed": 1281,
+      "failures": 0,
+      "erased_pairs": 960,
+      "retained_coordinate_masks": [
+        1,
+        2,
+        4
+      ]
+    },
+    {
+      "case": "negative_exactState",
+      "source_states": 128,
+      "target_states": 8,
+      "status": "Refuted",
+      "accepted": false,
+      "checks_completed": 1409,
+      "failures": 120,
+      "erased_pairs": 960,
+      "retained_coordinate_masks": [
+        1,
+        2,
+        4
+      ]
+    }
+  ],
+  "checked_scope": "One finite object, all 128 vector states, all 7 addition inputs, declared retained observations.",
+  "not_checked": [
+    "Naturality over maps of finite label sets",
+    "Reconstruction from objects of size at most r",
+    "Universal factorization or optimality",
+    "Lineage acceptance"
+  ],
+  "theorem_interpretation": {
+    "source": "Binary-cut reconstruction preprint v2",
+    "status": "External mathematical interpretation, not a Hegelese checker verdict",
+    "claim": "For natural linear quotients of J with ordinary reconstruction cutoff r=3, J/J^2 is the universal most informative admissible quotient; identity J and J/J^3 do not meet that global cutoff."
+  },
+  "separate_reconstruction_check": {
+    "method": "Exact GF2 comparison matrix into the kernel of the normalized Roos differential",
+    "checker_sha256": "e072aa39bca31a86548776fea1960c2567aa873a7d9bbd9c84ecb0844864a11b",
+    "cases": [
+      {
+        "case": "identity",
+        "n": 4,
+        "r": 3,
+        "augmentation_cutoff_d": null,
+        "source_dimension": 7,
+        "limit_dimension": 7,
+        "comparison_rank": 6,
+        "kernel_dimension": 1,
+        "cokernel_dimension": 1,
+        "H1_dimension": 1,
+        "cochain_dimensions": [
+          18,
+          12
+        ],
+        "differential_ranks": [
+          11
+        ],
+        "ordinary_comparison_is_isomorphism": false
+      },
+      {
+        "case": "quotient_J3",
+        "n": 4,
+        "r": 3,
+        "augmentation_cutoff_d": 3,
+        "source_dimension": 6,
+        "limit_dimension": 7,
+        "comparison_rank": 6,
+        "kernel_dimension": 0,
+        "cokernel_dimension": 1,
+        "H1_dimension": 1,
+        "cochain_dimensions": [
+          18,
+          12
+        ],
+        "differential_ranks": [
+          11
+        ],
+        "ordinary_comparison_is_isomorphism": false
+      },
+      {
+        "case": "quotient_J2",
+        "n": 4,
+        "r": 3,
+        "augmentation_cutoff_d": 2,
+        "source_dimension": 3,
+        "limit_dimension": 3,
+        "comparison_rank": 3,
+        "kernel_dimension": 0,
+        "cokernel_dimension": 0,
+        "H1_dimension": 1,
+        "cochain_dimensions": [
+          14,
+          12
+        ],
+        "differential_ranks": [
+          11
+        ],
+        "ordinary_comparison_is_isomorphism": true
+      }
+    ],
+    "scope": "One four-label reconstruction diagram. This finite calculation is not a proof of the universal theorem."
+  }
+}

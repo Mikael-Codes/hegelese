@@ -72,3 +72,7 @@ no new language syntax or new proof capability was added.
 [Minimum safety mechanism demonstration](EVALUATION-RUNNER.md) connects checked
 policy installation to synthetic reference access and scoring effects. Both gates
 stop three constructed unsafe policies; no Hegelese-specific advantage is shown.
+
+## Reconstruction and necessary loss
+
+[Separate reconstruction experiments](reconstruction/README.md) investigate universal least-loss quotients, with the real-checker binary-cut bridge, positive reconstruction criteria, counterexamples, proofs, and exhaustive finite checks. This research has its own hypotheses and does not alter the workflow comparison above.

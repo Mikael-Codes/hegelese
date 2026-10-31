@@ -1,0 +1,527 @@
+{
+  "schema": "finite-process-quotient-frontier/1",
+  "purpose": "Standalone demonstration of elementary known congruence facts; no novelty claim.",
+  "scope": "All declared source states, total deterministic transitions, fixed retained observations.",
+  "initial_state_rule": "Each quotient starts in the block containing the source initial state.",
+  "order_convention": "Finer partition means less state-identity loss; this is not automaton minimization.",
+  "authorization_rule": "Conditional necessity of a loss does not authorize accepting it.",
+  "verification": {
+    "expected_demo_counts_and_structures": "passed",
+    "all_feasible_quotient_preservation_equations": "passed",
+    "intersection_and_avoidable_pair_witness_checks": "passed",
+    "partitions_enumerated": 25,
+    "feasible_quotients_checked": 5
+  },
+  "demos": [
+    {
+      "name": "FourPhase_parity_bound_2",
+      "source": {
+        "name": "FourPhase_parity_bound_2",
+        "states": [
+          0,
+          1,
+          2,
+          3
+        ],
+        "initial": 0,
+        "transitions": {
+          "tick": [
+            1,
+            2,
+            3,
+            0
+          ]
+        },
+        "retained_observations": {
+          "parity": [
+            "even",
+            "odd",
+            "even",
+            "odd"
+          ]
+        },
+        "target_state_bound": 2
+      },
+      "counts": {
+        "all_set_partitions": 15,
+        "transition_congruences": 3,
+        "observation_compatible_partitions": 4,
+        "behavior_preserving_congruences": 2,
+        "feasible_with_state_bound": 1,
+        "finest_feasible": 1
+      },
+      "feasible_partitions": [
+        [
+          [
+            0,
+            2
+          ],
+          [
+            1,
+            3
+          ]
+        ]
+      ],
+      "finest_feasible_partitions": [
+        [
+          [
+            0,
+            2
+          ],
+          [
+            1,
+            3
+          ]
+        ]
+      ],
+      "finest_quotient_processes": [
+        {
+          "states": [
+            0,
+            1
+          ],
+          "source_blocks": [
+            [
+              0,
+              2
+            ],
+            [
+              1,
+              3
+            ]
+          ],
+          "initial": 0,
+          "mapping": [
+            0,
+            1,
+            0,
+            1
+          ],
+          "transitions": {
+            "tick": [
+              1,
+              0
+            ]
+          },
+          "observations": {
+            "parity": [
+              "even",
+              "odd"
+            ]
+          }
+        }
+      ],
+      "intersection_partition": [
+        [
+          0,
+          2
+        ],
+        [
+          1,
+          3
+        ]
+      ],
+      "intersection_satisfies_state_bound": true,
+      "forced_merged_pairs": [
+        [
+          0,
+          2
+        ],
+        [
+          1,
+          3
+        ]
+      ],
+      "avoidable_pair_witnesses": [
+        {
+          "pair": [
+            0,
+            1
+          ],
+          "separating_feasible_partition": [
+            [
+              0,
+              2
+            ],
+            [
+              1,
+              3
+            ]
+          ]
+        },
+        {
+          "pair": [
+            0,
+            3
+          ],
+          "separating_feasible_partition": [
+            [
+              0,
+              2
+            ],
+            [
+              1,
+              3
+            ]
+          ]
+        },
+        {
+          "pair": [
+            1,
+            2
+          ],
+          "separating_feasible_partition": [
+            [
+              0,
+              2
+            ],
+            [
+              1,
+              3
+            ]
+          ]
+        },
+        {
+          "pair": [
+            2,
+            3
+          ],
+          "separating_feasible_partition": [
+            [
+              0,
+              2
+            ],
+            [
+              1,
+              3
+            ]
+          ]
+        }
+      ],
+      "universal_least_loss_partition": [
+        [
+          0,
+          2
+        ],
+        [
+          1,
+          3
+        ]
+      ],
+      "some_state_identity_loss_is_unavoidable": true,
+      "status": "universal_least_loss_exists",
+      "explanation": "The intersection is feasible and retains every distinction any feasible quotient retains."
+    },
+    {
+      "name": "ThreeSelfLoops_constant_bound_2",
+      "source": {
+        "name": "ThreeSelfLoops_constant_bound_2",
+        "states": [
+          0,
+          1,
+          2
+        ],
+        "initial": 0,
+        "transitions": {
+          "tick": [
+            0,
+            1,
+            2
+          ]
+        },
+        "retained_observations": {
+          "constant": [
+            "same",
+            "same",
+            "same"
+          ]
+        },
+        "target_state_bound": 2
+      },
+      "counts": {
+        "all_set_partitions": 5,
+        "transition_congruences": 5,
+        "observation_compatible_partitions": 5,
+        "behavior_preserving_congruences": 5,
+        "feasible_with_state_bound": 4,
+        "finest_feasible": 3
+      },
+      "feasible_partitions": [
+        [
+          [
+            0,
+            1,
+            2
+          ]
+        ],
+        [
+          [
+            0,
+            1
+          ],
+          [
+            2
+          ]
+        ],
+        [
+          [
+            0,
+            2
+          ],
+          [
+            1
+          ]
+        ],
+        [
+          [
+            0
+          ],
+          [
+            1,
+            2
+          ]
+        ]
+      ],
+      "finest_feasible_partitions": [
+        [
+          [
+            0,
+            1
+          ],
+          [
+            2
+          ]
+        ],
+        [
+          [
+            0,
+            2
+          ],
+          [
+            1
+          ]
+        ],
+        [
+          [
+            0
+          ],
+          [
+            1,
+            2
+          ]
+        ]
+      ],
+      "finest_quotient_processes": [
+        {
+          "states": [
+            0,
+            1
+          ],
+          "source_blocks": [
+            [
+              0,
+              1
+            ],
+            [
+              2
+            ]
+          ],
+          "initial": 0,
+          "mapping": [
+            0,
+            0,
+            1
+          ],
+          "transitions": {
+            "tick": [
+              0,
+              1
+            ]
+          },
+          "observations": {
+            "constant": [
+              "same",
+              "same"
+            ]
+          }
+        },
+        {
+          "states": [
+            0,
+            1
+          ],
+          "source_blocks": [
+            [
+              0,
+              2
+            ],
+            [
+              1
+            ]
+          ],
+          "initial": 0,
+          "mapping": [
+            0,
+            1,
+            0
+          ],
+          "transitions": {
+            "tick": [
+              0,
+              1
+            ]
+          },
+          "observations": {
+            "constant": [
+              "same",
+              "same"
+            ]
+          }
+        },
+        {
+          "states": [
+            0,
+            1
+          ],
+          "source_blocks": [
+            [
+              0
+            ],
+            [
+              1,
+              2
+            ]
+          ],
+          "initial": 0,
+          "mapping": [
+            0,
+            1,
+            1
+          ],
+          "transitions": {
+            "tick": [
+              0,
+              1
+            ]
+          },
+          "observations": {
+            "constant": [
+              "same",
+              "same"
+            ]
+          }
+        }
+      ],
+      "intersection_partition": [
+        [
+          0
+        ],
+        [
+          1
+        ],
+        [
+          2
+        ]
+      ],
+      "intersection_satisfies_state_bound": false,
+      "forced_merged_pairs": [],
+      "avoidable_pair_witnesses": [
+        {
+          "pair": [
+            0,
+            1
+          ],
+          "separating_feasible_partition": [
+            [
+              0,
+              2
+            ],
+            [
+              1
+            ]
+          ]
+        },
+        {
+          "pair": [
+            0,
+            2
+          ],
+          "separating_feasible_partition": [
+            [
+              0,
+              1
+            ],
+            [
+              2
+            ]
+          ]
+        },
+        {
+          "pair": [
+            1,
+            2
+          ],
+          "separating_feasible_partition": [
+            [
+              0,
+              1
+            ],
+            [
+              2
+            ]
+          ]
+        }
+      ],
+      "universal_least_loss_partition": null,
+      "some_state_identity_loss_is_unavoidable": true,
+      "status": "incomparable_finest_quotients",
+      "explanation": "The intersection exceeds the state bound. Some loss can be unavoidable without any particular pair-loss being forced; there is no universal least-loss quotient."
+    },
+    {
+      "name": "ThreePhase_parity_bound_2",
+      "source": {
+        "name": "ThreePhase_parity_bound_2",
+        "states": [
+          0,
+          1,
+          2
+        ],
+        "initial": 0,
+        "transitions": {
+          "tick": [
+            1,
+            2,
+            0
+          ]
+        },
+        "retained_observations": {
+          "parity": [
+            "even",
+            "odd",
+            "even"
+          ]
+        },
+        "target_state_bound": 2
+      },
+      "counts": {
+        "all_set_partitions": 5,
+        "transition_congruences": 2,
+        "observation_compatible_partitions": 2,
+        "behavior_preserving_congruences": 1,
+        "feasible_with_state_bound": 0,
+        "finest_feasible": 0
+      },
+      "feasible_partitions": [],
+      "finest_feasible_partitions": [],
+      "finest_quotient_processes": [],
+      "intersection_partition": null,
+      "intersection_satisfies_state_bound": null,
+      "forced_merged_pairs": null,
+      "avoidable_pair_witnesses": null,
+      "universal_least_loss_partition": null,
+      "some_state_identity_loss_is_unavoidable": null,
+      "status": "infeasible",
+      "explanation": "No quotient satisfies the transitions, retained observations, and state bound. Forced losses are left undefined, rather than inferred vacuously."
+    }
+  ]
+}

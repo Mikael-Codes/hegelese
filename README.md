@@ -164,6 +164,10 @@ Python implements the current bootstrap. An interpreter written in Hegelese is a
 
 Self-interpretation and a self-hosting compiler are separate milestones. Neither is a claim of philosophical self-grounding.
 
+## Related mathematical research
+
+[Reciprocity without losing causality](https://autio.github.io/ai-science/reciprocal-causal-abstraction/) is a related preprint on simplifying interacting finite components while preserving causal solutions under point interventions. It proves a sharp universal graph criterion and explains why retaining more output detail can force additional input retention. The [Hegelese connection note](docs/reciprocal-causal-abstraction.md) describes a proposed feedback certificate and its assumptions. This is a research direction; the current language and checker do not implement that certificate. Mathematical priority and external review remain open.
+
 ## Research provenance
 
 The [Antonio Wolf inventory](docs/reading-coverage.md) records 51 fully read WordPress articles and two fully read Epoché essays as of 23 September 2026. Further entries are explicitly marked partially read, context-reviewed, or retrieved but unread. Full online corpus reading remains incomplete.
